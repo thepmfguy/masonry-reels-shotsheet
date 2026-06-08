@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~50s. Inspiration: https://www.instagram.com/reel/DYmuEGpI2wD/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DYmuEGpI2wD/",
+  "duration_sec": 50,
+  "frame_count": 50,
+  "caption": "No expensive studio shoots. Just sales-ready product video in minutes. Try Video Generator on Photoroom 🎥 #photoroom #productvideo #ecommerce #aivideo #smallbusinessowner #shopify #seller",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
