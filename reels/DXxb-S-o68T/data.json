@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~42s. Inspiration: https://www.instagram.com/reel/DXxb-S-o68T/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DXxb-S-o68T/",
+  "duration_sec": 42,
+  "frame_count": 42,
+  "caption": "➡️ this agent actually remembers\n\nComment “INVIDEO” and I’ll send you the link!\n\nEvery other AI video tool works the same broken way. You give it context, you build something and by the next clip it forgets all of it. You’re not directing a video, you’re babysitting a tool.\n\nInvideo Agent One fixes that. Your product, your brand, your whole visual direction. You set it up once and it holds it across every single shot.\n\nYou give it one note and it handles everything. Every shot connects. Every frame that needs updating gets figured out so you don’t have to.\n\nYou don’t prompt. You don’t manage models. You don’t rebuild context. You describe what you want and it picks the model, writes the prompt and figures out the execution.\n\nThis is what it looks like when AI actually understands production.\n\n➡️ Comment “INVIDEO” and I’ll send you the link!\n\nFollow @adrianabubori for more AI and content tips.\n\n#ai #aivideo #invideo #aitools #contentcreation",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
