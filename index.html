@@ -22,6 +22,7 @@ button.primary:hover{background:#000}
 h1[contenteditable]{font-size:26px;margin:0 0 8px;letter-spacing:-.2px;outline:none}
 .meta{color:var(--mut);margin:0 0 18px;outline:none}
 .concept{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;margin:0 0 26px;outline:none}
+.audiobox{border-left-color:var(--accent2)}
 h2{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent2);margin:32px 0 12px;border-bottom:1px solid var(--line);padding-bottom:7px}
 .storyboard{width:100%;border:1px solid var(--line);border-radius:10px;display:block}
 .sbnote{color:var(--mut);font-size:13px;margin:10px 2px 0}
@@ -97,6 +98,8 @@ function render(){
     <p class="meta" contenteditable="true" spellcheck="false" data-k="meta">${esc(m.meta)}</p>
     <h2>Concept</h2>
     <div class="concept" contenteditable="true" spellcheck="false" data-k="concept">${esc(m.concept)}</div>
+    <h2>Audio / Sound</h2>
+    <div class="concept audiobox" contenteditable="true" spellcheck="false" data-k="audio">${esc(m.audio||"")}</div>
     <h2>Frame Reference Sheet (inspiration, second by second)</h2>
     <img class="storyboard" src="${esc(m.storyboard)}" alt="storyboard of the inspiration reel, 0s to 29s">
     <p class="sbnote">Every second of the original reel, 0s to 29s. Each beat below pairs its own reference frame with the script so editors can match the new shot to the inspiration.</p>
@@ -119,27 +122,42 @@ document.addEventListener("input", e=>{
 
 window.addEventListener("beforeunload", e=>{ if(DIRTY){ e.preventDefault(); e.returnValue=""; } });
 
-async function ghHeaders(){ const t=getToken(); const h={ "Accept":"application/vnd.github+json" }; if(t) h["Authorization"]="Bearer "+t; return h; }
+function ghHeaders(){ const t=getToken(); const h={ "Accept":"application/vnd.github+json" }; if(t) h["Authorization"]="Bearer "+t; return h; }
+
+async function checkToken(token){
+  let r;
+  try { r = await fetch(`https://api.github.com/repos/${REPO}`, {headers:{Accept:"application/vnd.github+json", Authorization:"Bearer "+token}}); }
+  catch(e){ return {ok:false, msg:"Could not reach GitHub: "+e.message}; }
+  if(r.status===401) return {ok:false, msg:"GitHub rejected the token (401 Bad credentials). Re-copy the FULL token with no spaces. Fine-grained tokens start with github_pat_ ."};
+  if(r.status===404) return {ok:false, msg:"The token cannot see this repo (404). When creating it, set Repository access to: Only select repositories, and pick masonry-reels-shotsheet."};
+  if(!r.ok) return {ok:false, msg:"Token check failed (HTTP "+r.status+")."};
+  const j = await r.json().catch(()=>({}));
+  if(!(j.permissions && j.permissions.push)) return {ok:false, msg:"This token can READ but not WRITE. Re-create the fine-grained token with Repository permissions, Contents: Read and write (and this repo selected)."};
+  return {ok:true};
+}
 
 async function getSha(){
-  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}?ref=${BRANCH}&cb=${Date.now()}`, {headers: await ghHeaders()});
-  if(!r.ok) throw new Error("Could not read current file ("+r.status+")");
+  const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}?ref=${BRANCH}&cb=${Date.now()}`, {headers: ghHeaders()});
+  if(!r.ok) throw new Error("Could not read current file (HTTP "+r.status+")");
   const j = await r.json(); return j.sha;
 }
 
 async function save(){
   const token = getToken();
-  if(!token){ $("#tokrow").style.display="flex"; $("#tokInput").focus(); setStatus("Token needed to save", ""); return; }
+  if(!token){ $("#tokrow").style.display="flex"; $("#tokInput").focus(); setStatus("Paste a token to save", ""); return; }
+  setStatus("Checking token...", "");
+  const chk = await checkToken(token);
+  if(!chk.ok){ setStatus("Save blocked", "err"); alert("Cannot save yet.\n\n"+chk.msg); $("#tokrow").style.display="flex"; return; }
   try{
     setStatus("Saving...", "");
     const sha = await getSha();
     const body = { message:"Update shot-sheet via editor", content: b64(JSON.stringify(MODEL, null, 2)), sha, branch: BRANCH };
-    const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, { method:"PUT", headers:{...(await ghHeaders()), "Content-Type":"application/json"}, body: JSON.stringify(body) });
+    const r = await fetch(`https://api.github.com/repos/${REPO}/contents/${FILE}`, { method:"PUT", headers:{...ghHeaders(), "Content-Type":"application/json"}, body: JSON.stringify(body) });
     if(!r.ok){ const e=await r.json().catch(()=>({})); throw new Error((e.message||("HTTP "+r.status))); }
-    DIRTY=false; setStatus("Saved. Live page updates within a minute.", "ok");
+    DIRTY=false; setStatus("Saved. The live page updates within about a minute.", "ok");
   }catch(err){
     setStatus("Save failed: "+err.message, "err");
-    if(/401|403|bad credentials/i.test(err.message)){ localStorage.removeItem("gh_token"); $("#tokrow").style.display="flex"; }
+    alert("Save failed.\n\n"+err.message);
   }
 }
 

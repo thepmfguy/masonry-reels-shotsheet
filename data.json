@@ -2,6 +2,7 @@
   "title": "Masonry Reel Shot-Sheet: Your Creative Is the Shelf",
   "meta": "Vertical 9:16 reel. ~29.5 seconds total. Featured brand: Poppi (real D2C prebiotic soda). Inspired by the @mobileeditingclub / lovart.ai reel.",
   "concept": "For a D2C soda brand, the creative is the shelf. Masonry turns one can shot into a full campaign: ads, lifestyle scenes, creator-style clips, even a flavor launch, with no studio, no shoot, no waiting. Same beat structure and length as the inspiration reel, with fully original copy.",
+  "audio": "Bright, upbeat trending-style track with a clear rhythmic pulse to cut on. The on-screen text carries the message, so this reel works with OR without a spoken voice-over. If the inspiration is audio-only (no person speaking), leave each beat's Voice-over blank and let the on-screen text plus this track and the visuals do the talking; sync each cut to the beat of the track.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
     {"time": "0.0 to 1.5s", "frame": "frames/beat-01.jpg", "vo": "Quick question.", "ost": "Quick QUESTION", "visual": "Open on a creator talking straight to camera, holding a cold Poppi can up near their face. Warm, hand-held, strong eye contact so it reads like a real person stopping your scroll, not an ad.", "mirrors": "Inspiration 0s, the direct-to-camera hook."},
