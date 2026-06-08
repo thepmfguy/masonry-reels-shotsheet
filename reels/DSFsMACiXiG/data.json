@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~18s. Inspiration: https://www.instagram.com/reel/DSFsMACiXiG/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DSFsMACiXiG/",
+  "duration_sec": 18,
+  "frame_count": 18,
+  "caption": "Want exact prompt + workflow I used? \nComment “PROMPT” and I’ll send it to your DM.\n\nPrompt Code : PF001\n\nFollow @ecolab_studio for more contents on Ai\n\n#higgsfield #ai #product #logitechmouse #logitech",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
