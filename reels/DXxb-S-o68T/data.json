@@ -1,14 +1,27 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~42s. Inspiration: https://www.instagram.com/reel/DXxb-S-o68T/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "The Agent That Remembers Your Brand",
+  "meta": "Vertical 9:16 reel, ~42s. Featured brand: Reformation (real D2C fashion). Inspired by the @adrianabubori reel.",
+  "concept": "The inspiration sells an AI video agent that holds your brand context across every shot instead of forgetting it. For Reformation, Masonry is that creative agent: set your product, brand and look once, give it one note, and every dreamy frame stays on brand, no managing models, no rebuilding context. Same beat structure and length as the inspiration, fully original copy.",
+  "audio": "Soft, dreamy ambient track with an airy spoken voice-over. Slow, floating cuts that match the surreal visuals; let the beat breathe between shots.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DXxb-S-o68T/",
-  "duration_sec": 42,
-  "frame_count": 42,
-  "caption": "➡️ this agent actually remembers\n\nComment “INVIDEO” and I’ll send you the link!\n\nEvery other AI video tool works the same broken way. You give it context, you build something and by the next clip it forgets all of it. You’re not directing a video, you’re babysitting a tool.\n\nInvideo Agent One fixes that. Your product, your brand, your whole visual direction. You set it up once and it holds it across every single shot.\n\nYou give it one note and it handles everything. Every shot connects. Every frame that needs updating gets figured out so you don’t have to.\n\nYou don’t prompt. You don’t manage models. You don’t rebuild context. You describe what you want and it picks the model, writes the prompt and figures out the execution.\n\nThis is what it looks like when AI actually understands production.\n\n➡️ Comment “INVIDEO” and I’ll send you the link!\n\nFollow @adrianabubori for more AI and content tips.\n\n#ai #aivideo #invideo #aitools #contentcreation",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {"time": "0.0 to 2.5s", "frame": "frames/sec-00.jpg", "vo": "What if your AI video remembered everything?", "ost": "what if AI video", "visual": "A model in a flowing Reformation dress drifts against soft clouds, dreamy and editorial. Ethereal open that stops the scroll.", "mirrors": "Inspiration 0 to 1s, the what-if hook."},
+    {"time": "2.5 to 5.0s", "frame": "frames/sec-02.jpg", "vo": "Your product. Your brand. Held in every shot.", "ost": "your PRODUCT, your brand", "visual": "Text resolves over a surreal green field, the dress catching wind as she turns.", "mirrors": "Inspiration 2 to 4s, the product and brand line."},
+    {"time": "5.0 to 7.5s", "frame": "frames/sec-04.jpg", "vo": "You set it up once.", "ost": "set it up ONCE", "visual": "A clean Masonry panel appears with the Reformation brand assets loaded in.", "mirrors": "Inspiration 5 to 6s, the set-it-up-once beat."},
+    {"time": "7.5 to 10.0s", "frame": "frames/sec-06.jpg", "vo": "And it carries across every frame.", "ost": "ACROSS every shot", "visual": "The model walks a winding path through a dreamy landscape, the look continuous as she moves.", "mirrors": "Inspiration 7 to 9s, the across-every-shot beat."},
+    {"time": "10.0 to 12.5s", "frame": "frames/sec-09.jpg", "vo": "Build one shot.", "ost": "you build SOMETHING", "visual": "A giant rose blooms behind the model, the first generated scene in the world.", "mirrors": "Inspiration 10 to 11s, the build-something beat."},
+    {"time": "12.5 to 15.0s", "frame": "frames/sec-11.jpg", "vo": "And the next clip just connects.", "ost": "next CLIP connects", "visual": "The model climbs a ladder up into the clouds, one scene flowing seamlessly into the next.", "mirrors": "Inspiration 12 to 13s, the next-clip beat."},
+    {"time": "15.0 to 17.5s", "frame": "frames/sec-14.jpg", "vo": "Because Masonry is a creative agent.", "ost": "a creative AGENT", "visual": "The model floats weightless mid-air, the dreamy brand world cohesive all around her.", "mirrors": "Inspiration 14 to 15s, the agent reveal."},
+    {"time": "17.5 to 20.0s", "frame": "frames/sec-16.jpg", "vo": "One note, and every shot connects.", "ost": "one NOTE", "visual": "A single instruction card, then a quick sweep of matching frames spinning past.", "mirrors": "Inspiration 16 to 18s, the one-note beat."},
+    {"time": "20.0 to 22.5s", "frame": "frames/sec-19.jpg", "vo": "Every frame on brand.", "ost": "every FRAME", "visual": "A grid of dreamy Reformation frames, all consistent in palette and mood.", "mirrors": "Inspiration 19 to 21s, the every-frame-connects beat."},
+    {"time": "22.5 to 25.0s", "frame": "frames/sec-21.jpg", "vo": "You do not manage models.", "ost": "no managing MODELS", "visual": "Two tall trees curve into the shape of hands cradling the scene below.", "mirrors": "Inspiration 22 to 24s, the no-managing-models beat."},
+    {"time": "25.0 to 27.5s", "frame": "frames/sec-24.jpg", "vo": "You do not rebuild context.", "ost": "no rebuilding CONTEXT", "visual": "The model stands in the surreal field, the world staying continuous around her.", "mirrors": "Inspiration 25 to 27s, the no-rebuilding-context beat."},
+    {"time": "27.5 to 30.0s", "frame": "frames/sec-27.jpg", "vo": "You describe what you want.", "ost": "describe what you WANT", "visual": "A short, plain prompt is typed into Masonry.", "mirrors": "Inspiration 28 to 30s, the describe beat."},
+    {"time": "30.0 to 32.5s", "frame": "frames/sec-30.jpg", "vo": "And it picks the shot.", "ost": "it picks the SHOT", "visual": "The generated result reveals, on brand and dreamy, no manual step in between.", "mirrors": "Inspiration 31 to 32s, the it-picks-the-shot beat."},
+    {"time": "32.5 to 35.0s", "frame": "frames/sec-33.jpg", "vo": "It understands your brand.", "ost": "it UNDERSTANDS", "visual": "The Reformation world rendered cohesively, the model framed by drifting clouds.", "mirrors": "Inspiration 33 to 35s, the understands-production beat."},
+    {"time": "35.0 to 37.5s", "frame": "frames/sec-36.jpg", "vo": "This is how a campaign comes together now.", "ost": "this is HOW", "visual": "A slow sweep across the finished frames, a complete dreamy campaign in one world.", "mirrors": "Inspiration 36 to 38s, the this-is-what-it-looks-like beat."},
+    {"time": "37.5 to 40.0s", "frame": "frames/sec-38.jpg", "vo": "On brand, every time.", "ost": "every TIME", "visual": "The model serene in the field, the brand look locked in across the set.", "mirrors": "Inspiration 38 to 40s, the closing visual."},
+    {"time": "40.0 to 42.0s", "frame": "frames/sec-40.jpg", "vo": "Comment AGENT and we will send you the link.", "ost": "comment AGENT", "visual": "End card: the trees-as-hands motif, Reformation wordmark with a small made-with-Masonry credit.", "mirrors": "Inspiration 40 to 41s, the comment-a-keyword CTA."}
+  ],
+  "notes": "Demo brand is Reformation, a realistic stand-in for a D2C fashion client (swap in the actual client when producing). Every scene and model would be generated with Masonry holding the brand context; no media has been generated yet (generation is gated on separate approval). The source promoted a competitor video agent and the keyword INVIDEO; the integration here is Masonry and the keyword was changed to AGENT. Keep total runtime near 42s to match the reference."
 }
