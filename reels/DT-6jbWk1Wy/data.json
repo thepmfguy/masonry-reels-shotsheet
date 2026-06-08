@@ -1,14 +1,20 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~10s. Inspiration: https://www.instagram.com/reel/DT-6jbWk1Wy/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "You Cannot Spot This",
+  "meta": "Vertical 9:16 reel, ~10s. Featured brand: Glossier (real D2C beauty). Inspired by the @mobileeditingclub reel.",
+  "concept": "The inspiration dares you to spot AI, then shows photoreal skin you cannot question. For Glossier, every model and every dewy close-up is generated with Masonry: same brand face, same glow, holding your products, no shoot and no studio. Same beat structure and length as the inspiration, fully original copy.",
+  "audio": "Trending-style hook audio with a short spoken voice-over over a fast skin-close-up montage, cut on the beat. If you run it as audio-only, drop the voice-over and let the on-screen text plus the track carry the line.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DT-6jbWk1Wy/",
-  "duration_sec": 10,
-  "frame_count": 10,
-  "caption": "🪩 Generate any model you need?\n\nAI has become insanely good at generating models\n(yes, even wearing or holding your products).\n\nThanks to AI, you can finally say goodbye to wasting your budget on boring campaigns or reusing the same old stock images.\n\nNo more reusing the same shots over and over again.\nNo bloated production costs. No compromises.\n\nWith AI, you can generate the images you’ve actually envisioned for your brand.\n\nOn-brand. Same models. Same products. Different sets.\n\nBut the thing is, generating high-quality AI content isn’t just about writing prompts and generating pretty images.\n\nIt’s about generating consistent branded imagery and turning it into content that actually converts.\n\nThen, you can build entire campaigns featuring your:\n\n🪩 Product or service\n🪩 Styles\n🪩 Brand faces / models\n\nThat don’t just look pretty, but consistently generate results for your social content or ads.\n\nIf you don’t have a strategy that guarantees consistency across all your content, you won’t get those professional on-brand results\n\n➡️ We’ve summarised our strategy to generate professional and consistent AI imagery in 180+ pages.  Follow us and comment “editz” to get the link and grab the guide!\n\nP.S. If you want to learn our full workflow to generate and edit high-quality AI images, swap clothes and models, and create full videos for your ads and socials, comment \"Course\" and we’ll send you the link! 🔗\n\nFollow @mobileeditingclub for more editing and AI tips and news.\n\n#ai #aiediting #aiimages #aiimage #aivideo",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {"time": "0.0 to 1.2s", "frame": "frames/sec-00.jpg", "vo": "You think you can spot AI.", "ost": "you can SPOT it?", "visual": "Extreme close-up of a model looking straight to camera, dewy Glossier skin, soft daylight. Reads like a real campaign face, not a render.", "mirrors": "Inspiration 0s, the I-can-spot-AI hook over a face."},
+    {"time": "1.2 to 2.4s", "frame": "frames/sec-01.jpg", "vo": "So look closer.", "ost": "look CLOSER", "visual": "Macro push into the cheek: real freckles, a glossy highlight on the cheekbone, true pores.", "mirrors": "Inspiration 1s, the second close-up."},
+    {"time": "2.4 to 3.6s", "frame": "frames/sec-02.jpg", "vo": "The skin.", "ost": "the SKIN", "visual": "Macro on glossy lips with a Glossier Balm Dotcom sheen, fine lip texture visible.", "mirrors": "Inspiration 2s, the lips close-up."},
+    {"time": "3.6 to 4.8s", "frame": "frames/sec-03.jpg", "vo": "Every pore.", "ost": "every PORE", "visual": "Macro across the nose and cheek, lifelike texture and a faint natural flush.", "mirrors": "Inspiration 3s, the nose close-up."},
+    {"time": "4.8 to 6.0s", "frame": "frames/sec-04.jpg", "vo": "Every one of these is Masonry.", "ost": "all MASONRY", "visual": "Pull back to reveal a different model entirely, same dewy Glossier finish and palette.", "mirrors": "Inspiration 4s, the next face in the montage."},
+    {"time": "6.0 to 7.0s", "frame": "frames/sec-05.jpg", "vo": "Same brand face. Same glow.", "ost": "same FACE, same glow", "visual": "A deeper-skin model with freckles, hand resting near the face, identical Glossier sheen.", "mirrors": "Inspiration 5s, the freckled close-up."},
+    {"time": "7.0 to 8.0s", "frame": "frames/sec-06.jpg", "vo": "Different model, different set, on brand every time.", "ost": "on-brand every TIME", "visual": "Quick cut between two models in different light, the brand look stays consistent across both.", "mirrors": "Inspiration 6s, the model swap."},
+    {"time": "8.0 to 9.0s", "frame": "frames/sec-07.jpg", "vo": "Holding your products. No shoot. No studio.", "ost": "no shoot. no STUDIO.", "visual": "A model holds a Glossier Cloud Paint up near the face, generated, perfectly on brand.", "mirrors": "Inspiration 7s, the product-in-hand beat."},
+    {"time": "9.0 to 9.6s", "frame": "frames/sec-08.jpg", "vo": "This is Masonry.", "ost": "MASONRY", "visual": "A male model, photoreal stubble and skin, the same grade of realism and brand polish.", "mirrors": "Inspiration 8s, the final face."},
+    {"time": "9.6 to 10.0s", "frame": "frames/sec-09.jpg", "vo": "Comment GLOW and we will send the link.", "ost": "comment GLOW", "visual": "End card: Glossier wordmark on a soft pink set, small made-with-Masonry credit.", "mirrors": "Inspiration 9s, the comment-a-keyword CTA."}
+  ],
+  "notes": "Demo brand is Glossier, a realistic stand-in for a D2C beauty client (swap in the actual client when producing). Every model, skin close-up and product-in-hand shot would be generated with Masonry; no media has been generated yet (generation is gated on separate approval). Keep total runtime within ~10s to match the reference. The source showed a generic AI-model workflow; the integration here is Masonry."
 }
