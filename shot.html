@@ -42,6 +42,10 @@ h2{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--acce
 .v.mirror{color:var(--mut);font-size:13px;font-style:italic}
 .line.masonryline .k{color:var(--accent2);font-weight:700}
 .v.masonry{background:#eaf4f0;border-left:3px solid var(--accent2);padding:7px 11px;border-radius:7px;color:var(--ink2);align-self:flex-start}
+.line.sfxline .k{color:var(--amber);font-weight:700}
+.v.sfx{background:#fbf3e3;border-left:3px solid var(--amber);padding:7px 11px;border-radius:7px;color:var(--ink2);align-self:flex-start}
+.v.sup{color:var(--ink2);font-size:13.5px}
+.v.trans{color:var(--ink2);font-style:italic}
 .notes{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;color:var(--ink2);outline:none}
 footer{color:#a99e8d;font-size:12px;margin-top:24px}
 .edited{color:var(--accent)}
@@ -89,9 +93,13 @@ function render(){
       </div>
       <div class="body">
         ${b.vo ? `<div class="line"><span class="k">Voice-over</span><span class="v vo" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="vo">${esc(b.vo)}</span></div>` : ``}
-        <div class="line"><span class="k">On-screen</span><span class="v ost" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="ost">${esc(b.ost)}</span></div>
+        <div class="line"><span class="k">Super / Text</span><span class="v ost" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="ost">${esc(b.ost)}</span></div>
+        ${b.super ? `<div class="line"><span class="k">Super style</span><span class="v sup" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="super">${esc(b.super)}</span></div>` : ``}
         <div class="line"><span class="k">Visual</span><span class="v" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="visual">${esc(b.visual)}</span></div>
         ${b.masonry ? `<div class="line masonryline"><span class="k">Make in Masonry</span><span class="v masonry" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="masonry">${esc(b.masonry)}</span></div>` : ``}
+        ${b.edit ? `<div class="line"><span class="k">Edit / Motion</span><span class="v" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="edit">${esc(b.edit)}</span></div>` : ``}
+        ${b.transition ? `<div class="line"><span class="k">Transition</span><span class="v trans" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="transition">${esc(b.transition)}</span></div>` : ``}
+        ${b.sfx ? `<div class="line sfxline"><span class="k">SFX / Sound</span><span class="v sfx" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="sfx">${esc(b.sfx)}</span></div>` : ``}
         <div class="line"><span class="k">Reference</span><span class="v mirror" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="mirrors">${esc(b.mirrors)}</span></div>
       </div>
     </div>`).join("");

@@ -1,8 +1,8 @@
 {
   "title": "The Window Small Brands Have Right Now",
-  "meta": "Vertical 9:16 reel, ~27s. Featured brand: Everlane. Inspired by mobileeditingclub (DNn-EILzpWj). Build-it-in-Masonry walkthrough.",
-  "concept": "A build-it-in-Masonry walkthrough for Everlane. The finished reel looks like a six-figure fashion campaign for a small D2C brand, but every frame is generated in Masonry by following the 'Make in Masonry' step under each beat. The story: small brands feel the content struggle (perfect quality, constant posting, juggling products and staging), then the reveal lands, that whole campaign was made in Masonry, by you, right now, before the big players catch up. The app-screen beats (products, staging, content grid) are screen recordings of Masonry itself, so the viewer literally sees the tool that produced the images.",
-  "audio": "Atmospheric, cinematic instrumental that builds steadily. Audio-only: no voiceover. Single words and short phrases appear cut by cut at an editorial pace, every cut on the beat.",
+  "meta": "Vertical 9:16 reel, ~27s. Featured brand: Everlane. Inspired by mobileeditingclub (DNn-EILzpWj). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A build-it-in-Masonry walkthrough for Everlane. The finished reel looks like a six-figure fashion campaign for a small D2C brand, but every frame is generated in Masonry following the 'Make in Masonry' step under each beat, then cut per the Edit / Transition / SFX direction. Story: small brands feel the content struggle (perfect quality, constant posting, juggling products and staging), then the reveal lands, that whole campaign was made in Masonry, by you, right now, before the big players catch up. The app-screen beats are screen recordings of Masonry itself.",
+  "audio": "Atmospheric cinematic instrumental that builds steadily, with a clear riser into the 5s reveal and the 11s app-UI montage. Audio-only: no voiceover. Cut every super to the beat. SFX layered per beat below.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
     {
@@ -10,8 +10,12 @@
       "frame": "frames/sec-00.jpg",
       "vo": "",
       "ost": "what",
-      "visual": "Opening portrait: model in neutral tones in a wheat field, soft golden-hour backlight. Single word. Scroll-stopping hook.",
-      "masonry": "Upload Everlane's linen blazer flat-lay to the Masonry product library. Prompt: 'editorial portrait, model wearing this blazer, wheat field, soft golden-hour backlight, vertical 9:16.' Generate, pick the strongest frame. This is your opener.",
+      "super": "Single word, lowercase editorial serif, centered. Fades up over 6 frames with a slight blur-to-sharp settle.",
+      "visual": "Opening portrait: model in neutral tones in a wheat field, soft golden-hour backlight. Scroll-stopping hook.",
+      "masonry": "Upload Everlane's linen blazer flat-lay to the Masonry product library. Prompt: 'editorial portrait, model wearing this blazer, wheat field, soft golden-hour backlight, vertical 9:16.' Generate, pick the strongest frame.",
+      "edit": "Slow 5% push-in on the portrait. Hold steady, let the hook breathe.",
+      "transition": "Hard cut on the downbeat into beat 2.",
+      "sfx": "Soft airy whoosh as the super fades in. Low ambient pad underneath.",
       "mirrors": "Inspiration sec 0: 'what' single-word opener over a first editorial portrait."
     },
     {
@@ -19,8 +23,12 @@
       "frame": "frames/sec-01.jpg",
       "vo": "",
       "ost": "create images",
+      "super": "Two words appear word by word, same serif, centered.",
       "visual": "Tighter portrait, same model in the structured blazer. The phrase begins to form.",
-      "masonry": "In Masonry hit 'Vary' on the opener or prompt 'closer crop, neutral studio tone.' Masonry holds the same face and garment, so the cut reads as one continuous shoot.",
+      "masonry": "In Masonry hit 'Vary' on the opener or prompt 'closer crop, neutral studio tone.' Masonry holds the same face and garment so the cut reads as one continuous shoot.",
+      "edit": "Continue the push-in, tighter crop, so it feels like one move carried across the cut.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Subtle tick on each word as it lands.",
       "mirrors": "Inspiration sec 1: 'create images' on a second editorial portrait."
     },
     {
@@ -28,8 +36,12 @@
       "frame": "frames/sec-02.jpg",
       "vo": "",
       "ost": "like these",
+      "super": "Lower-third, left-aligned, quick fade in.",
       "visual": "Wide shot: model in an Everlane oversized wool coat walking a clean city street. Full campaign quality.",
-      "masonry": "Drop Everlane's wool coat into Masonry. Prompt 'full-length, model walking, clean city street, overcast editorial light.' Save this generation as a style reference so the later shots match it.",
+      "masonry": "Drop Everlane's wool coat into Masonry. Prompt 'full-length, model walking, clean city street, overcast editorial light.' Save this generation as a style reference so later shots match.",
+      "edit": "Track the walk: slow left-to-right pan following the model.",
+      "transition": "Hard cut on the beat into the group shot.",
+      "sfx": "Light whoosh on the super; soft street ambience under.",
       "mirrors": "Inspiration sec 2: 'like these' on a wide fashion coat shot."
     },
     {
@@ -37,8 +49,12 @@
       "frame": "frames/sec-03.jpg",
       "vo": "",
       "ost": "for your products",
+      "super": "Centered, fades in.",
       "visual": "Four-model editorial group shot, all in coordinated Everlane basics. The aspiration: this for your whole line.",
-      "masonry": "Load the coat, blazer and linen set into the product library and set the Everlane brand kit (palette + type). Prompt one 'four-model group editorial, coordinated neutral basics.' One prompt styles the whole line together, on brand.",
+      "masonry": "Load the coat, blazer and linen set into the product library and set the Everlane brand kit (palette + type). Prompt one 'four-model group editorial, coordinated neutral basics.' One prompt styles the whole line.",
+      "edit": "Static wide, tiny 2% scale-up for life. Let the group composition land.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Music swells slightly.",
       "mirrors": "Inspiration sec 3: 'for your products' on a multi-model group editorial shot."
     },
     {
@@ -46,8 +62,12 @@
       "frame": "frames/sec-04.jpg",
       "vo": "",
       "ost": "yes,",
-      "visual": "Single word over a wide, dramatic group shot, models staggered and looking away.",
-      "masonry": "Re-roll the group with 'staggered poses, looking away, dramatic wide.' Pick the most editorial frame. No reshoot, no second casting call, just another Masonry generation.",
+      "super": "Single word, bold, snaps in with no fade right on the beat.",
+      "visual": "Wide, dramatic group shot, models staggered and looking away.",
+      "masonry": "Re-roll the group with 'staggered poses, looking away, dramatic wide.' Pick the most editorial frame.",
+      "edit": "Hard static with a 3% punch-in on the cut.",
+      "transition": "Quick whip-blur into the reveal (beat 6).",
+      "sfx": "Whip swish, and a rising riser starts here building toward the reveal.",
       "mirrors": "Inspiration sec 4: 'yes,' on the wide dramatic editorial group cut."
     },
     {
@@ -55,8 +75,12 @@
       "frame": "frames/sec-05.jpg",
       "vo": "",
       "ost": "yes, with Masonry",
-      "visual": "Same energy, tight on confident faces. The reveal lands: every shot so far came from one tool.",
-      "masonry": "Reveal beat. Optional 0.3s screen-record of the Masonry Generate button firing, cut in right as the 'with Masonry' text hits, so the viewer connects every prior frame to the tool.",
+      "super": "Full line, bold, scales up with a slight overshoot. 'Masonry' weight-emphasized or in the Masonry accent color.",
+      "visual": "Same energy, tight on confident faces. The reveal: every shot so far came from one tool.",
+      "masonry": "Reveal beat. Optional 0.3s screen-record of the Masonry Generate button firing, cut in right as the 'with Masonry' text hits.",
+      "edit": "Settle out of the whip onto the portrait; optional Generate-button flash frame before it settles.",
+      "transition": "On the word 'Masonry' a soft light-flash / lens flare wipes in.",
+      "sfx": "Bass impact / sub-drop on 'Masonry'. Riser resolves. A subtle camera-shutter click.",
       "mirrors": "Inspiration sec 5: 'yes, with AI' confirmation cut."
     },
     {
@@ -64,8 +88,12 @@
       "frame": "frames/sec-06.jpg",
       "vo": "",
       "ost": "if you're a small brand",
+      "super": "Lower-third, smaller, gentle fade.",
       "visual": "Cut to a solo model, seated, more intimate. The reel shifts from aspiration to empathy.",
-      "masonry": "Prompt 'single model seated, intimate, soft window light, Everlane knit.' Masonry reuses the same brand face from the earlier shots so it reads as the same campaign, not a new model.",
+      "masonry": "Prompt 'single model seated, intimate, soft window light, Everlane knit.' Masonry reuses the same brand face so it reads as the same campaign.",
+      "edit": "Cut to calmer energy, slight push-in.",
+      "transition": "Hard cut.",
+      "sfx": "Music ducks to a quieter, intimate stem; room-tone ambience.",
       "mirrors": "Inspiration sec 6: 'if you're a small brand' intimate portrait shift."
     },
     {
@@ -73,8 +101,12 @@
       "frame": "frames/sec-07.jpg",
       "vo": "",
       "ost": "you know the struggle",
+      "super": "Centered over the macro, soft fade.",
       "visual": "Close-up of fabric texture, Everlane cotton, close enough to feel. The struggle is real, the product is real.",
-      "masonry": "Upload the real Everlane Japanese-cotton swatch and prompt 'extreme macro, fabric weave, raking light.' Masonry renders the actual product texture, your proof it is the real product, not generic AI fabric.",
+      "masonry": "Upload the real Everlane Japanese-cotton swatch and prompt 'extreme macro, fabric weave, raking light.' Masonry renders the actual product texture.",
+      "edit": "Extreme macro, very slow drift across the weave. Rack focus if available.",
+      "transition": "Hard cut.",
+      "sfx": "Soft fabric-rustle SFX to sell the texture.",
       "mirrors": "Inspiration sec 7: 'you know the struggle' tactile fabric close-up."
     },
     {
@@ -82,8 +114,12 @@
       "frame": "frames/sec-08.jpg",
       "vo": "",
       "ost": "Perfect quality.",
+      "super": "Bold, centered, the period as a beat. Snaps in.",
       "visual": "Editorial model in a classic Everlane trench, tack-sharp outdoor light. The standard is high.",
-      "masonry": "Everlane trench from the product library. Prompt 'editorial portrait, classic trench, tack-sharp outdoor light.' Pick the crispest generation, quality is the message on this beat.",
+      "masonry": "Everlane trench from the product library. Prompt 'editorial portrait, classic trench, tack-sharp outdoor light.' Pick the crispest generation.",
+      "edit": "Crisp static portrait, tiny push-in. Maximize sharpness in grade.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Clean tonal hit on the period.",
       "mirrors": "Inspiration sec 8: 'Perfect Quality.' on the editorial coat portrait."
     },
     {
@@ -91,8 +127,12 @@
       "frame": "frames/sec-09.jpg",
       "vo": "",
       "ost": "while showing up",
+      "super": "Lower-third, fade.",
       "visual": "Fashion jacket close-up in warm brown tones, confident posture. Showing up every day.",
-      "masonry": "Use Masonry's Restyle on the previous shot to shift the palette warm ('warm brown tones, jacket detail') without regenerating the whole frame, so the model stays consistent.",
+      "masonry": "Use Masonry's Restyle on the previous shot to shift the palette warm ('warm brown tones, jacket detail') without regenerating the whole frame.",
+      "edit": "Warm-graded close, slow push-in.",
+      "transition": "Hard cut.",
+      "sfx": "Warm pad swell.",
       "mirrors": "Inspiration sec 9: 'while showing up' jacket close-up."
     },
     {
@@ -100,8 +140,12 @@
       "frame": "frames/sec-10.jpg",
       "vo": "",
       "ost": "and juggling",
+      "super": "Lower-third, fade.",
       "visual": "Wide lifestyle shot: Everlane product draped in a minimal sunlit room. Everything at once.",
-      "masonry": "Place the product in a styled set: prompt 'product draped over chair, minimal sunlit room.' Same product, lifestyle context, generated rather than shot on location.",
+      "masonry": "Place the product in a styled set: prompt 'product draped over chair, minimal sunlit room.' Same product, lifestyle context, generated.",
+      "edit": "Wide static with a slight handheld float for life.",
+      "transition": "Speed-ramp / quick accelerate into the app-UI montage.",
+      "sfx": "Riser begins; cut tempo picks up.",
       "mirrors": "Inspiration sec 10: 'and juggling' product-in-context wide shot."
     },
     {
@@ -109,8 +153,12 @@
       "frame": "frames/sec-11.jpg",
       "vo": "",
       "ost": "products. staging. thousands of content pieces.",
+      "super": "Each word ('products' / 'staging' / 'thousands') snaps in on its own sub-cut, mono / UI font to match the interface.",
       "visual": "Three cuts. sec-11: Masonry product library showing Everlane's catalog. sec-12: Masonry staging screen, one product selected, prompt typed. sec-13: hold on a dark-jacket editorial with 'thousands' text.",
-      "masonry": "These are the Masonry-UI beats, screen-record the real app. sec-11: the product library with Everlane's full catalog loaded. sec-12: the staging screen with one product selected and a prompt typed in. sec-13: cut to a finished generation with the 'thousands' text. This is you literally showing the tool that makes the reel.",
+      "masonry": "Masonry-UI beats, screen-record the real app. sec-11: product library with Everlane's full catalog. sec-12: staging screen with a product selected and a prompt typed. sec-13: a finished generation with the 'thousands' text. You are literally showing the tool that makes the reel.",
+      "edit": "Fast 3-cut montage with a quick zoom-in on each UI element. Cuts accelerate to convey scale.",
+      "transition": "UI-glitch / digital flash between the three sub-cuts; hard cut out.",
+      "sfx": "UI click on each cut, keyboard-type ticks on the staging prompt, a 'whoosh-stack' as 'thousands' lands.",
       "mirrors": "Inspiration sec 11-13: app UI showing products, a staging screen, then a 'thousands' editorial cut."
     },
     {
@@ -118,8 +166,12 @@
       "frame": "frames/sec-14.jpg",
       "vo": "",
       "ost": "content.",
+      "super": "Single word, mono font, snaps in.",
       "visual": "Masonry output gallery: a grid of finished Everlane content tiles, all consistent and on brand.",
-      "masonry": "Screen-record Masonry's output gallery, a grid of finished Everlane assets generated from the same brand kit. This is the 'one tool, every asset' payoff shot.",
+      "masonry": "Screen-record Masonry's output gallery, a grid of finished Everlane assets from the same brand kit. The 'one tool, every asset' payoff shot.",
+      "edit": "Push-out reveal: start tight on one tile, pull back to the whole grid as it populates.",
+      "transition": "Hard cut, then a half-beat of held silence into the pivot.",
+      "sfx": "A satisfying 'populate' multi-click as the grid fills, then music drops out briefly.",
       "mirrors": "Inspiration sec 14-15: 'content' social grid content UI."
     },
     {
@@ -127,8 +179,12 @@
       "frame": "frames/sec-16.jpg",
       "vo": "",
       "ost": "here's the good news: it is for you.",
-      "visual": "Pivot. Grid scrolls, then a stark black typography card 'here's the good,' then a wide editorial model looking into frame as 'is' and 'for' build.",
-      "masonry": "Typography beats: build the text cards in your editor over a clean Masonry backdrop. For the 'is/for' frame, generate a model looking straight into camera in Masonry and lay the text on top.",
+      "super": "Stark typography cards: black background, white serif. 'here's the good' centered large; 'is' and 'for' build over the model frame.",
+      "visual": "Pivot. A black typography card, then a wide editorial model looking into frame as 'is' and 'for' build.",
+      "masonry": "Typography beats: build the text cards in your editor over a clean Masonry backdrop. For the 'is/for' frame, generate a model looking straight into camera in Masonry and lay text on top.",
+      "edit": "Cut to the black card (negative space), then a clean editorial frame with kinetic text. Tonal reset.",
+      "transition": "Cut to black, hold a half-beat, then cut up into the frame (a breath).",
+      "sfx": "Music re-enters fuller and hopeful; soft sub on the cut-to-black.",
       "mirrors": "Inspiration sec 16-19: 'the / here's the good / is / for' pivot sequence."
     },
     {
@@ -136,8 +192,12 @@
       "frame": "frames/sec-19.jpg",
       "vo": "",
       "ost": "this is the window. before the big players catch up.",
-      "visual": "Four ethereal, dreamy cuts: a minimal 'this' typography frame, a misty fashion editorial, a soft-light face close-up, a waiting portrait. Quiet urgency.",
-      "masonry": "Prompt 'misty, dreamy editorial, soft diffusion, model through haze' and batch-generate 3-4 variations in one go. Seed-lock keeps them feeling like one series, use them as the atmospheric run under the text.",
+      "super": "'this' minimal; 'this is the window' and 'waiting' fade slowly, lighter weight, more diffuse.",
+      "visual": "Four ethereal, dreamy cuts: a minimal 'this' frame, a misty fashion editorial, a soft-light face close-up, a waiting portrait. Quiet urgency.",
+      "masonry": "Prompt 'misty, dreamy editorial, soft diffusion, model through haze' and batch-generate 3-4 variations. Seed-lock keeps them one series.",
+      "edit": "Dreamy crossfades between the misty generations. Slow, floating, longer holds. Slight gaussian bloom in grade.",
+      "transition": "Crossfades (not hard cuts) between the ethereal frames; whip out on 'catch up'.",
+      "sfx": "Airy reverse-reverb swells; a soft ticking-clock motif under 'window'.",
       "mirrors": "Inspiration sec 20-22: 'this / this is the window / waiting' ethereal editorial sequence."
     },
     {
@@ -145,10 +205,14 @@
       "frame": "frames/sec-22.jpg",
       "vo": "",
       "ost": "use Masonry. no question.",
-      "visual": "Close: dramatic wide fashion shot, Everlane product card on brand background, Masonry wordmark title card, then the model walking away in a hero outfit. Clean, confident.",
-      "masonry": "Close on a hero Masonry generation of the model walking away, then your Everlane-plus-Masonry end card. Optional 0.5s Masonry-logo screen-record to seal that the whole reel was made in it.",
+      "super": "Bold close lines, then the Everlane plus Masonry wordmark end card, clean and centered.",
+      "visual": "Close: dramatic wide fashion shot, then the model walking away in a hero outfit, then the brand end card.",
+      "masonry": "Close on a hero Masonry generation of the model walking away, then your Everlane plus Masonry end card. Optional 0.5s Masonry-logo screen-record.",
+      "edit": "Hero walking-away shot, clean cut to the end card. Optional logo screen-record before the card.",
+      "transition": "Final hard cut to the end card; hold to the music outro.",
+      "sfx": "Final bass impact on 'Masonry', then music resolves. Optional logo sting.",
       "mirrors": "Inspiration sec 22-26: 'use / with / question / you' product card, brand title, and walking-model close."
     }
   ],
-  "notes": "Editor workflow: (1) Load Everlane's real products (blazer, coat, trench, linen set, cotton swatch) into the Masonry product library and set the brand kit (palette + type). (2) Generate each beat with the 'Make in Masonry' prompt under it, pick the hero frame, and use Vary and Restyle to keep the model and garments consistent across shots. (3) Screen-record the Masonry UI for the products, staging and content-grid beats. (4) Assemble in your editor to the music, drop the on-screen text per beat, audio-only with no voiceover. Everlane is a stand-in demo brand: swap in the real client and their products when producing. No media has been generated yet, generation is gated on separate approval per project policy."
+  "notes": "Editor workflow: (1) Load Everlane's real products (blazer, coat, trench, linen set, cotton swatch) into the Masonry product library and set the brand kit (palette + type). (2) Generate each beat with its 'Make in Masonry' prompt, pick the hero frame, use Vary / Restyle / Recolor for consistency, and screen-record the Masonry UI for the products, staging and content-grid beats. (3) Edit per beat: follow the Super style, Edit / Motion, Transition and SFX direction. Cut every super to the music beat, audio-only with no voiceover. Build the riser into the 5s reveal and the 11s app-UI montage. (4) Everlane is a stand-in demo brand: swap in the real client and their products. No media generated yet, generation is gated on separate approval per project policy."
 }
