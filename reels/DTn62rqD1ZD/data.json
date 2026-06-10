@@ -1,14 +1,66 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~16s. Inspiration: https://www.instagram.com/reel/DTn62rqD1ZD/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "This Is What Masonry Does for Beauty",
+  "meta": "Vertical 9:16 reel, ~16s. Featured brand: Kosas. Inspired by mobileeditingclub (DTn62rqD1ZD).",
+  "concept": "A scroll-stopping proof reel for Kosas: the opening shot looks like a six-figure beauty editorial, then the reveal hits. This is Masonry. Not plastic skin and off-brand outputs. Sharp detail, real texture, crystal clear. The reel then reframes the whole industry: it is no longer about who has the biggest production budget. It is about who dares to imagine and direct. Smart brands like Kosas do it on Masonry.",
+  "audio": "Minimal, cool electronic track. No voiceover. On-screen text carries the full message, each phrase synced to a cut.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DTn62rqD1ZD/",
-  "duration_sec": 16,
-  "frame_count": 16,
-  "caption": "⬇️ Stop wasting your marketing budget \n\nAI has become insanely good\nespecially when it comes to generating consistent imagery.\n\nBut… do you actually know how to use it?\n\nThe thing is, AI is only as good as the one using it. \n\nIt’s not plastic skin and robotic movements anymore. \n\nBillion dollar brands have started implementing it into their content strategy, ads and shop imagery. Not just because they can move faster, but because it means you can generate content at scale.\n\nThe truth is, it’s never been more important to grow your organic reach and generate content for your socials. \n\nAnd with AI you can finally do it without burning your budget on endless shoots or reusing the same old imagery over and over again. \n\nOn-brand. Same models. Same products. Different sets.\nNow, your ideas can move faster than your budget ever could.\n\nSo if you ever asked yourself how to generate AI visuals with your own products and brand? This is your sign!\n\n➡️ We’ve summarised our strategy to generate professional and consistent AI imagery in 180+ pages. Comment “editz” and grab the guide!\n\nP.S. If you want to learn our full workflow to generate and edit high-quality AI images, swap clothes and models, and create full videos for your ads and socials, comment “Course“ and we’ll send you the link! 🔗\n\nFollow @mobileeditingclub for more editing and AI tips and news.\n\n#ai #aiediting #aiimages #aiimage #aivideo",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {
+      "time": "0.0 to 1.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "",
+      "visual": "Tight close-up of a model: dewy skin, clean makeup, resting chin on hands. No text. Pure scroll-stopping visual hook. Masonry-generated Kosas campaign look.",
+      "mirrors": "Inspiration sec 0: clean model face close-up, no text, instant scroll-stopper."
+    },
+    {
+      "time": "1.0 to 2.0s",
+      "frame": "frames/sec-01.jpg",
+      "vo": "",
+      "ost": "this is Masonry",
+      "visual": "Same model, same frame. Text fades in center screen. The reveal: every pixel was created inside Masonry.",
+      "mirrors": "Inspiration sec 1: 'this is AI' reveal text on the same model shot."
+    },
+    {
+      "time": "2.0 to 5.0s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "",
+      "ost": "it's no longer plastic and off-brand",
+      "visual": "Model in a rich burgundy knit, golden earring, soft editorial light. The output looks natural, not AI-obvious. Phrase builds across three cuts at sec 3 and 4.",
+      "mirrors": "Inspiration sec 2-4: 'it's no longer / and / and robotic movements' phrase built across three cuts."
+    },
+    {
+      "time": "5.0 to 8.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "",
+      "ost": "sharp detail. real texture. crystal clear.",
+      "visual": "Three rapid proof cuts: extreme close-up of lashes and liner (sec 5), macro skin texture catching light (sec 6), model in a garden setting tack-sharp (sec 7). Each text phrase lands on its cut.",
+      "mirrors": "Inspiration sec 5-7: 'it's sharp detail / real texture / and crystal clear' proof trio."
+    },
+    {
+      "time": "8.0 to 12.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "it's no longer about who has the marketing budget",
+      "visual": "Slow pan through an architectural garden maze, four cuts (sec 8-11) building the phrase word by word. The maze is the old content barrier: expensive, labyrinthine, inaccessible.",
+      "mirrors": "Inspiration sec 8-11: 'it's / no longer about / who has the / marketing budget' in maze setting."
+    },
+    {
+      "time": "12.0 to 14.0s",
+      "frame": "frames/sec-12.jpg",
+      "vo": "",
+      "ost": "it's about imagining and directing",
+      "visual": "Close-up lip shot (sec 12), then a direct eye-to-camera shot (sec 13). The shift: creative vision is now the only input Masonry needs.",
+      "mirrors": "Inspiration sec 12-13: 'it's about imagining / directing' lip and eye close-ups."
+    },
+    {
+      "time": "14.0 to 16.0s",
+      "frame": "frames/sec-14.jpg",
+      "vo": "",
+      "ost": "without limits. that's how smart brands create on Masonry.",
+      "visual": "Portrait of model, composed and confident (sec 14), then wide two-model shot (sec 15) with the Masonry wordmark fading in. Closing brand statement.",
+      "mirrors": "Inspiration sec 14-15: 'without / budgets / that's how smart brands' closing portrait and wide shot."
+    }
+  ],
+  "notes": "Kosas is a stand-in demo brand: clean beauty, skin-forward, editorial aesthetic. All imagery is to be generated and assembled in Masonry. No media has been generated yet: generation is gated on separate approval per project policy."
 }

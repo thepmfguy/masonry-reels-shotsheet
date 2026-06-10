@@ -1,14 +1,82 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~23s. Inspiration: https://www.instagram.com/reel/DSyLAzmjbm5/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "Your Creativity. Masonry Generates the Rest.",
+  "meta": "Vertical 9:16 reel, ~23s. Featured brand: Girlfriend Collective. Inspired by mobileeditingclub (DSyLAzmjbm5).",
+  "concept": "A proof-and-reframe reel for Girlfriend Collective: the opening shot is a polished editorial of a model in their signature recycled-fabric set, then the pivot lands. This is Masonry. Sharp detail, real texture, crystal clear: ready for every campaign colorway. Then the industry barrier falls: it is no longer about the marketing budget. It is about imagining, directing, and generating what your brand already has. That is your creativity. That is how smart brands scale on Masonry in 2026.",
+  "audio": "Bright, aspirational electronic track. No voiceover. On-screen text carries every beat, each phrase cut-synced to the music.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DSyLAzmjbm5/",
-  "duration_sec": 23,
-  "frame_count": 23,
-  "caption": "⬇️ AI changed the entire industry overnight\n\nBut... do you actually know how to use it?\n\nAI gave brands not just the ability to generate pretty images, but unlocked a whole range of workflows it can be used for, as a business, a creative, or a marketer.\n\nThe thing is, using Al for content creation isn't just a plus anymore.\n\nIt's how smart brands create content at scale and future-proof their business.\n\nThat way, they create campaigns that look like they're coming from a six-figure professional shoot, but without the price tag.\n\nBut if you don't have a strategy that ensures consistency across products, styles, and campaigns, more content just means more generic, inauthentic imagery.\n\n➡️ We’ve summarised our strategy to generate consistent AI imagery in 180+ pages. Comment “editz” and grab the guide!\n\n👉🏼 P.S. And if you want to learn our full editing workflow to generate and edit high quality AI images and videos like these, for your campaigns comment “Course“ and we’ll send you the link! 🔗\n\nFollow @mobileeditingclub for more editing and AI tips and news.\n\n#ai #aiediting #aiimage #aivideo #aigenerated",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {
+      "time": "0.0 to 1.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "this",
+      "visual": "Single word appears center screen over a striking editorial image: a model in Girlfriend Collective's signature ribbed set, outdoors, natural light. Curiosity hook before the reveal.",
+      "mirrors": "Inspiration sec 0: 'this' single-word opener over a clean editorial shot."
+    },
+    {
+      "time": "1.0 to 2.0s",
+      "frame": "frames/sec-01.jpg",
+      "vo": "",
+      "ost": "this is Masonry",
+      "visual": "Same model, same frame. Full reveal text fades in. Every detail of this campaign image was created in Masonry.",
+      "mirrors": "Inspiration sec 1: 'this is AI' reveal on the same editorial frame."
+    },
+    {
+      "time": "2.0 to 5.0s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "",
+      "ost": "it's no longer plastic and robotic",
+      "visual": "Model in a flowing pink set, confident movement, organic feel. Three cuts (sec 2-4) build the phrase as the imagery proves the point: nothing here looks artificial.",
+      "mirrors": "Inspiration sec 2-4: 'it's no longer / plastic skin / robotic movements' across three cuts."
+    },
+    {
+      "time": "5.0 to 8.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "",
+      "ost": "sharp detail. real texture. crystal clear.",
+      "visual": "Three rapid proof cuts: close-up eye (sec 5), fabric macro catching ribbed texture (sec 6), full outfit shot tack-sharp against a nature backdrop (sec 7). Each phrase lands on its cut.",
+      "mirrors": "Inspiration sec 5-7: 'it's sharp detail / real texture / and crystal clear' visual proof trio."
+    },
+    {
+      "time": "8.0 to 10.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "for every campaign colorway",
+      "visual": "Side-by-side or sequential cut showing the same Girlfriend Collective product in two different Masonry-generated environments. Same model, same product, different sets.",
+      "mirrors": "Inspiration sec 8-9: '[for] / for your campaigns' showing the practical output for brands."
+    },
+    {
+      "time": "10.0 to 14.0s",
+      "frame": "frames/sec-10.jpg",
+      "vo": "",
+      "ost": "it's no longer about who has the marketing budget",
+      "visual": "Four cuts (sec 10-13) in natural, expansive settings, phrase building word by word. The old gatekeeper, a big production budget, is out of frame.",
+      "mirrors": "Inspiration sec 10-13: 'it's / no longer about / who has the / marketing budget' phrase build."
+    },
+    {
+      "time": "14.0 to 17.0s",
+      "frame": "frames/sec-14.jpg",
+      "vo": "",
+      "ost": "it's about imagining. directing. and generating.",
+      "visual": "Three purposeful cuts (sec 14-16): model close-up with creative energy, a pose being directed, then a Masonry interface moment, output appearing on screen. Three words, three beats.",
+      "mirrors": "Inspiration sec 14-16: 'it's about imagining / directing / and generating' three-beat action sequence."
+    },
+    {
+      "time": "17.0 to 20.0s",
+      "frame": "frames/sec-17.jpg",
+      "vo": "",
+      "ost": "what already exists. it's your creativity.",
+      "visual": "Existing Girlfriend Collective product dropped into Masonry: Masonry recognizes the recycled-fabric texture, the brand palette, the model. Three cuts (sec 17-19): input, output, iteration. It's your brand. Masonry just generates it.",
+      "mirrors": "Inspiration sec 17-19: 'what already exists / it's your / it's your creativity' product-input reveal."
+    },
+    {
+      "time": "20.0 to 23.0s",
+      "frame": "frames/sec-20.jpg",
+      "vo": "",
+      "ost": "that's how smart brands scale in 2026.",
+      "visual": "Three closing cuts (sec 20-22): 'that's' single word, wide editorial shot of model in full Girlfriend Collective look, then final frame with the Masonry wordmark and a clean brand close.",
+      "mirrors": "Inspiration sec 20-22: 'that's / that's how smart brands / scale in 2026' closing statement."
+    }
+  ],
+  "notes": "Girlfriend Collective is a stand-in demo brand: sustainable activewear, inclusive sizing, earthy palette. All imagery is to be generated and assembled in Masonry. No media has been generated yet: generation is gated on separate approval per project policy."
 }
