@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~31s. Inspiration: https://www.instagram.com/reels/DTWeMYRjOpq/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reels/DTWeMYRjOpq/",
+  "duration_sec": 31,
+  "frame_count": 31,
+  "caption": "Comment “MASTER” to start making MONEY with AI 👇 A full guide to start selling your creativity ⬇️⬇️\nYou can’t make money with AI unless you master these 3 things.\nMost creators chase trends, I build systems that clients pay thousands for 💰\nFirst: Consistency 🎯\nProduct consistency, character consistency, brand consistency. Generate the same subject 100 times without variation. Clients pay for reliability.\nSecond: Prompt structure 🧠\nStop random prompting, build reusable frameworks, repeatable results, scalable quality. Systems that work every time.\nThird: Speed ⚡\nManual work doesn’t scale, automated workflows do. Deliver 50 assets in hours, fast execution wins clients.\nIt took me two years to learn this, you can master it in one week 🚀\n#AIcreator #AIworkflow #GenerativeAI",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
