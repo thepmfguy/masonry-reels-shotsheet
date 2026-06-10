@@ -40,6 +40,8 @@ h2{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--acce
 .v.vo{font-weight:600}
 .v.ost{font-family:"SF Mono",ui-monospace,Menlo,monospace;font-size:13.5px;background:var(--chip);padding:2px 8px;border-radius:6px;align-self:flex-start}
 .v.mirror{color:var(--mut);font-size:13px;font-style:italic}
+.line.masonryline .k{color:var(--accent2);font-weight:700}
+.v.masonry{background:#eaf4f0;border-left:3px solid var(--accent2);padding:7px 11px;border-radius:7px;color:var(--ink2);align-self:flex-start}
 .notes{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;color:var(--ink2);outline:none}
 footer{color:#a99e8d;font-size:12px;margin-top:24px}
 .edited{color:var(--accent)}
@@ -86,9 +88,10 @@ function render(){
         <div class="tc" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="time">${esc(b.time)}</div>
       </div>
       <div class="body">
-        <div class="line"><span class="k">Voice-over</span><span class="v vo" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="vo">${esc(b.vo)}</span></div>
+        ${b.vo ? `<div class="line"><span class="k">Voice-over</span><span class="v vo" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="vo">${esc(b.vo)}</span></div>` : ``}
         <div class="line"><span class="k">On-screen</span><span class="v ost" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="ost">${esc(b.ost)}</span></div>
         <div class="line"><span class="k">Visual</span><span class="v" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="visual">${esc(b.visual)}</span></div>
+        ${b.masonry ? `<div class="line masonryline"><span class="k">Make in Masonry</span><span class="v masonry" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="masonry">${esc(b.masonry)}</span></div>` : ``}
         <div class="line"><span class="k">Reference</span><span class="v mirror" contenteditable="true" spellcheck="false" data-bi="${i}" data-bk="mirrors">${esc(b.mirrors)}</span></div>
       </div>
     </div>`).join("");
