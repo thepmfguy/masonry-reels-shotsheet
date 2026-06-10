@@ -1,8 +1,8 @@
 {
   "title": "This Is What Masonry Does for Beauty",
-  "meta": "Vertical 9:16 reel, ~16s. Featured brand: Kosas. Inspired by mobileeditingclub (DTn62rqD1ZD). Build-it-in-Masonry walkthrough.",
-  "concept": "A build-it-in-Masonry proof reel for Kosas. The finished reel looks like a six-figure beauty editorial, but every frame is generated in Masonry following the 'Make in Masonry' step under each beat. The opener looks like a campaign, then the reveal: this is Masonry. Not plastic skin, not off-brand. Sharp detail, real texture, crystal clear. Then it reframes the game: it is no longer about who has the biggest budget, it is about who imagines and directs. Smart brands like Kosas do it in Masonry.",
-  "audio": "Minimal, cool electronic track. Audio-only: no voiceover. On-screen text carries the message, each phrase synced to a cut.",
+  "meta": "Vertical 9:16 reel, ~16s. Featured brand: Kosas. Inspired by mobileeditingclub (DTn62rqD1ZD). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A build-it-in-Masonry proof reel for Kosas. The finished reel looks like a six-figure beauty editorial, but every frame is generated in Masonry following the 'Make in Masonry' step, then cut per the Edit / Transition / SFX direction. The opener looks like a campaign, then the reveal: this is Masonry. Not plastic skin, not off-brand. Sharp detail, real texture, crystal clear. Then it reframes the game: it is not about budget, it is about who imagines and directs. Smart brands like Kosas do it in Masonry.",
+  "audio": "Minimal, cool electronic track with a soft sub pulse. Audio-only: no voiceover. Cut every super to the beat; impact + shutter on the two reveals.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
     {
@@ -10,8 +10,12 @@
       "frame": "frames/sec-00.jpg",
       "vo": "",
       "ost": "",
-      "visual": "Tight close-up: dewy skin, clean makeup, model resting chin on hands. No text. Pure scroll-stopping hook.",
-      "masonry": "Upload Kosas's Revealer Concealer hero shot to the Masonry product library. Prompt 'clean-beauty editorial, model resting chin on hands, dewy skin, soft daylight, 9:16.' Generate, pick the most scroll-stopping frame, hold it with no text.",
+      "super": "No super on this beat, let the image breathe.",
+      "visual": "Tight close-up: dewy skin, clean makeup, model resting chin on hands. Pure scroll-stopping hook.",
+      "masonry": "Upload Kosas's Revealer Concealer hero shot to the Masonry product library. Prompt 'clean-beauty editorial, model resting chin on hands, dewy skin, soft daylight, 9:16.' Generate, pick the most scroll-stopping frame.",
+      "edit": "Slow 4% push-in on the close-up. Pristine beauty grade.",
+      "transition": "Hard cut on the beat into the reveal.",
+      "sfx": "Cool synth pad opens; soft sub pulse.",
       "mirrors": "Inspiration sec 0: clean model face close-up, no text, instant scroll-stopper."
     },
     {
@@ -19,8 +23,12 @@
       "frame": "frames/sec-01.jpg",
       "vo": "",
       "ost": "this is Masonry",
+      "super": "Centered, clean sans, fades in with a soft track-in. 'Masonry' in the accent color.",
       "visual": "Same model, same frame. Text fades in center screen. The reveal.",
-      "masonry": "Same generation, add the 'this is Masonry' card in your editor. Optional 0.3s screen-record of Masonry's Generate button firing under the text to land that the image came from the tool.",
+      "masonry": "Same generation, add the 'this is Masonry' card. Optional 0.3s screen-record of Masonry's Generate button firing under the text.",
+      "edit": "Hold the same frame; optional Generate-button flash frame.",
+      "transition": "Soft light bloom wipes in on the word 'Masonry'.",
+      "sfx": "Gentle impact and a shutter click on 'Masonry'.",
       "mirrors": "Inspiration sec 1: 'this is AI' reveal text on the same model shot."
     },
     {
@@ -28,8 +36,12 @@
       "frame": "frames/sec-02.jpg",
       "vo": "",
       "ost": "it's no longer plastic and off-brand",
-      "visual": "Model in a rich burgundy knit, gold earring, soft editorial light. Looks natural, not AI-obvious. Phrase builds across three cuts.",
-      "masonry": "Prompt 'natural skin texture, real pores, burgundy knit, gold earring, soft editorial light.' Skin realism is the proof here: generate 2 or 3 and pick the most lifelike for the three text cuts.",
+      "super": "Phrase builds across 3 cuts, lower-third, fade per cut.",
+      "visual": "Model in a rich burgundy knit, gold earring, soft editorial light. Looks natural, not AI-obvious.",
+      "masonry": "Prompt 'natural skin texture, real pores, burgundy knit, gold earring, soft editorial light.' Generate 2 or 3 and pick the most lifelike for the three cuts.",
+      "edit": "Three tight portrait cuts with micro push-ins. Skin-real grade.",
+      "transition": "Hard cuts on the beat.",
+      "sfx": "Tick on each phrase segment; pad continues underneath.",
       "mirrors": "Inspiration sec 2-4: 'it's no longer / and / and robotic movements' built across three cuts."
     },
     {
@@ -37,8 +49,12 @@
       "frame": "frames/sec-05.jpg",
       "vo": "",
       "ost": "sharp detail. real texture. crystal clear.",
-      "visual": "Three rapid proof cuts: macro lashes and liner, macro skin texture catching light, model in a garden tack-sharp. Each phrase lands on its cut.",
-      "masonry": "Three proof generations in Masonry: 'macro lashes and liner,' 'extreme skin-texture macro, light catching,' 'model in garden, tack sharp.' Batch them in one go so the trio matches in grade and skin tone.",
+      "super": "Each word snaps in centered on its own macro cut, bold.",
+      "visual": "Three rapid proof cuts: macro lashes and liner, macro skin texture catching light, model in a garden tack-sharp.",
+      "masonry": "Three proof generations: 'macro lashes and liner,' 'extreme skin-texture macro, light catching,' 'model in garden, tack sharp.' Batch them so the trio matches.",
+      "edit": "Three fast macro cuts with a quick zoom-punch on each.",
+      "transition": "Hard cuts, accelerating slightly.",
+      "sfx": "Crisp tick and a tiny whoosh on each macro; rising energy.",
       "mirrors": "Inspiration sec 5-7: 'it's sharp detail / real texture / and crystal clear' proof trio."
     },
     {
@@ -46,8 +62,12 @@
       "frame": "frames/sec-08.jpg",
       "vo": "",
       "ost": "it's no longer about who has the marketing budget",
+      "super": "Words build over the maze pan, lower-third.",
       "visual": "Slow pan through an architectural garden maze, four cuts building the phrase. The maze is the old content barrier.",
-      "masonry": "Prompt 'architectural garden maze, model walking, slow editorial pan.' Generate one wide scene and let Masonry hold the look; you cut the four budget-line text beats over one continuous Masonry generation.",
+      "masonry": "Prompt 'architectural garden maze, model walking, slow editorial pan.' Generate one wide scene and cut the four budget-line beats over that single continuous generation.",
+      "edit": "One continuous slow maze pan; text cut over it across the four beats.",
+      "transition": "Hard cuts on the beat within the same scene.",
+      "sfx": "Low drone for the barrier feel; soft footstep ambience.",
       "mirrors": "Inspiration sec 8-11: 'it's / no longer about / who has the / marketing budget' in the maze setting."
     },
     {
@@ -55,8 +75,12 @@
       "frame": "frames/sec-12.jpg",
       "vo": "",
       "ost": "it's about imagining and directing",
+      "super": "Two cuts, centered, fade.",
       "visual": "Close-up lip shot, then a direct eye-to-camera shot. Creative vision is the only input.",
-      "masonry": "Two Masonry generations carry this line: 'macro lip detail' and 'direct eye-to-camera portrait.' Your prompt is the direction, that is the whole point of the beat.",
+      "masonry": "Two Masonry generations: 'macro lip detail' and 'direct eye-to-camera portrait.' Your prompt is the direction.",
+      "edit": "Macro lip cut, then direct eye-to-camera with a slow push-in.",
+      "transition": "Hard cut between the two.",
+      "sfx": "Intimate tonal swell; soft breath.",
       "mirrors": "Inspiration sec 12-13: 'it's about imagining / directing' lip and eye close-ups."
     },
     {
@@ -64,10 +88,14 @@
       "frame": "frames/sec-14.jpg",
       "vo": "",
       "ost": "without limits. that's how smart brands create on Masonry.",
-      "visual": "Portrait of model, composed and confident, then a wide two-model shot with the Masonry wordmark fading in.",
-      "masonry": "Close on a hero Masonry portrait, then a wide two-model generation with the Kosas plus Masonry end card. Pick the cleanest generation for the sign-off.",
+      "super": "Bold close line, then the Kosas plus Masonry wordmark end card.",
+      "visual": "Portrait of model, composed and confident, then a wide two-model shot with the Masonry wordmark.",
+      "masonry": "Close on a hero Masonry portrait, then a wide two-model generation with the Kosas plus Masonry end card.",
+      "edit": "Hero portrait, clean cut to the wide two-model, then the end card.",
+      "transition": "Final hard cut to the end card; hold.",
+      "sfx": "Final impact on 'Masonry'; music resolves.",
       "mirrors": "Inspiration sec 14-15: 'without / budgets / that's how smart brands' closing portrait and wide shot."
     }
   ],
-  "notes": "Editor workflow: (1) Load Kosas products (Revealer Concealer, Wet Lip Oil, complexion line) into the Masonry product library and set the brand kit. (2) Generate each beat with its 'Make in Masonry' prompt, pick the hero frame, batch the proof trio so it matches. (3) Assemble in your editor to the track, drop on-screen text per beat, audio-only with no voiceover. Kosas is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
+  "notes": "Editor workflow: (1) Load Kosas products (Revealer Concealer, Wet Lip Oil, complexion line) into the Masonry product library and set the brand kit. (2) Generate each beat with its 'Make in Masonry' prompt, pick the hero frame, batch the proof trio. (3) Edit per beat following the Super style, Edit / Motion, Transition and SFX direction; cut every super to the cool-electronic beat, audio-only with no voiceover. Kosas is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
 }

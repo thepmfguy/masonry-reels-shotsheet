@@ -1,8 +1,8 @@
 {
   "title": "POV: You Just Unlocked Ritual x Masonry",
-  "meta": "Vertical 9:16 reel, ~10s. Featured brand: Ritual. Inspired by mobileeditingclub (DSLr0gzCHof). Build-it-in-Masonry walkthrough.",
-  "concept": "A build-it-in-Masonry POV reel for Ritual vitamins. The finished reel is a fast, satisfying run of product shots, but every frame is generated in Masonry following the 'Make in Masonry' step under each beat. The hook is a relatable lifestyle portrait, then the screen floods with 'Yes, that's Masonry' over a floating capsule, a capsule pile, a tweezer shot, a branded bottle card. Every shot looks like a six-figure studio day, all generated.",
-  "audio": "Upbeat, punchy trending audio. Audio-only: no voiceover. On-screen text is the full narrative.",
+  "meta": "Vertical 9:16 reel, ~10s. Featured brand: Ritual. Inspired by mobileeditingclub (DSLr0gzCHof). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A build-it-in-Masonry POV reel for Ritual vitamins. Every frame is generated in Masonry following the 'Make in Masonry' step, then cut fast per the Edit / Transition / SFX direction. The hook is a relatable lifestyle portrait, then the screen floods with 'Yes, that's Masonry' over a floating capsule, a capsule pile, a tweezer shot, a branded bottle card. Every shot looks like a six-figure studio day, all generated.",
+  "audio": "Upbeat, punchy trending audio with a clear beat drop at 2s. Audio-only: no voiceover. The 'Yes, that's Masonry' lockup stays in a fixed position; pop on every product reveal.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
     {
@@ -10,8 +10,12 @@
       "frame": "frames/sec-00.jpg",
       "vo": "",
       "ost": "POV: You finally learned how to generate your brand content with Masonry",
+      "super": "Bold sans, top-third, snaps in and builds across both frames.",
       "visual": "Two frames: woman holding a Ritual capsule up playfully, then tilting it toward camera. Bright, relatable lifestyle energy.",
-      "masonry": "Upload Ritual's Essential capsule and bottle to the Masonry product library. Prompt 'relatable lifestyle portrait, woman holding capsule up to the light, bright clean tone, 9:16.' Generate the hook, lay the POV text across both frames.",
+      "masonry": "Upload Ritual's Essential capsule and bottle to the Masonry product library. Prompt 'relatable lifestyle portrait, woman holding capsule up to the light, bright clean tone, 9:16.' Generate the hook.",
+      "edit": "Quick energetic cut between the two lifestyle frames, slight bounce.",
+      "transition": "Hard cut on the beat drop.",
+      "sfx": "Track drops in; a pop / click on the POV text.",
       "mirrors": "Inspiration sec 0-1: 'POV: You finally learned how to generate content with AI' lifestyle hook."
     },
     {
@@ -19,8 +23,12 @@
       "frame": "frames/sec-02.jpg",
       "vo": "",
       "ost": "Yes, that's Masonry",
-      "visual": "Ritual Essential capsule floating on a clean light-gray background, crisp capsule detail. Two cuts hold the reveal.",
-      "masonry": "Prompt 'single capsule floating, clean light-gray seamless, studio product light.' Generate, this is the first 'Yes, that's Masonry' reveal.",
+      "super": "Mono accent lockup, snaps in; keep this exact position for the whole run.",
+      "visual": "Ritual Essential capsule floating on a clean light-gray background, crisp detail. Two cuts.",
+      "masonry": "Prompt 'single capsule floating, clean light-gray seamless, studio product light.' Generate the first reveal.",
+      "edit": "Floating capsule with a fast spin or bounce; two quick cuts.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Clean 'pop' on the product reveal.",
       "mirrors": "Inspiration sec 2-3: 'Yes, that's AI' on the floating green capsule."
     },
     {
@@ -28,8 +36,12 @@
       "frame": "frames/sec-04.jpg",
       "vo": "",
       "ost": "Yes, that's Masonry",
+      "super": "Same lockup, snap.",
       "visual": "Minimalist flat-lay: Ritual packaging and small print card on a neutral background.",
-      "masonry": "Prompt 'minimalist flat-lay, Ritual packaging plus print card, neutral background.' Generate; matches Ritual's transparency aesthetic.",
+      "masonry": "Prompt 'minimalist flat-lay, Ritual packaging plus print card, neutral background.'",
+      "edit": "Flat-lay with a quick whip-in.",
+      "transition": "Whip cut.",
+      "sfx": "Whoosh and pop.",
       "mirrors": "Inspiration sec 4: 'Yes, that's AI' on the packaging flat-lay."
     },
     {
@@ -37,8 +49,12 @@
       "frame": "frames/sec-05.jpg",
       "vo": "",
       "ost": "Yes, that's Masonry",
-      "visual": "Natural ingredient macro: rich green algae/spirulina texture, hyperreal close-up.",
-      "masonry": "Prompt 'natural ingredient macro, algae texture, rich green.' Generate; ties to Ritual's traceable-ingredient story.",
+      "super": "Same lockup.",
+      "visual": "Natural ingredient macro: rich green algae texture, hyperreal close-up.",
+      "masonry": "Prompt 'natural ingredient macro, algae texture, rich green.'",
+      "edit": "Ingredient macro, fast push-in.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Pop; a subtle organic texture sound.",
       "mirrors": "Inspiration sec 5: 'Yes, that's AI' on the natural ingredient macro."
     },
     {
@@ -46,8 +62,12 @@
       "frame": "frames/sec-06.jpg",
       "vo": "",
       "ost": "Yes, that's Masonry",
+      "super": "Same lockup.",
       "visual": "Model close-up placing a capsule on her tongue, freckled skin, warm natural light.",
-      "masonry": "Prompt 'model close-up placing capsule on tongue, freckled skin, warm light.' Masonry keeps it lifestyle-real, not stocky.",
+      "masonry": "Prompt 'model close-up placing capsule on tongue, freckled skin, warm light.'",
+      "edit": "Tongue close-up, quick zoom.",
+      "transition": "Hard cut.",
+      "sfx": "Pop.",
       "mirrors": "Inspiration sec 6: 'Yes, that's AI' on the lifestyle model close-up."
     },
     {
@@ -55,8 +75,12 @@
       "frame": "frames/sec-07.jpg",
       "vo": "",
       "ost": "Yes, that's Masonry",
+      "super": "Same lockup.",
       "visual": "Capsule pile macro: dozens of Ritual capsules filling the frame, each catching light.",
-      "masonry": "Prompt 'capsule pile macro filling frame, each catching light.' Generate; tactile and satisfying.",
+      "masonry": "Prompt 'capsule pile macro filling frame, each catching light.'",
+      "edit": "Capsule pile macro, fast push.",
+      "transition": "Hard cut.",
+      "sfx": "Satisfying 'pile' rattle and pop.",
       "mirrors": "Inspiration sec 7: 'Yes, that's AI' on the capsule pile macro."
     },
     {
@@ -64,8 +88,12 @@
       "frame": "frames/sec-08.jpg",
       "vo": "",
       "ost": "Yes, that's Masonry",
+      "super": "Same lockup.",
       "visual": "Tweezer holding a single capsule over a plain background: precise, minimal, catalog-quality.",
-      "masonry": "Prompt 'tweezer holding one capsule over plain seamless.' Generate the catalog-quality product shot.",
+      "masonry": "Prompt 'tweezer holding one capsule over plain seamless.'",
+      "edit": "Tweezer shot, quick snap-zoom.",
+      "transition": "Whip cut.",
+      "sfx": "Pop; a tiny click.",
       "mirrors": "Inspiration sec 8: 'Yes, that's AI' on the product tweezer shot."
     },
     {
@@ -73,10 +101,14 @@
       "frame": "frames/sec-09.jpg",
       "vo": "",
       "ost": "Yes, that's Masonry",
+      "super": "Same lockup, final hold; add a small Ritual plus Masonry tag.",
       "visual": "Final frame: Ritual bottle and branded product card on a warm cream background. Full brand system, no shoot.",
-      "masonry": "Prompt 'Ritual bottle plus branded product card, warm cream background.' Each shot above is one Masonry generation: cut them fast on the beat for the satisfying run.",
+      "masonry": "Prompt 'Ritual bottle plus branded product card, warm cream background.' Each shot above is one Masonry generation; cut them fast on the beat.",
+      "edit": "Bottle and card hero, settle. Optional quick logo.",
+      "transition": "Hard cut, hold on the last beat.",
+      "sfx": "Final pop and a button-up sting; the beat resolves.",
       "mirrors": "Inspiration sec 9: 'Yes, that's AI' on the final branded bottle and card."
     }
   ],
-  "notes": "Editor workflow: (1) Load Ritual's products (Essential capsule, bottle, packaging) into the Masonry product library and set the minimalist brand palette. (2) Generate each beat with its 'Make in Masonry' prompt: these are all fast single-product generations, so batch them. (3) Assemble in your editor to the trending audio, cut hard on the beat, lay the repeating 'Yes, that's Masonry' text, audio-only with no voiceover. Ritual is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
+  "notes": "Editor workflow: (1) Load Ritual's products (Essential capsule, bottle, packaging) into the Masonry product library and set the minimalist brand palette. (2) Generate each beat with its 'Make in Masonry' prompt: these are fast single-product generations, so batch them. (3) Edit per beat following the Super style, Edit / Motion, Transition and SFX direction; keep the 'Yes, that's Masonry' lockup in a fixed position, cut hard on the beat, audio-only with no voiceover. Ritual is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
 }

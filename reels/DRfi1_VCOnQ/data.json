@@ -1,8 +1,8 @@
 {
   "title": "My Product Is Too Complex for AI. Sure.",
-  "meta": "Vertical 9:16 reel, ~20s. Featured brand: Saie. Inspired by mobileeditingclub (DRfi1_VCOnQ). Build-it-in-Masonry walkthrough.",
-  "concept": "A build-it-in-Masonry objection-buster for Saie. The finished reel is a before-and-after run, but every frame is generated in Masonry following the 'Make in Masonry' step under each beat. It opens on a relatable Saie marketer muttering 'my product is way too complicated for AI,' then Masonry answers her one product at a time: the product, then the result. Glowy Super Gel, then a sun-drenched editorial. Sunvisor SPF, then a desert campaign. Dew Blush, then a cheek-flush close-up. Any product becomes a campaign asset in Masonry.",
-  "audio": "Calm, clean lo-fi track with a satisfying pace. Audio-only: no voiceover. The 'the product' and 'the result' text cards carry the structure.",
+  "meta": "Vertical 9:16 reel, ~20s. Featured brand: Saie. Inspired by mobileeditingclub (DRfi1_VCOnQ). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A build-it-in-Masonry objection-buster for Saie. Every frame is generated in Masonry following the 'Make in Masonry' step, then cut per the Edit / Transition / SFX direction. It opens on a relatable Saie marketer muttering 'my product is way too complicated for AI,' then Masonry answers her one product at a time: the product, then the result. Glowy Super Gel, then a sun-drenched editorial. Sunvisor SPF, then a desert campaign. Dew Blush, then a cheek-flush close-up. Any product becomes a campaign asset in Masonry.",
+  "audio": "Calm, clean lo-fi track with a satisfying pace. Audio-only: no voiceover. The 'the product' and 'the result' lockups stay in a fixed position; soft click marks each product, warm swell on each result.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
     {
@@ -10,8 +10,12 @@
       "frame": "frames/sec-00.jpg",
       "vo": "",
       "ost": "my product is way too complicated for AI",
-      "visual": "Three frames: a Saie marketer scrolling on her phone, skeptical, soft pink shirt, bright interior. Text builds over the three cuts.",
-      "masonry": "Generate the skeptic: prompt 'brand marketer scrolling phone, skeptical, soft pink shirt, bright interior.' Generate the three-frame sequence and lay the 'too complicated for AI' line across them.",
+      "super": "Quote-style super, casual, builds across the 3 frames.",
+      "visual": "Three frames: a Saie marketer scrolling on her phone, skeptical, soft pink shirt, bright interior.",
+      "masonry": "Generate the skeptic: prompt 'brand marketer scrolling phone, skeptical, soft pink shirt, bright interior.' Generate the three-frame sequence.",
+      "edit": "Three relaxed cuts of the skeptic on her phone, gentle handheld.",
+      "transition": "Soft cuts on the lo-fi beat.",
+      "sfx": "Mellow lo-fi groove; a phone-scroll tick.",
       "mirrors": "Inspiration sec 0-2: 'my product is way too complicated for AI' across three portrait frames."
     },
     {
@@ -19,8 +23,12 @@
       "frame": "frames/sec-03.jpg",
       "vo": "",
       "ost": "the product",
+      "super": "Small caps, lower-left, clean fade. Keep this lockup for every 'product' beat.",
       "visual": "Clean studio shot: Saie Glowy Super Gel in a frosted minimalist bottle, neutral background, perfect light.",
-      "masonry": "Upload Saie's Glowy Super Gel to the Masonry product library. Prompt 'clean studio product shot, frosted bottle, neutral background.' Add 'the product.'",
+      "masonry": "Upload Saie's Glowy Super Gel to the Masonry product library. Prompt 'clean studio product shot, frosted bottle, neutral background.'",
+      "edit": "Static product shot, tiny push-in.",
+      "transition": "Clean cut.",
+      "sfx": "Soft click marking the product.",
       "mirrors": "Inspiration sec 3: 'the product' clean serum bottle on white."
     },
     {
@@ -28,8 +36,12 @@
       "frame": "frames/sec-04.jpg",
       "vo": "",
       "ost": "the result",
+      "super": "Same lockup style as 'the product', fade. Keep for every 'result' beat.",
       "visual": "Three-cut editorial: warm amber tones, model with glass skin holding the serum, a luminous-complexion portrait, then a serum-formula macro.",
-      "masonry": "Three generations from that same product: 'amber editorial, glass skin holding serum,' 'luminous complexion portrait,' 'serum-formula macro in warm light.' Batch as a matching 'the result' trio.",
+      "masonry": "Three generations from that product: 'amber editorial, glass skin holding serum,' 'luminous complexion portrait,' 'serum-formula macro in warm light.' Batch as a matching trio.",
+      "edit": "Three warm editorial cuts, smooth slow push-ins.",
+      "transition": "Gentle cuts; a soft cross-dissolve between the result frames.",
+      "sfx": "Warm pad swell; a subtle whoosh.",
       "mirrors": "Inspiration sec 4-6: 'the result' across three editorial beauty cuts."
     },
     {
@@ -37,8 +49,12 @@
       "frame": "frames/sec-07.jpg",
       "vo": "",
       "ost": "the product",
+      "super": "Product lockup.",
       "visual": "Saie Sunvisor SPF stick, simple and elegant, product shot on a soft neutral.",
-      "masonry": "Upload Saie's Sunvisor SPF. Prompt 'elegant product shot, soft neutral background.' Add 'the product.'",
+      "masonry": "Upload Saie's Sunvisor SPF. Prompt 'elegant product shot, soft neutral background.'",
+      "edit": "Static product, micro push.",
+      "transition": "Clean cut.",
+      "sfx": "Soft click.",
       "mirrors": "Inspiration sec 7: 'the product' coat garment cut."
     },
     {
@@ -46,8 +62,12 @@
       "frame": "frames/sec-08.jpg",
       "vo": "",
       "ost": "the result",
+      "super": "Result lockup.",
       "visual": "Two-cut portraits: model with a dewy sun-kissed glow in outdoor light, then a composed close-up with warm diffused tones.",
-      "masonry": "Two result generations: 'dewy sun-kissed portrait, outdoor editorial light,' then 'composed close-up, warm diffusion.' Same brand face across both via seed-lock.",
+      "masonry": "Two result generations: 'dewy sun-kissed portrait, outdoor editorial light,' then 'composed close-up, warm diffusion.' Same brand face via seed-lock.",
+      "edit": "Two portrait cuts, slow push-ins, sun-kissed grade.",
+      "transition": "Soft cross-dissolve.",
+      "sfx": "Warm swell.",
       "mirrors": "Inspiration sec 8-9: 'the result' across two model portraits."
     },
     {
@@ -55,8 +75,12 @@
       "frame": "frames/sec-10.jpg",
       "vo": "",
       "ost": "the product",
+      "super": "Product lockup.",
       "visual": "Saie Dew Blush in a soft compact, clean against a cream background.",
-      "masonry": "Upload Saie Dew Blush. Prompt 'soft compact, cream background.' Add 'the product.'",
+      "masonry": "Upload Saie Dew Blush. Prompt 'soft compact, cream background.'",
+      "edit": "Static blush compact.",
+      "transition": "Clean cut.",
+      "sfx": "Soft click.",
       "mirrors": "Inspiration sec 10: 'the product' serum bottle close-up."
     },
     {
@@ -64,8 +88,12 @@
       "frame": "frames/sec-11.jpg",
       "vo": "",
       "ost": "the result",
+      "super": "Result lockup.",
       "visual": "Two cuts: hands applying the blush in a natural movement, then a color-formula drop catching warm backlight.",
-      "masonry": "Two result generations: 'hands applying blush, natural movement,' then 'color-formula drop, warm backlight macro.' Textural and real.",
+      "masonry": "Two result generations: 'hands applying blush, natural movement,' then 'color-formula drop, warm backlight macro.'",
+      "edit": "Application motion then drop macro, smooth.",
+      "transition": "Soft cut.",
+      "sfx": "A gentle texture sound on the drop.",
       "mirrors": "Inspiration sec 11-12: 'the result' application and drop macro."
     },
     {
@@ -73,8 +101,12 @@
       "frame": "frames/sec-13.jpg",
       "vo": "",
       "ost": "the product",
+      "super": "Product lockup.",
       "visual": "Saie Mascara 001 in a clean cylindrical tube, placed simply on a soft surface.",
-      "masonry": "Upload Saie Mascara 001. Prompt 'clean cylindrical tube, soft surface.' Add 'the product.'",
+      "masonry": "Upload Saie Mascara 001. Prompt 'clean cylindrical tube, soft surface.'",
+      "edit": "Static mascara tube.",
+      "transition": "Clean cut.",
+      "sfx": "Soft click.",
       "mirrors": "Inspiration sec 13: 'the product' furniture/object cut."
     },
     {
@@ -82,8 +114,12 @@
       "frame": "frames/sec-14.jpg",
       "vo": "",
       "ost": "the result",
+      "super": "Result lockup.",
       "visual": "Three editorial cuts: a hotel-suite styled flat-lay with the mascara, then two desert-light portraits with full lashes and clean skin.",
-      "masonry": "Result run: 'hotel-suite styled flat-lay with the mascara,' then two 'desert-light portraits, full lashes, clean skin.' One product to a full campaign, all generated.",
+      "masonry": "Result run: 'hotel-suite styled flat-lay with the mascara,' then two 'desert-light portraits, full lashes, clean skin.' One product to a campaign, all generated.",
+      "edit": "Hotel flat-lay then two desert portraits, slow pushes.",
+      "transition": "Cross-dissolves between the result frames.",
+      "sfx": "Fuller warm swell; airy desert ambience.",
       "mirrors": "Inspiration sec 14-16: 'the result' hotel and desert editorial sequence."
     },
     {
@@ -91,10 +127,14 @@
       "frame": "frames/sec-17.jpg",
       "vo": "",
       "ost": "still think it's too complicated for Masonry?",
-      "visual": "Three closing cuts: Saie Tinted Moisturizer product shot, then two desert editorial model shots, warm and cinematic. Rhetorical close.",
-      "masonry": "Close on a Saie Tinted Moisturizer product generation, then two desert-editorial model generations, with 'still think it's too complicated for Masonry?' over them. No answer needed.",
+      "super": "Rhetorical close line, centered, gentle fade; add a small Saie plus Masonry tag.",
+      "visual": "Three closing cuts: Saie Tinted Moisturizer product shot, then two desert editorial model shots, warm and cinematic.",
+      "masonry": "Close on a Saie Tinted Moisturizer product generation, then two desert-editorial model generations, with the rhetorical line over them.",
+      "edit": "Product shot then two desert editorial holds; settle on the brand tag.",
+      "transition": "Soft cut to the brand tag; hold.",
+      "sfx": "Lo-fi resolves; a soft button-up.",
       "mirrors": "Inspiration sec 17-19: 'the product' bodysuit and 'the result' desert editorial close."
     }
   ],
-  "notes": "Editor workflow: (1) Load Saie's products (Glowy Super Gel, Sunvisor SPF, Dew Blush, Mascara 001, Tinted Moisturizer) into the Masonry product library and set the clean-beauty brand palette. (2) For each product run the 'Make in Masonry' prompt for the product shot, then batch the matching 'result' generations; use seed-lock to keep the brand face consistent. (3) Assemble in your editor to the lo-fi track, alternate the 'product/result' text cards, audio-only with no voiceover. Saie is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
+  "notes": "Editor workflow: (1) Load Saie's products (Glowy Super Gel, Sunvisor SPF, Dew Blush, Mascara 001, Tinted Moisturizer) into the Masonry product library and set the clean-beauty palette. (2) For each product run the 'Make in Masonry' prompt for the product shot, then batch the matching result generations; use seed-lock to keep the brand face consistent. (3) Edit per beat following the Super style, Edit / Motion, Transition and SFX direction; keep the 'product' and 'result' lockups in fixed positions, audio-only with no voiceover. Saie is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
 }

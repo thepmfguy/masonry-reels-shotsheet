@@ -1,8 +1,8 @@
 {
   "title": "They Said It Looks Fake. They Were Wrong.",
-  "meta": "Vertical 9:16 reel, ~19s. Featured brand: Topicals. Inspired by zeroshootsai (DYiMv-Mzfrj). Build-it-in-Masonry walkthrough.",
-  "concept": "A build-it-in-Masonry cinematic proof reel for Topicals. The finished reel looks like a premium film production, but every frame is generated in Masonry following the 'Make in Masonry' step under each beat. The opener looks like a six-figure shoot, then the turn: people say Masonry content looks too polished. Fair point. But look at that skin, that glow, that texture. What if every frame you just saw was Masonry? It closes on a long, confident brand card: Topicals x Masonry, built to perform.",
-  "audio": "Deep, cinematic ambient score. Audio-only: no voiceover. Each word of on-screen text appears at a deliberate pace, letting the visual quality speak.",
+  "meta": "Vertical 9:16 reel, ~19s. Featured brand: Topicals. Inspired by zeroshootsai (DYiMv-Mzfrj). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A build-it-in-Masonry cinematic proof reel for Topicals. Every frame is generated in Masonry following the 'Make in Masonry' step, then cut per the Edit / Transition / SFX direction. The opener looks like a six-figure shoot, then the turn: people say Masonry content looks too polished. Fair point. But look at that skin, that glow, that texture. What if every frame you just saw was Masonry? It closes on a long, confident brand card: Topicals x Masonry, built to perform.",
+  "audio": "Deep cinematic ambient score with a long riser into the 11s reveal. Audio-only: no voiceover. Slow, deliberate supers; big bass drop on 'was Masonry'.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
     {
@@ -10,8 +10,12 @@
       "frame": "frames/sec-00.jpg",
       "vo": "",
       "ost": "",
-      "visual": "Wide atmospheric shot: model at a studio worktable, moody directional light, applying a rich textured product. No text.",
-      "masonry": "Upload Topicals' Faded Serum to the Masonry product library. Prompt 'cinematic beauty editorial, moody directional light, model applying rich textured product at a studio table, 9:16.' Generate the atmospheric opener, hold with no text.",
+      "super": "No super, pure cinematic open.",
+      "visual": "Wide atmospheric shot: model at a studio worktable, moody directional light, applying a rich textured product.",
+      "masonry": "Upload Topicals' Faded Serum to the Masonry product library. Prompt 'cinematic beauty editorial, moody directional light, model applying rich textured product at a studio table, 9:16.' Generate the atmospheric opener.",
+      "edit": "Very slow push-in, moody film grade, shallow depth of field.",
+      "transition": "Slow cut on a deep beat.",
+      "sfx": "Deep cinematic drone; low sub.",
       "mirrors": "Inspiration sec 0: artist at clay studio, no text, pure cinematic hook."
     },
     {
@@ -19,8 +23,12 @@
       "frame": "frames/sec-01.jpg",
       "vo": "",
       "ost": "they say",
-      "visual": "Same studio, model close-up, calm and focused. Three-word opener builds tension.",
-      "masonry": "Generate a tighter portrait in the same scene; use seed-lock so the model and the cinematic grade stay identical. Add 'they say.'",
+      "super": "Small, lower-third, slow fade.",
+      "visual": "Same studio, model close-up, calm and focused.",
+      "masonry": "Generate a tighter portrait in the same scene; use seed-lock so the model and grade stay identical.",
+      "edit": "Hold the portrait, minimal motion.",
+      "transition": "Slow hard cut.",
+      "sfx": "Drone continues; faint vinyl crackle.",
       "mirrors": "Inspiration sec 1: 'they say' on the artist portrait."
     },
     {
@@ -28,8 +36,12 @@
       "frame": "frames/sec-02.jpg",
       "vo": "",
       "ost": "Masonry visuals",
-      "visual": "Hands working with the product, dramatic shadow and light. Statement completes.",
-      "masonry": "Prompt 'hands working product, dramatic shadow and light.' Same lighting via seed-lock. Add 'Masonry visuals' to complete the line.",
+      "super": "Completes the line, slow fade.",
+      "visual": "Hands working with the product, dramatic shadow and light.",
+      "masonry": "Prompt 'hands working product, dramatic shadow and light.' Same lighting via seed-lock.",
+      "edit": "Cut to hands and product, slow drift.",
+      "transition": "Slow cut.",
+      "sfx": "Low tonal swell.",
       "mirrors": "Inspiration sec 2: 'AI ads' completing the opening phrase."
     },
     {
@@ -37,8 +49,12 @@
       "frame": "frames/sec-03.jpg",
       "vo": "",
       "ost": "look too perfect. fair point.",
+      "super": "Two-part line across 2 cuts, slow fade.",
       "visual": "Two cuts holding the admission. The Topicals imagery is undeniably elevated.",
-      "masonry": "Prompt 'rich product texture on skin, dramatic shadow.' Generate the two admission beats; the elevated quality is the whole point of the concession.",
+      "masonry": "Prompt 'rich product texture on skin, dramatic shadow.' Generate the two admission beats; elevated quality is the point.",
+      "edit": "Two slow holds with micro push-ins.",
+      "transition": "Slow cuts on the beat.",
+      "sfx": "Sub pulse; tension building.",
       "mirrors": "Inspiration sec 3-4: 'I can't disagree' held across two frames."
     },
     {
@@ -46,8 +62,12 @@
       "frame": "frames/sec-05.jpg",
       "vo": "",
       "ost": "especially",
+      "super": "Single word, slow fade.",
       "visual": "Close-up partial face: eye, lash, skin catching warm studio light.",
-      "masonry": "Macro generation: 'eye, lash, warm studio light.' Add 'especially.'",
+      "masonry": "Macro generation: 'eye, lash, warm studio light.'",
+      "edit": "Macro eye and lash, slow drift.",
+      "transition": "Hard cut.",
+      "sfx": "Quiet riser begins.",
       "mirrors": "Inspiration sec 5: 'especially' building to the proof sequence."
     },
     {
@@ -55,8 +75,12 @@
       "frame": "frames/sec-06.jpg",
       "vo": "",
       "ost": "that glow",
+      "super": "Fade.",
       "visual": "Macro lips, dewy and luminous. The product sheen is unmistakably real.",
-      "masonry": "Macro generation: 'dewy lips, luminous product sheen.' Masonry's specular realism sells it. Add 'that glow.'",
+      "masonry": "Macro generation: 'dewy lips, luminous product sheen.' Masonry's specular realism sells it.",
+      "edit": "Macro lips, light catching the sheen.",
+      "transition": "Hard cut.",
+      "sfx": "Soft shimmer accent.",
       "mirrors": "Inspiration sec 6: 'look like' on the lips macro."
     },
     {
@@ -64,8 +88,12 @@
       "frame": "frames/sec-07.jpg",
       "vo": "",
       "ost": "that texture",
+      "super": "Fade.",
       "visual": "Extreme close-up: skin surface, visible pores, formula absorbing in real time.",
-      "masonry": "Extreme macro generation: 'visible pores, formula absorbing.' This is the proof beat, pick the most lifelike render. Add 'that texture.'",
+      "masonry": "Extreme macro generation: 'visible pores, formula absorbing.' This is the proof beat, pick the most lifelike render.",
+      "edit": "Extreme skin macro, slow.",
+      "transition": "Hard cut.",
+      "sfx": "Riser continues; intimate breath.",
       "mirrors": "Inspiration sec 7: 'made of wax' flipped into proof on the extreme close-up."
     },
     {
@@ -73,8 +101,12 @@
       "frame": "frames/sec-08.jpg",
       "vo": "",
       "ost": "look.",
-      "visual": "Wide studio shot, full composition. Single-word command to look again.",
-      "masonry": "Wide studio generation, full composition. Add 'look.'",
+      "super": "Bold, snaps in.",
+      "visual": "Wide studio shot, full composition. Command to look again.",
+      "masonry": "Wide studio generation, full composition.",
+      "edit": "Wide studio, full composition.",
+      "transition": "Hard cut.",
+      "sfx": "Tonal hit on the period.",
       "mirrors": "Inspiration sec 8: 'look' wide shot before the pivot."
     },
     {
@@ -82,8 +114,12 @@
       "frame": "frames/sec-09.jpg",
       "vo": "",
       "ost": "but what if I told you",
-      "visual": "Model shifts posture, direct energy building. The pivot beat.",
-      "masonry": "Prompt 'model shifts posture, direct energy.' The pivot. Add 'but what if I told you.'",
+      "super": "Slow fade, the pivot.",
+      "visual": "Model shifts posture, direct energy building.",
+      "masonry": "Prompt 'model shifts posture, direct energy.' The pivot.",
+      "edit": "Posture shift, building energy.",
+      "transition": "Slow build, riser swelling.",
+      "sfx": "Riser peaks toward the reveal.",
       "mirrors": "Inspiration sec 9: 'but what if' setup for the reveal."
     },
     {
@@ -91,8 +127,12 @@
       "frame": "frames/sec-10.jpg",
       "vo": "",
       "ost": "every frame",
+      "super": "Snaps in.",
       "visual": "Dynamic action beat: model in motion, product in hand.",
-      "masonry": "Action generation: 'model in motion, product in hand.' Add 'every frame.'",
+      "masonry": "Action generation: 'model in motion, product in hand.'",
+      "edit": "Dynamic action, product in motion.",
+      "transition": "Hard cut.",
+      "sfx": "Impact stab.",
       "mirrors": "Inspiration sec 10: 'tell' on the sculptor mid-action."
     },
     {
@@ -100,8 +140,12 @@
       "frame": "frames/sec-11.jpg",
       "vo": "",
       "ost": "was Masonry.",
-      "visual": "Final wide studio shot. Reveal lands: everything in this reel was generated by Masonry.",
-      "masonry": "Final wide studio generation. Add 'was Masonry.' Optional 0.3s Generate-button screen-record under the text to seal the reveal.",
+      "super": "Bold, scale-in, accent color.",
+      "visual": "Final wide studio shot. The reveal: everything was generated by Masonry.",
+      "masonry": "Final wide studio generation. Optional 0.3s Generate-button screen-record under the text to seal the reveal.",
+      "edit": "Final wide studio; optional Generate flash.",
+      "transition": "Light flare on the word 'Masonry'.",
+      "sfx": "Big bass drop on 'Masonry'; the riser resolves.",
       "mirrors": "Inspiration sec 11: 'it's AI' reveal on the wide sculptor shot."
     },
     {
@@ -109,10 +153,14 @@
       "frame": "frames/sec-12.jpg",
       "vo": "",
       "ost": "Topicals x Masonry. Built to perform.",
-      "visual": "Seven-second brand card: Topicals logo and Masonry wordmark on a dark textured background. Clean, confident, no apology for the quality.",
+      "super": "7s brand card: Topicals plus Masonry wordmark on a dark textured background, slow logo reveal.",
+      "visual": "Seven-second brand card. Clean, confident, no apology for the quality.",
       "masonry": "Hold a 7s brand card built in your editor: Topicals plus Masonry wordmark on the dark studio-textured background. Optional slow Masonry-logo reveal.",
+      "edit": "Static hold on the end card with a faint slow zoom.",
+      "transition": "Hold to the music outro.",
+      "sfx": "Deep resolving chord and a logo sting; let it ring.",
       "mirrors": "Inspiration sec 12-18: 'A Film By Zero Shoots' brand card held ~7 seconds."
     }
   ],
-  "notes": "Editor workflow: (1) Load Topicals products (Faded Serum, Like Butter) into the Masonry product library and set the bold brand palette. (2) Generate each beat with its 'Make in Masonry' prompt under a single cinematic grade; use seed-lock so the model and lighting stay consistent across the proof macros. (3) Assemble in your editor to the score, drop on-screen text per beat, audio-only with no voiceover. Topicals is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
+  "notes": "Editor workflow: (1) Load Topicals products (Faded Serum, Like Butter) into the Masonry product library and set the bold brand palette. (2) Generate each beat with its 'Make in Masonry' prompt under a single cinematic grade; use seed-lock so the model and lighting stay consistent across the proof macros. (3) Edit per beat following the Super style, Edit / Motion, Transition and SFX direction; build the long riser into the 11s reveal, audio-only with no voiceover. Topicals is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy."
 }
