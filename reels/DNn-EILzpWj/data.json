@@ -1,14 +1,138 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~27s. Inspiration: https://www.instagram.com/reel/DNn-EILzpWj/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "The Window Small Brands Have Right Now",
+  "meta": "Vertical 9:16 reel, ~27s. Featured brand: Everlane. Inspired by mobileeditingclub (DNn-EILzpWj).",
+  "concept": "A slow-burn opportunity reel for Everlane: what if a small D2C brand could create images like these for their own products? Yes, with Masonry. The reel names the real struggle of a small brand: perfect quality, constant presence, juggling products, staging, thousands of content pieces. Then it pivots to the good news: that struggle is the window. Before the big players catch up. Masonry is what you use to scale your brand identity right now.",
+  "audio": "Atmospheric, cinematic instrumental, builds steadily. No voiceover. Single words and short phrases appear cut-by-cut, editorial pace.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DNn-EILzpWj/",
-  "duration_sec": 27,
-  "frame_count": 27,
-  "caption": "AI IS USELESS..\n\nWell, yes it is, if you’re using it to generate random images of flying cars and tigers.\n But smart founders know how to use it to scale their brand by combining their creativity with AI.\n\nChances are, you’ve seen those super unrealistic, cheap-looking images of people cloning themselves…\n\nIf you’re a brand owner or creative, that’s definitely not what you want\n but you already know that.\n\nYou’ve got the vision for a project. You’ve got the ideas. You’ve got the creativity.\n\nBut unfortunately, you don’t have the budget to spend six figures on creatives\n (with an average lifespan of just 3–4 days)\n\nOur clients faced the exact same struggle.\n The website was perfect, the products were amazing, but they always struggled with one thing: content.\n\nThat’s exactly where Branded AI changes the game for small brands.\n\nNow, you can create consistent content across all channels\n (without the million-dollar budgets big brands have)\n\nThat’s the window of opportunity small brands have today\n before the big players catch up!\n\nP.S. Comment “editz” and grab our step-by-step guide on how to create visuals like these with AI!\n\nYes, with your own products and brand!\n\n👉🏼 We do not encourage the creation of misleading products. Our guide shows you exactly how to use your own products to create visuals like these. \nFollow @mobileeditingclub for editing tips, AI tips, trends, and tutorials.\n\n#ai #aiediting #branding #contenttips #aigenerated #prompts",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {
+      "time": "0.0 to 1.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "what",
+      "visual": "Opening portrait: model in neutral tones surrounded by wheat field, soft editorial light. Single word. Who is this for?",
+      "mirrors": "Inspiration sec 0: 'what' single-word opener over a first editorial portrait."
+    },
+    {
+      "time": "1.0 to 2.0s",
+      "frame": "frames/sec-01.jpg",
+      "vo": "",
+      "ost": "create images",
+      "visual": "Portrait tightens, different model in structured Everlane linen. The phrase begins to form.",
+      "mirrors": "Inspiration sec 1: 'create images' on a second editorial portrait."
+    },
+    {
+      "time": "2.0 to 3.0s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "",
+      "ost": "like these",
+      "visual": "Wide shot: model in an Everlane oversized coat walking in a clean urban setting. Full campaign quality.",
+      "mirrors": "Inspiration sec 2: 'like these' on a wide fashion coat shot."
+    },
+    {
+      "time": "3.0 to 4.0s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "",
+      "ost": "for your products",
+      "visual": "Four-model editorial group shot, all in coordinated Everlane basics. The aspiration: this for your entire line.",
+      "mirrors": "Inspiration sec 3: 'for your products' on a multi-model group editorial shot."
+    },
+    {
+      "time": "4.0 to 5.0s",
+      "frame": "frames/sec-04.jpg",
+      "vo": "",
+      "ost": "yes,",
+      "visual": "Single word. Wide dramatic group shot, models looking away from camera in editorial staggered positions.",
+      "mirrors": "Inspiration sec 4: 'yes,' on the wide dramatic editorial group cut."
+    },
+    {
+      "time": "5.0 to 6.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "",
+      "ost": "yes, with Masonry",
+      "visual": "Same energy: tight on faces, confident. The confirmation lands.",
+      "mirrors": "Inspiration sec 5: 'yes, with AI' confirmation cut."
+    },
+    {
+      "time": "6.0 to 7.0s",
+      "frame": "frames/sec-06.jpg",
+      "vo": "",
+      "ost": "if you're a small brand",
+      "visual": "Cut to a solo model, seated, more intimate. The reel shifts from aspiration to empathy.",
+      "mirrors": "Inspiration sec 6: 'if you're a small brand' intimate portrait shift."
+    },
+    {
+      "time": "7.0 to 8.0s",
+      "frame": "frames/sec-07.jpg",
+      "vo": "",
+      "ost": "you know the struggle",
+      "visual": "Close-up of fabric texture: Everlane Japanese cotton, close enough to feel it. The struggle is real, the product is real.",
+      "mirrors": "Inspiration sec 7: 'you know the struggle' tactile fabric close-up."
+    },
+    {
+      "time": "8.0 to 9.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "Perfect quality.",
+      "visual": "Editorial model in a classic Everlane trench, tack-sharp outdoor light. The standard is high.",
+      "mirrors": "Inspiration sec 8: 'Perfect Quality.' on the editorial coat portrait."
+    },
+    {
+      "time": "9.0 to 10.0s",
+      "frame": "frames/sec-09.jpg",
+      "vo": "",
+      "ost": "while showing up",
+      "visual": "Fashion jacket close-up in warm brown tones, confident model posture. Showing up every day.",
+      "mirrors": "Inspiration sec 9: 'while showing up' jacket close-up."
+    },
+    {
+      "time": "10.0 to 11.0s",
+      "frame": "frames/sec-10.jpg",
+      "vo": "",
+      "ost": "and juggling",
+      "visual": "Wide product editorial: Everlane product draped in a clean home setting. Everything at once.",
+      "mirrors": "Inspiration sec 10: 'and juggling' product-in-context wide shot."
+    },
+    {
+      "time": "11.0 to 14.0s",
+      "frame": "frames/sec-11.jpg",
+      "vo": "",
+      "ost": "products. staging. thousands of content pieces.",
+      "visual": "Three cuts: Masonry product management UI showing the Everlane catalog (sec 11), staging screen with product selected (sec 12), dark jacket editorial with 'thousands' text (sec 13). The overwhelm visualized.",
+      "mirrors": "Inspiration sec 11-13: app UI showing products, staging screen, 'thousands' editorial cut."
+    },
+    {
+      "time": "14.0 to 15.0s",
+      "frame": "frames/sec-14.jpg",
+      "vo": "",
+      "ost": "content.",
+      "visual": "Social grid UI showing Everlane content tiles: consistent, branded, everywhere at once.",
+      "mirrors": "Inspiration sec 14-15: 'content' social grid content UI."
+    },
+    {
+      "time": "15.0 to 18.0s",
+      "frame": "frames/sec-16.jpg",
+      "vo": "",
+      "ost": "here's the good news: it is for you.",
+      "visual": "Three cuts: grid scrolling (sec 15), then a stark black typography card 'here's the good' (sec 16), then a wide editorial model in a structured coat looking into frame with 'is' and 'for' building (sec 17-18). The pivot.",
+      "mirrors": "Inspiration sec 16-19: 'the / here's the good / is / for' pivot sequence."
+    },
+    {
+      "time": "18.0 to 22.0s",
+      "frame": "frames/sec-19.jpg",
+      "vo": "",
+      "ost": "this is the window. before the big players catch up.",
+      "visual": "Four ethereal, dreamy cuts (sec 18-21): a minimal 'this' typography frame, a misty fashion editorial, a close-up face through soft light, a waiting portrait. The urgency is quiet but real.",
+      "mirrors": "Inspiration sec 20-22: 'this / this is the window / waiting' ethereal editorial sequence."
+    },
+    {
+      "time": "22.0 to 27.0s",
+      "frame": "frames/sec-22.jpg",
+      "vo": "",
+      "ost": "use Masonry. no question.",
+      "visual": "Final five cuts: dramatic wide fashion shot (sec 22), Everlane product card on brand background (sec 23), EDITZ-style Masonry wordmark title card (sec 24), final model walking away in a composed hero outfit (sec 25-26). Clean, confident close.",
+      "mirrors": "Inspiration sec 22-26: 'use / with / question / you' product card, brand title, and walking model close."
+    }
+  ],
+  "notes": "Everlane is a stand-in demo brand: radical-transparency D2C basics, minimalist aesthetic, a strong fit for the 'small brand struggling with content' narrative. All imagery is to be generated and assembled in Masonry. No media has been generated yet: generation is gated on separate approval per project policy."
 }

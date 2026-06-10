@@ -1,14 +1,74 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~10s. Inspiration: https://www.instagram.com/reel/DSLr0gzCHof/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "POV: You Just Unlocked Ritual x Masonry",
+  "meta": "Vertical 9:16 reel, ~10s. Featured brand: Ritual. Inspired by mobileeditingclub (DSLr0gzCHof).",
+  "concept": "A fast, satisfying POV reel for Ritual vitamins: you just figured out how to generate your product content in Masonry. The hook is a relatable lifestyle portrait of a woman holding a Ritual capsule up to her eye, grinning. Then the screen floods with 'Yes, that's Masonry': a floating capsule on a clean gray background, a capsule pile macro, a tweezer product shot, a branded card mockup. Every shot looks like a six-figure studio day. All Masonry.",
+  "audio": "Upbeat, punchy trending audio. No voiceover. On-screen text is the full narrative.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DSLr0gzCHof/",
-  "duration_sec": 10,
-  "frame_count": 10,
-  "caption": "↓ HERE’S HOW 🪩\n\nGenerating content for your brand has never been more accessible.\n\nThe thing is, it’s not just about prompts.\nIt’s also not just about which AI tool you use.\n\nIt’s about creating a system that generates consistent, branded imagery on demand.\n\nAs much as you need, whenever you need it.\n\n→ For your campaigns, your ads, and your socials 🪩\n\nIf you don’t have a strategy that guarantees consistency in your products and visual style across all your content, you won’t get professional, on-brand results.\n\n➡️ We’re explaining the exact step-by-step strategy to generate consistent images and videos with YOUR products with AI in 180+ pages. Comment “editz” and grab the guide!\n\nP.S. And if you want to learn our full editing workflow to generate and edit high quality AI videos, for your ads and campaigns comment “Course“ and we’ll send you the link! 🔗\n\nFollow @mobileeditingclub for more editing and AI tips and news 🪩\n\n#ai #aiimage #aigenerated #aicontent #brandedai",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {
+      "time": "0.0 to 2.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "POV: You finally learned how to generate your brand content with Masonry",
+      "visual": "Two-frame sequence: woman holding a Ritual Omega-3 capsule up playfully, then tilting it toward the camera. Bright, relatable, lifestyle energy. Text builds across both frames.",
+      "mirrors": "Inspiration sec 0-1: 'POV: You finally learned how to generate content with AI' two-frame lifestyle hook."
+    },
+    {
+      "time": "2.0 to 4.0s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "",
+      "ost": "Yes, that's Masonry",
+      "visual": "Cut to a Ritual Essential capsule floating on a clean light gray background, perfect studio lighting, crisp capsule detail. Two cuts hold the reveal.",
+      "mirrors": "Inspiration sec 2-3: 'Yes, that's AI' on the floating green capsule, two cuts."
+    },
+    {
+      "time": "4.0 to 5.0s",
+      "frame": "frames/sec-04.jpg",
+      "vo": "",
+      "ost": "Yes, that's Masonry",
+      "visual": "Minimalist flat-lay: Ritual packaging and small print card on a neutral background. Editorial and brand-perfect.",
+      "mirrors": "Inspiration sec 4: 'Yes, that's AI' on the packaging and print flat-lay."
+    },
+    {
+      "time": "5.0 to 6.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "",
+      "ost": "Yes, that's Masonry",
+      "visual": "Natural ingredient macro: spirulina or algae texture, rich green, hyperreal close-up mirroring Ritual's ingredient transparency story.",
+      "mirrors": "Inspiration sec 5: 'Yes, that's AI' on the natural ingredient macro."
+    },
+    {
+      "time": "6.0 to 7.0s",
+      "frame": "frames/sec-06.jpg",
+      "vo": "",
+      "ost": "Yes, that's Masonry",
+      "visual": "Model close-up placing a capsule on her tongue, freckled skin, warm natural light. Lifestyle meets editorial.",
+      "mirrors": "Inspiration sec 6: 'Yes, that's AI' on the lifestyle model close-up."
+    },
+    {
+      "time": "7.0 to 8.0s",
+      "frame": "frames/sec-07.jpg",
+      "vo": "",
+      "ost": "Yes, that's Masonry",
+      "visual": "Capsule pile macro: dozens of Ritual capsules filling the frame, each catching the light differently. Tactile and satisfying.",
+      "mirrors": "Inspiration sec 7: 'Yes, that's AI' on the capsule pile macro."
+    },
+    {
+      "time": "8.0 to 9.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "Yes, that's Masonry",
+      "visual": "Tweezer holding a single capsule over a plain background: precise, minimal, catalog-quality product shot.",
+      "mirrors": "Inspiration sec 8: 'Yes, that's AI' on the product tweezer shot."
+    },
+    {
+      "time": "9.0 to 10.0s",
+      "frame": "frames/sec-09.jpg",
+      "vo": "",
+      "ost": "Yes, that's Masonry",
+      "visual": "Final frame: Ritual bottle and branded product card on a warm cream background. Full brand system, no shoot required.",
+      "mirrors": "Inspiration sec 9: 'Yes, that's AI' on the final branded bottle and card mockup."
+    }
+  ],
+  "notes": "Ritual is a stand-in demo brand: D2C vitamins with distinctive minimalist packaging and strong ingredient transparency storytelling. All imagery is to be generated and assembled in Masonry. No media has been generated yet: generation is gated on separate approval per project policy."
 }

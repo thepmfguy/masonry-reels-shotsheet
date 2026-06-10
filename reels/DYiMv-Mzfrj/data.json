@@ -1,14 +1,106 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~19s. Inspiration: https://www.instagram.com/reel/DYiMv-Mzfrj/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "They Said It Looks Fake. They Were Wrong.",
+  "meta": "Vertical 9:16 reel, ~19s. Featured brand: Topicals. Inspired by zeroshootsai (DYiMv-Mzfrj).",
+  "concept": "A cinematic, moody proof reel for Topicals: the opening shots look like a premium film production, a model in dramatic studio light applying a rich formula with texture you can feel. Then the script turns it: people say Masonry content looks too polished, too digital. Fair point. But look closer. Look at that skin. Look at that glow. What if everything you just saw was Masonry? The reel closes on a long, confident brand card: Topicals x Masonry. Built to perform.",
+  "audio": "Deep, cinematic ambient score. No voiceover. Each word of on-screen text appears at a deliberate pace, letting the visual quality speak.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DYiMv-Mzfrj/",
-  "duration_sec": 19,
-  "frame_count": 19,
-  "caption": "Comment \"blueprint\" and I'll send you a copy.\n\nEverything I've learned about AI video production condensed into one blueprint.\n\nFrom automation to customization of prompts, all in one blueprint.\n\nThe result is AI video that's built to perform for brands and products that need content that converts.\n\n#AIVideo #AIAds #ContentCreation #AIMarketing #vídeomarketing",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {
+      "time": "0.0 to 1.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "",
+      "visual": "Wide atmospheric shot: model at a studio worktable, moody directional light, applying a rich textured product. No text. Cinematic hook before any reveal.",
+      "mirrors": "Inspiration sec 0: artist at clay studio, no text, pure cinematic visual hook."
+    },
+    {
+      "time": "1.0 to 2.0s",
+      "frame": "frames/sec-01.jpg",
+      "vo": "",
+      "ost": "they say",
+      "visual": "Same studio, model close-up, calm and focused. Three-word opener builds tension.",
+      "mirrors": "Inspiration sec 1: 'they say' on the artist portrait."
+    },
+    {
+      "time": "2.0 to 3.0s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "",
+      "ost": "Masonry visuals",
+      "visual": "Hands working with the product, dramatic shadow and light. Statement completes: 'they say Masonry visuals'",
+      "mirrors": "Inspiration sec 2: 'AI ads' text completing the opening phrase."
+    },
+    {
+      "time": "3.0 to 5.0s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "",
+      "ost": "look too perfect. fair point.",
+      "visual": "Two cuts holding the admission. The visual quality of the Topicals imagery is undeniably elevated.",
+      "mirrors": "Inspiration sec 3-4: 'I can't disagree' held across two frames."
+    },
+    {
+      "time": "5.0 to 6.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "",
+      "ost": "especially",
+      "visual": "Close-up partial face: eye, lash, skin catching the warm studio light.",
+      "mirrors": "Inspiration sec 5: 'especially' single-word building to the proof sequence."
+    },
+    {
+      "time": "6.0 to 7.0s",
+      "frame": "frames/sec-06.jpg",
+      "vo": "",
+      "ost": "that glow",
+      "visual": "Macro lips, dewy and luminous. The product sheen is unmistakably real.",
+      "mirrors": "Inspiration sec 6: 'look like' on the lips macro shot."
+    },
+    {
+      "time": "7.0 to 8.0s",
+      "frame": "frames/sec-07.jpg",
+      "vo": "",
+      "ost": "that texture",
+      "visual": "Extreme close-up: skin surface, visible pores, the formula absorbing in real time.",
+      "mirrors": "Inspiration sec 7: 'made of wax' on the extreme close-up, flipping the criticism into proof."
+    },
+    {
+      "time": "8.0 to 9.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "look.",
+      "visual": "Wide studio shot of model, full composition visible. Single word command to look again.",
+      "mirrors": "Inspiration sec 8: 'look' wide shot before the pivot."
+    },
+    {
+      "time": "9.0 to 10.0s",
+      "frame": "frames/sec-09.jpg",
+      "vo": "",
+      "ost": "but what if I told you",
+      "visual": "Model shifts posture, direct energy building. The pivot beat.",
+      "mirrors": "Inspiration sec 9: 'but what if' setup for the reveal."
+    },
+    {
+      "time": "10.0 to 11.0s",
+      "frame": "frames/sec-10.jpg",
+      "vo": "",
+      "ost": "every frame",
+      "visual": "Dynamic action beat: model in motion, product in hand.",
+      "mirrors": "Inspiration sec 10: 'tell' on the sculptor mid-action, momentum building."
+    },
+    {
+      "time": "11.0 to 12.0s",
+      "frame": "frames/sec-11.jpg",
+      "vo": "",
+      "ost": "was Masonry.",
+      "visual": "Final wide studio shot. Reveal lands. Everything in this reel was generated by Masonry.",
+      "mirrors": "Inspiration sec 11: 'it's AI' reveal on the wide sculptor shot."
+    },
+    {
+      "time": "12.0 to 19.0s",
+      "frame": "frames/sec-12.jpg",
+      "vo": "",
+      "ost": "Topicals x Masonry. Built to perform.",
+      "visual": "Seven-second brand card holds: Topicals logo and wordmark on a dark, textured background. Clean. Confident. No apology for the quality.",
+      "mirrors": "Inspiration sec 12-18: 'A Film By Zero Shoots' brand card held for ~7 seconds."
+    }
+  ],
+  "notes": "Topicals is a stand-in demo brand: bold skincare with a distinct artistic visual identity, a strong fit for the cinematic proof format. All imagery is to be generated and assembled in Masonry. No media has been generated yet: generation is gated on separate approval per project policy."
 }

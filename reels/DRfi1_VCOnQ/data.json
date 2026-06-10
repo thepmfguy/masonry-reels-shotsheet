@@ -1,14 +1,90 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~20s. Inspiration: https://www.instagram.com/reel/DRfi1_VCOnQ/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "My Product Is Too Complex for AI. Sure.",
+  "meta": "Vertical 9:16 reel, ~20s. Featured brand: Saie. Inspired by mobileeditingclub (DRfi1_VCOnQ).",
+  "concept": "A before-and-after objection-buster for Saie: the reel opens on a relatable Saie brand marketer on her phone, muttering 'my product is way too complicated for AI.' Then Masonry answers her, one product at a time. The product appears: Saie's Glowy Super Gel. Then the result: a model in a sun-drenched editorial, skin luminous. The product: Sunvisor SPF. The result: a desert campaign shot. The product: Dew Blush. The result: a close-up cheek flush that stops any scroll. The sequence proves that any Saie product, no matter how tactile or editorial its brand identity, can become a campaign asset in Masonry.",
+  "audio": "Calm, clean lo-fi track with a satisfying pace. No voiceover. On-screen text 'the product' and 'the result' carry all the weight.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DRfi1_VCOnQ/",
-  "duration_sec": 20,
-  "frame_count": 20,
-  "caption": "↓ THE THING IS… 🪩\n\nWe know what it’s like to feel the constant pressure to create content for your brand and how exhausting it can be to produce something new all the time in a world that gets bored so easily.\n\nBut the truth is, generating high-quality AI images isn’t just about writing good prompts. It’s about building a strategy that’s consistent and reliable.\n\nI mean, you wouldn’t build a house on loose ground, right?\n\nSo what you need is a process that actually delivers consistent results, not just occasional one-off wins.\n\nThat way, you can build entire campaigns featuring your:\n\n🪩 Products\n🪩 Styles\n🪩 Brand faces\n\nand your entire brand identity.\n\nThat’s the real difference between cheap-looking, soulless images and the viral ones that look like high-end campaign shoots.\n\nIf you don’t have a strategy that guarantees consistency across all your images (and videos), you won’t get those high-quality, on-brand results.\n\n➡️ P.S. We’ve summarised our entire strategy in 180+ pages. Comment “editz” and grab the guide!\n\nAnd if you’re a beauty brand, we’ve created a prompt pack with 100+ ready-made prompts. Comment “beauty” and we’ll send you the link to grab it! 🔗\n\nFollow @mobileeditingclub for more editing and AI tips and news 🪩\n\n#ai #aiediting #branding #contenttips #aigenerated #aicontent",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {
+      "time": "0.0 to 3.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "my product is way too complicated for AI",
+      "visual": "Three-frame sequence: a Saie marketer scrolling on her phone, skeptical, in a soft pink shirt in a bright interior. Text builds over three cuts as she voices the objection.",
+      "mirrors": "Inspiration sec 0-2: 'my product is way too complicated for AI' across three portrait frames."
+    },
+    {
+      "time": "3.0 to 4.0s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "",
+      "ost": "the product",
+      "visual": "Cut to a clean studio shot: Saie Glowy Super Gel serum in a frosted minimalist bottle, on a neutral background, perfect light.",
+      "mirrors": "Inspiration sec 3: 'the product' clean serum bottle on white."
+    },
+    {
+      "time": "4.0 to 7.0s",
+      "frame": "frames/sec-04.jpg",
+      "vo": "",
+      "ost": "the result",
+      "visual": "Three-cut editorial sequence: warm amber and gold tones, model with glass skin holding the serum, then a portrait with a luminous complexion, then a tight close-up of the serum formula catching the light. All Masonry-generated.",
+      "mirrors": "Inspiration sec 4-6: 'the result' across three editorial beauty cuts."
+    },
+    {
+      "time": "7.0 to 8.0s",
+      "frame": "frames/sec-07.jpg",
+      "vo": "",
+      "ost": "the product",
+      "visual": "Cut to: Saie Sunvisor SPF sunscreen stick, simple and elegant, product shot against a soft neutral.",
+      "mirrors": "Inspiration sec 7: 'the product' coat garment cut."
+    },
+    {
+      "time": "8.0 to 10.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "the result",
+      "visual": "Two-cut portrait sequence: model with a dewy sun-kissed glow, editorial outdoor light, then a composed close-up with warm diffused tones. Campaign-ready.",
+      "mirrors": "Inspiration sec 8-9: 'the result' across two coat-editorial model portraits."
+    },
+    {
+      "time": "10.0 to 11.0s",
+      "frame": "frames/sec-10.jpg",
+      "vo": "",
+      "ost": "the product",
+      "visual": "Saie Dew Blush in a soft compact, clean and minimal against a cream background.",
+      "mirrors": "Inspiration sec 10: 'the product' serum bottle close-up."
+    },
+    {
+      "time": "11.0 to 13.0s",
+      "frame": "frames/sec-11.jpg",
+      "vo": "",
+      "ost": "the result",
+      "visual": "Two cuts: hands applying the blush in a natural movement (sec 11), then a drop of color formula catching warm backlight (sec 12). Textural, editorial, real.",
+      "mirrors": "Inspiration sec 11-12: 'the result' serum application and drop macro."
+    },
+    {
+      "time": "13.0 to 14.0s",
+      "frame": "frames/sec-13.jpg",
+      "vo": "",
+      "ost": "the product",
+      "visual": "Saie Mascara 001 in a clean cylindrical tube, placed simply on a soft surface.",
+      "mirrors": "Inspiration sec 13: 'the product' furniture/object cut."
+    },
+    {
+      "time": "14.0 to 17.0s",
+      "frame": "frames/sec-14.jpg",
+      "vo": "",
+      "ost": "the result",
+      "visual": "Three editorial cuts: a hotel-suite styled flat-lay featuring the mascara (sec 14-15), then two desert-light portraits of a model with full lashes and clean skin (sec 16-17). Campaign-level quality.",
+      "mirrors": "Inspiration sec 14-16: 'the result' hotel editorial and desert editorial sequence."
+    },
+    {
+      "time": "17.0 to 20.0s",
+      "frame": "frames/sec-17.jpg",
+      "vo": "",
+      "ost": "still think it's too complicated for Masonry?",
+      "visual": "Three closing cuts: Saie Tinted Moisturizer product shot on white (sec 17), then two desert editorial model shots: clean, warm, cinematic (sec 18-19). Rhetorical close. No answer needed.",
+      "mirrors": "Inspiration sec 17-19: 'the product' bodysuit and 'the result' desert editorial portrait close."
+    }
+  ],
+  "notes": "Saie is a stand-in demo brand: clean beauty, Sephora-stocked, known for glow-first complexion products with a strong editorial identity. All imagery is to be generated and assembled in Masonry. No media has been generated yet: generation is gated on separate approval per project policy."
 }
