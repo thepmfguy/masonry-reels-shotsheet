@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~48s. Inspiration: https://www.instagram.com/reel/DVmqeZlDD2u/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DVmqeZlDD2u/",
+  "duration_sec": 48,
+  "frame_count": 48,
+  "caption": "Comment “CLAY” for the full CREATIVE WORKFLOW ⬇️🔥\n\nReal claymation has this warmth that nothing else gives you. The fingerprints in the clay, the tiny wobbles between frames.\n\nI broke down how Bad Bunny’s DtMF clip was made — and rebuilt the whole thing with AI. @recraftai model is actually insane 🔥\n\n3 tools. 3 steps. Save this one 😏\n\n#creativeai #aianimation #badbunny",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
