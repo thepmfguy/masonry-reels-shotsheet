@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~10s. Inspiration: https://www.instagram.com/reel/DSLr0gzCHof/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DSLr0gzCHof/",
+  "duration_sec": 10,
+  "frame_count": 10,
+  "caption": "↓ HERE’S HOW 🪩\n\nGenerating content for your brand has never been more accessible.\n\nThe thing is, it’s not just about prompts.\nIt’s also not just about which AI tool you use.\n\nIt’s about creating a system that generates consistent, branded imagery on demand.\n\nAs much as you need, whenever you need it.\n\n→ For your campaigns, your ads, and your socials 🪩\n\nIf you don’t have a strategy that guarantees consistency in your products and visual style across all your content, you won’t get professional, on-brand results.\n\n➡️ We’re explaining the exact step-by-step strategy to generate consistent images and videos with YOUR products with AI in 180+ pages. Comment “editz” and grab the guide!\n\nP.S. And if you want to learn our full editing workflow to generate and edit high quality AI videos, for your ads and campaigns comment “Course“ and we’ll send you the link! 🔗\n\nFollow @mobileeditingclub for more editing and AI tips and news 🪩\n\n#ai #aiimage #aigenerated #aicontent #brandedai",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
