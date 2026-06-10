@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~27s. Inspiration: https://www.instagram.com/reel/DNn-EILzpWj/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DNn-EILzpWj/",
+  "duration_sec": 27,
+  "frame_count": 27,
+  "caption": "AI IS USELESS..\n\nWell, yes it is, if you’re using it to generate random images of flying cars and tigers.\n But smart founders know how to use it to scale their brand by combining their creativity with AI.\n\nChances are, you’ve seen those super unrealistic, cheap-looking images of people cloning themselves…\n\nIf you’re a brand owner or creative, that’s definitely not what you want\n but you already know that.\n\nYou’ve got the vision for a project. You’ve got the ideas. You’ve got the creativity.\n\nBut unfortunately, you don’t have the budget to spend six figures on creatives\n (with an average lifespan of just 3–4 days)\n\nOur clients faced the exact same struggle.\n The website was perfect, the products were amazing, but they always struggled with one thing: content.\n\nThat’s exactly where Branded AI changes the game for small brands.\n\nNow, you can create consistent content across all channels\n (without the million-dollar budgets big brands have)\n\nThat’s the window of opportunity small brands have today\n before the big players catch up!\n\nP.S. Comment “editz” and grab our step-by-step guide on how to create visuals like these with AI!\n\nYes, with your own products and brand!\n\n👉🏼 We do not encourage the creation of misleading products. Our guide shows you exactly how to use your own products to create visuals like these. \nFollow @mobileeditingclub for editing tips, AI tips, trends, and tutorials.\n\n#ai #aiediting #branding #contenttips #aigenerated #prompts",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
