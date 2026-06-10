@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~20s. Inspiration: https://www.instagram.com/reel/DRfi1_VCOnQ/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DRfi1_VCOnQ/",
+  "duration_sec": 20,
+  "frame_count": 20,
+  "caption": "↓ THE THING IS… 🪩\n\nWe know what it’s like to feel the constant pressure to create content for your brand and how exhausting it can be to produce something new all the time in a world that gets bored so easily.\n\nBut the truth is, generating high-quality AI images isn’t just about writing good prompts. It’s about building a strategy that’s consistent and reliable.\n\nI mean, you wouldn’t build a house on loose ground, right?\n\nSo what you need is a process that actually delivers consistent results, not just occasional one-off wins.\n\nThat way, you can build entire campaigns featuring your:\n\n🪩 Products\n🪩 Styles\n🪩 Brand faces\n\nand your entire brand identity.\n\nThat’s the real difference between cheap-looking, soulless images and the viral ones that look like high-end campaign shoots.\n\nIf you don’t have a strategy that guarantees consistency across all your images (and videos), you won’t get those high-quality, on-brand results.\n\n➡️ P.S. We’ve summarised our entire strategy in 180+ pages. Comment “editz” and grab the guide!\n\nAnd if you’re a beauty brand, we’ve created a prompt pack with 100+ ready-made prompts. Comment “beauty” and we’ll send you the link to grab it! 🔗\n\nFollow @mobileeditingclub for more editing and AI tips and news 🪩\n\n#ai #aiediting #branding #contenttips #aigenerated #aicontent",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
