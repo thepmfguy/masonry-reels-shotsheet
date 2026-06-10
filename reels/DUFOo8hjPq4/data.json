@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~22s. Inspiration: https://www.instagram.com/reels/DUFOo8hjPq4/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reels/DUFOo8hjPq4/",
+  "duration_sec": 22,
+  "frame_count": 22,
+  "caption": "Comment “DROP” to get the ULTIMATE UGC WORKFLOW⬇️🔥\nMost people don’t realize how realistic UGC generation has become. Every detail you see is controlled, systematic, replicable.\nThe workflow breakdown:\nFace realism → Skin texture, pore detail, natural imperfections\nEnvironment generation → Any background, perfect lighting adaptation\nProduct integration → Seamless placement, natural interaction\nEmotion control → Testimonial, excited, conversational, any vibe\nNatural movement → Gestures, expressions, human behavior\nOutfit changes → Instant styling, brand alignment\nThe secret → Imperfections that make me indistinguishable from reality\nSeven steps. Unlimited UGC videos. Zero actors, zero production costs.\nThis is what brands pay $500 per video for. You can generate hundreds now by grabbing this workflow 🔥\n#aiugc #aitools #nanobananapro",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
