@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~19s. Inspiration: https://www.instagram.com/reel/DYiMv-Mzfrj/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DYiMv-Mzfrj/",
+  "duration_sec": 19,
+  "frame_count": 19,
+  "caption": "Comment \"blueprint\" and I'll send you a copy.\n\nEverything I've learned about AI video production condensed into one blueprint.\n\nFrom automation to customization of prompts, all in one blueprint.\n\nThe result is AI video that's built to perform for brands and products that need content that converts.\n\n#AIVideo #AIAds #ContentCreation #AIMarketing #vídeomarketing",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
