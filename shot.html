@@ -25,6 +25,13 @@ h1[contenteditable]{font-size:26px;margin:0 0 8px;letter-spacing:-.2px;outline:n
 .meta{color:var(--mut);margin:0 0 18px;outline:none}
 .concept{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;margin:0 0 26px;outline:none}
 .audiobox{border-left-color:var(--accent2)}
+.brief{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 18px 14px;margin:0 0 26px}
+.brief h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2);margin:18px 0 5px}
+.brief h3.first{margin-top:14px}
+.brief .t{outline:none;border-radius:5px;padding:2px 5px;margin:0 -5px;color:var(--ink2)}
+.brief .t:focus{background:#fff7e9;box-shadow:0 0 0 2px #f0d9a8}
+.brief .watch{font-size:13px;color:var(--mut);margin-top:4px}
+.brief .watch a{color:var(--accent)}
 h2{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent2);margin:32px 0 12px;border-bottom:1px solid var(--line);padding-bottom:7px}
 .storyboard{width:100%;border:1px solid var(--line);border-radius:10px;display:block}
 .sbnote{color:var(--mut);font-size:13px;margin:10px 2px 0}
@@ -79,6 +86,10 @@ let MODEL = null;
 let INSP = "";          // inspiration reel URL, from reels.json registry
 let DIRTY = false;
 
+// Shared, product-level explainer shown on every sheet (data.json may override via masonry_about).
+// This is what a brand-new editor needs to understand WHAT they are selling before they cut anything.
+const MASONRY_ABOUT = "Masonry is an AI creative studio for brands. You upload your real products, then generate on-brand campaign visuals, photo and video, from them: generate fresh shots, Recolor into new colorways, Restyle while keeping the same model and product, animate stills into motion, and upscale. The important thing for this edit: every shot in this video is generated in Masonry, not filmed on a set. That is the whole pitch. The reel itself is the proof that Masonry made these visuals.";
+
 const $ = s => document.querySelector(s);
 const statusEl = () => $("#status");
 function setStatus(t, cls){ const s=statusEl(); s.textContent=t; s.className=cls||""; }
@@ -111,6 +122,18 @@ function render(){
   $("#app").innerHTML = `
     <h1 contenteditable="true" spellcheck="false" data-k="title">${esc(m.title)}</h1>
     <p class="meta" contenteditable="true" spellcheck="false" data-k="meta">${esc(m.meta)}</p>
+    <h2>Editor Brief</h2>
+    <div class="brief">
+      <h3 class="first">The product you are selling (Masonry)</h3>
+      <div class="t" contenteditable="true" spellcheck="false" data-k="masonry_about">${esc(m.masonry_about || MASONRY_ABOUT)}</div>
+      <h3>The reference reel (watch this first)</h3>
+      <div class="t" contenteditable="true" spellcheck="false" data-k="refsummary">${esc(m.refsummary || "")}</div>
+      ${INSP ? `<div class="watch">Original: <a href="${esc(INSP)}" target="_blank" rel="noopener">${esc(INSP)}</a></div>` : ``}
+      <h3>The story this version tells</h3>
+      <div class="t" contenteditable="true" spellcheck="false" data-k="story">${esc(m.story || "")}</div>
+      <h3>What the viewer should believe by the end</h3>
+      <div class="t" contenteditable="true" spellcheck="false" data-k="takeaway">${esc(m.takeaway || "")}</div>
+    </div>
     <h2>Concept</h2>
     <div class="concept" contenteditable="true" spellcheck="false" data-k="concept">${esc(m.concept)}</div>
     <h2>Audio / Sound</h2>
