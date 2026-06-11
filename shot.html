@@ -28,6 +28,9 @@ h1[contenteditable]{font-size:26px;margin:0 0 8px;letter-spacing:-.2px;outline:n
 h2{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent2);margin:32px 0 12px;border-bottom:1px solid var(--line);padding-bottom:7px}
 .storyboard{width:100%;border:1px solid var(--line);border-radius:10px;display:block}
 .sbnote{color:var(--mut);font-size:13px;margin:10px 2px 0}
+.viglink{display:inline-flex;align-items:center;gap:8px;margin:0 0 14px;padding:9px 14px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;color:var(--accent);text-decoration:none;font-weight:600}
+.viglink:hover{background:#fff7e9}
+.viglink .u{color:var(--mut);font-weight:400;font-size:13px;word-break:break-all}
 .beat{display:flex;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}
 .beat .thumb{flex:0 0 132px}
 .beat .thumb img{width:132px;border-radius:8px;border:1px solid var(--line);display:block}
@@ -73,6 +76,7 @@ const REEL = (new URLSearchParams(location.search).get("r") || "").replace(/[^a-
 const BASE = "reels/" + REEL + "/";          // where this reel's assets live
 const FILE = BASE + "data.json";             // path committed on Save
 let MODEL = null;
+let INSP = "";          // inspiration reel URL, from reels.json registry
 let DIRTY = false;
 
 const $ = s => document.querySelector(s);
@@ -112,6 +116,7 @@ function render(){
     <h2>Audio / Sound</h2>
     <div class="concept audiobox" contenteditable="true" spellcheck="false" data-k="audio">${esc(m.audio||"")}</div>
     <h2>Frame Reference Sheet (inspiration, second by second)</h2>
+    ${INSP ? `<div><a class="viglink" href="${esc(INSP)}" target="_blank" rel="noopener">&#9654; Watch the original reel <span class="u">${esc(INSP)}</span></a></div>` : ``}
     <img class="storyboard" src="${esc(BASE + m.storyboard)}" alt="storyboard of the inspiration reel">
     <p class="sbnote">Every second of the original reel. Each beat below pairs its own reference frame with the script so editors can match the new shot to the inspiration.</p>
     <h2>Shot-By-Shot Script</h2>
@@ -184,7 +189,15 @@ if(!REEL){
   $("#app").innerHTML="<p style='color:#b5462f'>No reel specified. Open this page from the <a href='index.html'>reel list</a>.</p>";
   setStatus("No reel","err");
 } else {
-  fetch(FILE+"?cb="+Date.now()).then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }).then(d=>{ MODEL=d; render(); setStatus(getToken()?"Ready":"Ready (Save will ask for a token once)", ""); })
+  // The inspiration URL lives in the reels.json registry (single source of truth).
+  // data.json may carry its own inspiration_url to override; otherwise fall back to the registry.
+  const registry = fetch("reels.json?cb="+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null);
+  fetch(FILE+"?cb="+Date.now()).then(r=>{ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }).then(async d=>{
+    MODEL=d;
+    const reg = await registry;
+    const entry = reg && reg.reels && reg.reels.find(x=>x.id===REEL);
+    INSP = d.inspiration_url || (entry && entry.inspiration_url) || "";
+    render(); setStatus(getToken()?"Ready":"Ready (Save will ask for a token once)", ""); })
     .catch(e=>{ $("#app").innerHTML="<p style='color:#b5462f'>Could not load this reel ("+esc(FILE)+"): "+esc(e.message)+"</p>"; setStatus("Load error","err"); });
 }
 </script>
