@@ -5,16 +5,89 @@
   "audio": "Trending-style hook audio with a short spoken voice-over over a fast skin-close-up montage, cut on the beat. If you run it as audio-only, drop the voice-over and let the on-screen text plus the track carry the line.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
-    {"time": "0.0 to 1.2s", "frame": "frames/sec-00.jpg", "vo": "You think you can spot AI.", "ost": "you can SPOT it?", "visual": "Extreme close-up of a model looking straight to camera, dewy Glossier skin, soft daylight. Reads like a real campaign face, not a render.", "mirrors": "Inspiration 0s, the I-can-spot-AI hook over a face."},
-    {"time": "1.2 to 2.4s", "frame": "frames/sec-01.jpg", "vo": "So look closer.", "ost": "look CLOSER", "visual": "Macro push into the cheek: real freckles, a glossy highlight on the cheekbone, true pores.", "mirrors": "Inspiration 1s, the second close-up."},
-    {"time": "2.4 to 3.6s", "frame": "frames/sec-02.jpg", "vo": "The skin.", "ost": "the SKIN", "visual": "Macro on glossy lips with a Glossier Balm Dotcom sheen, fine lip texture visible.", "mirrors": "Inspiration 2s, the lips close-up."},
-    {"time": "3.6 to 4.8s", "frame": "frames/sec-03.jpg", "vo": "Every pore.", "ost": "every PORE", "visual": "Macro across the nose and cheek, lifelike texture and a faint natural flush.", "mirrors": "Inspiration 3s, the nose close-up."},
-    {"time": "4.8 to 6.0s", "frame": "frames/sec-04.jpg", "vo": "Every one of these is Masonry.", "ost": "all MASONRY", "visual": "Pull back to reveal a different model entirely, same dewy Glossier finish and palette.", "mirrors": "Inspiration 4s, the next face in the montage."},
-    {"time": "6.0 to 7.0s", "frame": "frames/sec-05.jpg", "vo": "Same brand face. Same glow.", "ost": "same FACE, same glow", "visual": "A deeper-skin model with freckles, hand resting near the face, identical Glossier sheen.", "mirrors": "Inspiration 5s, the freckled close-up."},
-    {"time": "7.0 to 8.0s", "frame": "frames/sec-06.jpg", "vo": "Different model, different set, on brand every time.", "ost": "on-brand every TIME", "visual": "Quick cut between two models in different light, the brand look stays consistent across both.", "mirrors": "Inspiration 6s, the model swap."},
-    {"time": "8.0 to 9.0s", "frame": "frames/sec-07.jpg", "vo": "Holding your products. No shoot. No studio.", "ost": "no shoot. no STUDIO.", "visual": "A model holds a Glossier Cloud Paint up near the face, generated, perfectly on brand.", "mirrors": "Inspiration 7s, the product-in-hand beat."},
-    {"time": "9.0 to 9.6s", "frame": "frames/sec-08.jpg", "vo": "This is Masonry.", "ost": "MASONRY", "visual": "A male model, photoreal stubble and skin, the same grade of realism and brand polish.", "mirrors": "Inspiration 8s, the final face."},
-    {"time": "9.6 to 10.0s", "frame": "frames/sec-09.jpg", "vo": "Comment GLOW and we will send the link.", "ost": "comment GLOW", "visual": "End card: Glossier wordmark on a soft pink set, small made-with-Masonry credit.", "mirrors": "Inspiration 9s, the comment-a-keyword CTA."}
+    {
+      "time": "0.0 to 1.2s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "You think you can spot AI.",
+      "ost": "you can SPOT it?",
+      "visual": "Extreme close-up of a model looking straight to camera, dewy Glossier skin, soft daylight. Reads like a real campaign face, not a render.",
+      "mirrors": "Inspiration 0s, the I-can-spot-AI hook over a face."
+    },
+    {
+      "time": "1.2 to 2.4s",
+      "frame": "frames/sec-01.jpg",
+      "vo": "So look closer.",
+      "ost": "look CLOSER",
+      "visual": "Macro push into the cheek: real freckles, a glossy highlight on the cheekbone, true pores.",
+      "mirrors": "Inspiration 1s, the second close-up."
+    },
+    {
+      "time": "2.4 to 3.6s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "The skin.",
+      "ost": "the SKIN",
+      "visual": "Macro on glossy lips with a Glossier Balm Dotcom sheen, fine lip texture visible.",
+      "mirrors": "Inspiration 2s, the lips close-up."
+    },
+    {
+      "time": "3.6 to 4.8s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "Every pore.",
+      "ost": "every PORE",
+      "visual": "Macro across the nose and cheek, lifelike texture and a faint natural flush.",
+      "mirrors": "Inspiration 3s, the nose close-up."
+    },
+    {
+      "time": "4.8 to 6.0s",
+      "frame": "frames/sec-04.jpg",
+      "vo": "Every one of these is Masonry.",
+      "ost": "all MASONRY",
+      "visual": "Pull back to reveal a different model entirely, same dewy Glossier finish and palette.",
+      "mirrors": "Inspiration 4s, the next face in the montage."
+    },
+    {
+      "time": "6.0 to 7.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "Same brand face. Same glow.",
+      "ost": "same FACE, same glow",
+      "visual": "A deeper-skin model with freckles, hand resting near the face, identical Glossier sheen.",
+      "mirrors": "Inspiration 5s, the freckled close-up."
+    },
+    {
+      "time": "7.0 to 8.0s",
+      "frame": "frames/sec-06.jpg",
+      "vo": "Different model, different set, on brand every time.",
+      "ost": "on-brand every TIME",
+      "visual": "Quick cut between two models in different light, the brand look stays consistent across both.",
+      "mirrors": "Inspiration 6s, the model swap."
+    },
+    {
+      "time": "8.0 to 9.0s",
+      "frame": "frames/sec-07.jpg",
+      "vo": "Holding your products. No shoot. No studio.",
+      "ost": "no shoot. no STUDIO.",
+      "visual": "A model holds a Glossier Cloud Paint up near the face, generated, perfectly on brand.",
+      "mirrors": "Inspiration 7s, the product-in-hand beat."
+    },
+    {
+      "time": "9.0 to 9.6s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "This is Masonry.",
+      "ost": "MASONRY",
+      "visual": "A male model, photoreal stubble and skin, the same grade of realism and brand polish.",
+      "mirrors": "Inspiration 8s, the final face."
+    },
+    {
+      "time": "9.6 to 10.0s",
+      "frame": "frames/sec-09.jpg",
+      "vo": "Comment GLOW and we will send the link.",
+      "ost": "comment GLOW",
+      "visual": "End card: Glossier wordmark on a soft pink set, small made-with-Masonry credit.",
+      "mirrors": "Inspiration 9s, the comment-a-keyword CTA."
+    }
   ],
-  "notes": "Demo brand is Glossier, a realistic stand-in for a D2C beauty client (swap in the actual client when producing). Every model, skin close-up and product-in-hand shot would be generated with Masonry; no media has been generated yet (generation is gated on separate approval). Keep total runtime within ~10s to match the reference. The source showed a generic AI-model workflow; the integration here is Masonry."
+  "notes": "Demo brand is Glossier, a realistic stand-in for a D2C beauty client (swap in the actual client when producing). Every model, skin close-up and product-in-hand shot would be generated with Masonry; no media has been generated yet (generation is gated on separate approval). Keep total runtime within ~10s to match the reference. The source showed a generic AI-model workflow; the integration here is Masonry.",
+  "refsummary": "The original (mobileeditingclub) is a 10s 'can you spot the AI?' dare: a montage of photoreal faces and skin close-ups you cannot question, ending on a comment-a-keyword CTA. Watch it for the tight close-up montage rhythm; our version makes the same dare but the answer is Masonry.",
+  "story": "Same spot-the-AI dare, reframed to Masonry with Glossier as the demo brand. Arc: HOOK, you can spot it? PROOF, look closer, the skin, every pore, photoreal and unquestionable, all Masonry. ON-BRAND, same face, same glow, holding your products, on brand every time. CLOSE, no shoot, no studio, comment GLOW. The viewer should fail to tell it is generated and realize that is the point.",
+  "takeaway": "Masonry generates skin and faces so photoreal you cannot tell they are AI, on the same brand face and glow every time, with no shoot."
 }

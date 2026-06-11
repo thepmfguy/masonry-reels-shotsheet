@@ -5,18 +5,105 @@
   "audio": "Calm, modern tutorial-style track with a light spoken voice-over walking through the steps. Keystrokes and a soft generate chime can punctuate the tool beats.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
-    {"time": "0.0 to 1.5s", "frame": "frames/sec-00.jpg", "vo": "Turn one product photo into ads.", "ost": "turn product into ADS", "visual": "A plain, flat phone snapshot of an Owala FreeSip bottle on a desk, ordinary lighting. It should look unremarkable so the payoff lands.", "mirrors": "Inspiration 0 to 1s, the turn-product-into-ads hook over a dull product shot."},
-    {"time": "1.5 to 3.0s", "frame": "frames/sec-02.jpg", "vo": "Start with the shot you already have.", "ost": "the shot you HAVE", "visual": "The same ordinary Owala photo held steady, nothing fancy about it.", "mirrors": "Inspiration 2s, the before-state product."},
-    {"time": "3.0 to 4.5s", "frame": "frames/sec-03.jpg", "vo": "Open Masonry.", "ost": "open MASONRY", "visual": "The Masonry create-image screen opens, clean and ready.", "mirrors": "Inspiration 3s, the tool interface appears."},
-    {"time": "4.5 to 6.0s", "frame": "frames/sec-05.jpg", "vo": "Drop the bottle in.", "ost": "drop it IN", "visual": "The Owala image uploads into Masonry as the reference product.", "mirrors": "Inspiration 4 to 5s, the upload step."},
-    {"time": "6.0 to 7.5s", "frame": "frames/sec-06.jpg", "vo": "Describe the ad you want.", "ost": "describe the AD", "visual": "A short prompt is typed: studio ad, orange splash, moody light.", "mirrors": "Inspiration 6s, the prompt typing."},
-    {"time": "7.5 to 9.0s", "frame": "frames/sec-08.jpg", "vo": "Hit generate.", "ost": "GENERATE", "visual": "The generate control with an unlimited toggle, ready to run.", "mirrors": "Inspiration 7 to 8s, the generate beat."},
-    {"time": "9.0 to 10.5s", "frame": "frames/sec-10.jpg", "vo": "And Masonry turns it into a campaign.", "ost": "into a CAMPAIGN", "visual": "First polished result reveals: the Owala in a lit studio scene, premium and crisp.", "mirrors": "Inspiration 9 to 10s, the result reveal."},
-    {"time": "10.5 to 12.0s", "frame": "frames/sec-11.jpg", "vo": "A bold hero shot.", "ost": "hero SHOT", "visual": "A dramatic orange-accent Owala ad, condensation and punchy light.", "mirrors": "Inspiration 11s, the first variant."},
-    {"time": "12.0 to 13.5s", "frame": "frames/sec-13.jpg", "vo": "A moody dark variant.", "ost": "moody DARK", "visual": "A dark, premium Owala ad with rim light on the bottle.", "mirrors": "Inspiration 12 to 13s, the second variant."},
-    {"time": "13.5 to 15.0s", "frame": "frames/sec-14.jpg", "vo": "Same bottle, on brand, every angle.", "ost": "on-BRAND", "visual": "Three Owala ad variants sit side by side, consistent branding across all.", "mirrors": "Inspiration 14s, the set of results."},
-    {"time": "15.0 to 16.5s", "frame": "frames/sec-16.jpg", "vo": "No studio. No shoot. Minutes.", "ost": "no STUDIO", "visual": "A clean grid of the finished Owala ads, clearly a complete campaign.", "mirrors": "Inspiration 15 to 16s, the payoff."},
-    {"time": "16.5 to 18.0s", "frame": "frames/sec-17.jpg", "vo": "Comment OWALA and we will send the workflow.", "ost": "comment OWALA", "visual": "End card: Owala wordmark with a small made-with-Masonry credit.", "mirrors": "Inspiration 17s, the comment-a-keyword CTA."}
+    {
+      "time": "0.0 to 1.5s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "Turn one product photo into ads.",
+      "ost": "turn product into ADS",
+      "visual": "A plain, flat phone snapshot of an Owala FreeSip bottle on a desk, ordinary lighting. It should look unremarkable so the payoff lands.",
+      "mirrors": "Inspiration 0 to 1s, the turn-product-into-ads hook over a dull product shot."
+    },
+    {
+      "time": "1.5 to 3.0s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "Start with the shot you already have.",
+      "ost": "the shot you HAVE",
+      "visual": "The same ordinary Owala photo held steady, nothing fancy about it.",
+      "mirrors": "Inspiration 2s, the before-state product."
+    },
+    {
+      "time": "3.0 to 4.5s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "Open Masonry.",
+      "ost": "open MASONRY",
+      "visual": "The Masonry create-image screen opens, clean and ready.",
+      "mirrors": "Inspiration 3s, the tool interface appears."
+    },
+    {
+      "time": "4.5 to 6.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "Drop the bottle in.",
+      "ost": "drop it IN",
+      "visual": "The Owala image uploads into Masonry as the reference product.",
+      "mirrors": "Inspiration 4 to 5s, the upload step."
+    },
+    {
+      "time": "6.0 to 7.5s",
+      "frame": "frames/sec-06.jpg",
+      "vo": "Describe the ad you want.",
+      "ost": "describe the AD",
+      "visual": "A short prompt is typed: studio ad, orange splash, moody light.",
+      "mirrors": "Inspiration 6s, the prompt typing."
+    },
+    {
+      "time": "7.5 to 9.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "Hit generate.",
+      "ost": "GENERATE",
+      "visual": "The generate control with an unlimited toggle, ready to run.",
+      "mirrors": "Inspiration 7 to 8s, the generate beat."
+    },
+    {
+      "time": "9.0 to 10.5s",
+      "frame": "frames/sec-10.jpg",
+      "vo": "And Masonry turns it into a campaign.",
+      "ost": "into a CAMPAIGN",
+      "visual": "First polished result reveals: the Owala in a lit studio scene, premium and crisp.",
+      "mirrors": "Inspiration 9 to 10s, the result reveal."
+    },
+    {
+      "time": "10.5 to 12.0s",
+      "frame": "frames/sec-11.jpg",
+      "vo": "A bold hero shot.",
+      "ost": "hero SHOT",
+      "visual": "A dramatic orange-accent Owala ad, condensation and punchy light.",
+      "mirrors": "Inspiration 11s, the first variant."
+    },
+    {
+      "time": "12.0 to 13.5s",
+      "frame": "frames/sec-13.jpg",
+      "vo": "A moody dark variant.",
+      "ost": "moody DARK",
+      "visual": "A dark, premium Owala ad with rim light on the bottle.",
+      "mirrors": "Inspiration 12 to 13s, the second variant."
+    },
+    {
+      "time": "13.5 to 15.0s",
+      "frame": "frames/sec-14.jpg",
+      "vo": "Same bottle, on brand, every angle.",
+      "ost": "on-BRAND",
+      "visual": "Three Owala ad variants sit side by side, consistent branding across all.",
+      "mirrors": "Inspiration 14s, the set of results."
+    },
+    {
+      "time": "15.0 to 16.5s",
+      "frame": "frames/sec-16.jpg",
+      "vo": "No studio. No shoot. Minutes.",
+      "ost": "no STUDIO",
+      "visual": "A clean grid of the finished Owala ads, clearly a complete campaign.",
+      "mirrors": "Inspiration 15 to 16s, the payoff."
+    },
+    {
+      "time": "16.5 to 18.0s",
+      "frame": "frames/sec-17.jpg",
+      "vo": "Comment OWALA and we will send the workflow.",
+      "ost": "comment OWALA",
+      "visual": "End card: Owala wordmark with a small made-with-Masonry credit.",
+      "mirrors": "Inspiration 17s, the comment-a-keyword CTA."
+    }
   ],
-  "notes": "Demo brand is Owala, a realistic stand-in for a single-hero-product D2C client (swap in the actual product when producing). All product ad variants would be generated with Masonry from one input photo; no media has been generated yet (generation is gated on separate approval). The source used a different AI tool; the integration here is Masonry. Keep total runtime near 18s to match the reference."
+  "notes": "Demo brand is Owala, a realistic stand-in for a single-hero-product D2C client (swap in the actual product when producing). All product ad variants would be generated with Masonry from one input photo; no media has been generated yet (generation is gated on separate approval). The source used a different AI tool; the integration here is Masonry. Keep total runtime near 18s to match the reference.",
+  "refsummary": "The original (ecolab_studio) is a screen-recording demo: a plain product photo goes into an AI tool and comes out as polished ads, walking the literal steps (the shot you have, open the tool, drop it in, describe the ad, generate, into a campaign). Watch it for the step-by-step screen-record feel; our version follows the same steps but the tool on screen is Masonry.",
+  "story": "Same step-by-step demo structure, with Owala as the demo brand. Arc: HOOK, turn one product into ads. THE BEFORE, the dull bottle shot you already have. THE STEPS, open Masonry, drop it in, describe the ad, generate. THE PAYOFF, one shot becomes a campaign: hero shot, moody dark, on brand, no studio. CTA, comment OWALA. The viewer should see exactly how a single ordinary product photo becomes a set of finished ads in minutes inside Masonry.",
+  "takeaway": "One ordinary product photo, dropped into Masonry, becomes a whole campaign of on-brand hero and lifestyle ads in minutes, with no studio."
 }

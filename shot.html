@@ -98,6 +98,12 @@ function setToken(t){ if(t) localStorage.setItem("gh_token", t); }
 function b64(str){ return btoa(unescape(encodeURIComponent(str))); }
 function esc(s){ return (s==null?"":String(s)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
+// A per-reel brief field: render only when it has content, or when an editor (token present) is filling it in.
+function briefField(key, label, val, extra){
+  if(!val && !getToken()) return "";
+  return `<h3>${esc(label)}</h3><div class="t" contenteditable="true" spellcheck="false" data-k="${key}">${esc(val||"")}</div>${extra||""}`;
+}
+
 function render(){
   const m = MODEL;
   let beats = m.beats.map((b,i)=>`
@@ -126,13 +132,9 @@ function render(){
     <div class="brief">
       <h3 class="first">The product you are selling (Masonry)</h3>
       <div class="t" contenteditable="true" spellcheck="false" data-k="masonry_about">${esc(m.masonry_about || MASONRY_ABOUT)}</div>
-      <h3>The reference reel (watch this first)</h3>
-      <div class="t" contenteditable="true" spellcheck="false" data-k="refsummary">${esc(m.refsummary || "")}</div>
-      ${INSP ? `<div class="watch">Original: <a href="${esc(INSP)}" target="_blank" rel="noopener">${esc(INSP)}</a></div>` : ``}
-      <h3>The story this version tells</h3>
-      <div class="t" contenteditable="true" spellcheck="false" data-k="story">${esc(m.story || "")}</div>
-      <h3>What the viewer should believe by the end</h3>
-      <div class="t" contenteditable="true" spellcheck="false" data-k="takeaway">${esc(m.takeaway || "")}</div>
+      ${briefField("refsummary", "The reference reel (watch this first)", m.refsummary, INSP ? `<div class="watch">Original: <a href="${esc(INSP)}" target="_blank" rel="noopener">${esc(INSP)}</a></div>` : ``)}
+      ${briefField("story", "The story this version tells", m.story)}
+      ${briefField("takeaway", "What the viewer should believe by the end", m.takeaway)}
     </div>
     <h2>Concept</h2>
     <div class="concept" contenteditable="true" spellcheck="false" data-k="concept">${esc(m.concept)}</div>

@@ -5,25 +5,161 @@
   "audio": "Upbeat trending product-reel track with a clear pulse. This reel is AUDIO-ONLY by design: there is no spoken voice-over. The on-screen text plus the track and the visuals carry the whole message; cut every beat on the beat of the track.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
-    {"time": "0.0 to 2.5s", "frame": "frames/sec-00.jpg", "vo": "", "ost": "every FOUNDER wants this", "visual": "A busy city street, a giant billboard overhead showing a clean Allbirds sneaker ad. Confident, aspirational open.", "mirrors": "Inspiration 0 to 1s, the every-entrepreneur billboard hook."},
-    {"time": "2.5 to 5.0s", "frame": "frames/sec-03.jpg", "vo": "", "ost": "on BILLBOARDS", "visual": "Tilt up a building wall fully wrapped in an Allbirds Wool Runner campaign.", "mirrors": "Inspiration 2 to 3s, the product everywhere beat."},
-    {"time": "5.0 to 7.5s", "frame": "frames/sec-06.jpg", "vo": "", "ost": "in the FEED", "visual": "A phone in a cafe scrolls to the same Allbirds ad running as a story.", "mirrors": "Inspiration 5 to 6s, the in-feed placement."},
-    {"time": "7.5 to 10.0s", "frame": "frames/sec-08.jpg", "vo": "", "ost": "everywhere at once", "visual": "A subway car interior with an Allbirds poster above the seats, commuters nearby.", "mirrors": "Inspiration 7 to 8s, the subway placement."},
-    {"time": "10.0 to 13.0s", "frame": "frames/sec-11.jpg", "vo": "", "ost": "shoots cost a FORTUNE", "visual": "A founder reads a Founders newspaper at a desk, implying the old, expensive production route.", "mirrors": "Inspiration 10 to 11s, the cost beat."},
-    {"time": "13.0 to 15.0s", "frame": "frames/sec-13.jpg", "vo": "", "ost": "the NEW way", "visual": "A hand lifts a phone, the Masonry app opening on screen.", "mirrors": "Inspiration 12 to 13s, the turn toward the tool."},
-    {"time": "15.0 to 18.0s", "frame": "frames/sec-16.jpg", "vo": "", "ost": "AI video GENERATOR", "visual": "Masonry interface, an Allbirds shoe loaded, the generate control in view.", "mirrors": "Inspiration 14 to 16s, the AI-video-generator reveal."},
-    {"time": "18.0 to 21.0s", "frame": "frames/sec-19.jpg", "vo": "", "ost": "drop in ONE shot", "visual": "A single ordinary Allbirds product photo is dragged into Masonry.", "mirrors": "Inspiration 17 to 18s, the upload."},
-    {"time": "21.0 to 24.0s", "frame": "frames/sec-22.jpg", "vo": "", "ost": "product VIDEO", "visual": "The shoe rotates in a lit studio scene, generated, scroll-stopping motion.", "mirrors": "Inspiration 19 to 21s, the product-video output."},
-    {"time": "24.0 to 27.0s", "frame": "frames/sec-25.jpg", "vo": "", "ost": "lifestyle SCENES", "visual": "The sneaker on a sunlit sidewalk, a model mid-stride just behind it.", "mirrors": "Inspiration 22 to 24s, the lifestyle beat."},
-    {"time": "27.0 to 30.0s", "frame": "frames/sec-28.jpg", "vo": "", "ost": "detail on ANY product", "visual": "Macro on the shoe stitching and wool texture, crisp and true.", "mirrors": "Inspiration 25 to 27s, the any-product detail beat."},
-    {"time": "30.0 to 33.0s", "frame": "frames/sec-31.jpg", "vo": "", "ost": "every COLORWAY", "visual": "Three Allbirds colorways line up in matching studio light.", "mirrors": "Inspiration 28 to 30s, the variety montage."},
-    {"time": "33.0 to 36.0s", "frame": "frames/sec-34.jpg", "vo": "", "ost": "describe the VIBE", "visual": "A short prompt typed in Masonry: morning run, golden light, wet pavement.", "mirrors": "Inspiration 31 to 33s, the describe-it beat."},
-    {"time": "36.0 to 39.0s", "frame": "frames/sec-37.jpg", "vo": "", "ost": "on-BRAND in seconds", "visual": "The result reveals with the Allbirds palette and logo already intact.", "mirrors": "Inspiration 34 to 36s, the generated-on-brand beat."},
-    {"time": "39.0 to 42.0s", "frame": "frames/sec-40.jpg", "vo": "", "ost": "want a NEW set?", "visual": "Variation thumbnails flick past, the same shoe in different moods and scenes.", "mirrors": "Inspiration 37 to 39s, the variations beat."},
-    {"time": "42.0 to 45.0s", "frame": "frames/sec-43.jpg", "vo": "", "ost": "no STUDIO bills", "visual": "A clean grid of finished Allbirds ads assembles into place.", "mirrors": "Inspiration 40 to 43s, the without-the-studio-bills payoff."},
-    {"time": "45.0 to 47.0s", "frame": "frames/sec-45.jpg", "vo": "", "ost": "from ONE photo", "visual": "The full set laid out together: billboard, video frame, story, banner.", "mirrors": "Inspiration 44 to 45s, the full-campaign beat."},
-    {"time": "47.0 to 49.0s", "frame": "frames/sec-47.jpg", "vo": "", "ost": "try it in MASONRY", "visual": "The Masonry app on a phone held up against the city, mirroring the source CTA.", "mirrors": "Inspiration 46 to 48s, the try-it-now CTA."},
-    {"time": "49.0 to 50.0s", "frame": "frames/sec-49.jpg", "vo": "", "ost": "comment LAUNCH", "visual": "End card: Allbirds wordmark with a small made-with-Masonry credit.", "mirrors": "Inspiration 49s, the closing keyword CTA."}
+    {
+      "time": "0.0 to 2.5s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "every FOUNDER wants this",
+      "visual": "A busy city street, a giant billboard overhead showing a clean Allbirds sneaker ad. Confident, aspirational open.",
+      "mirrors": "Inspiration 0 to 1s, the every-entrepreneur billboard hook."
+    },
+    {
+      "time": "2.5 to 5.0s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "",
+      "ost": "on BILLBOARDS",
+      "visual": "Tilt up a building wall fully wrapped in an Allbirds Wool Runner campaign.",
+      "mirrors": "Inspiration 2 to 3s, the product everywhere beat."
+    },
+    {
+      "time": "5.0 to 7.5s",
+      "frame": "frames/sec-06.jpg",
+      "vo": "",
+      "ost": "in the FEED",
+      "visual": "A phone in a cafe scrolls to the same Allbirds ad running as a story.",
+      "mirrors": "Inspiration 5 to 6s, the in-feed placement."
+    },
+    {
+      "time": "7.5 to 10.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "everywhere at once",
+      "visual": "A subway car interior with an Allbirds poster above the seats, commuters nearby.",
+      "mirrors": "Inspiration 7 to 8s, the subway placement."
+    },
+    {
+      "time": "10.0 to 13.0s",
+      "frame": "frames/sec-11.jpg",
+      "vo": "",
+      "ost": "shoots cost a FORTUNE",
+      "visual": "A founder reads a Founders newspaper at a desk, implying the old, expensive production route.",
+      "mirrors": "Inspiration 10 to 11s, the cost beat."
+    },
+    {
+      "time": "13.0 to 15.0s",
+      "frame": "frames/sec-13.jpg",
+      "vo": "",
+      "ost": "the NEW way",
+      "visual": "A hand lifts a phone, the Masonry app opening on screen.",
+      "mirrors": "Inspiration 12 to 13s, the turn toward the tool."
+    },
+    {
+      "time": "15.0 to 18.0s",
+      "frame": "frames/sec-16.jpg",
+      "vo": "",
+      "ost": "AI video GENERATOR",
+      "visual": "Masonry interface, an Allbirds shoe loaded, the generate control in view.",
+      "mirrors": "Inspiration 14 to 16s, the AI-video-generator reveal."
+    },
+    {
+      "time": "18.0 to 21.0s",
+      "frame": "frames/sec-19.jpg",
+      "vo": "",
+      "ost": "drop in ONE shot",
+      "visual": "A single ordinary Allbirds product photo is dragged into Masonry.",
+      "mirrors": "Inspiration 17 to 18s, the upload."
+    },
+    {
+      "time": "21.0 to 24.0s",
+      "frame": "frames/sec-22.jpg",
+      "vo": "",
+      "ost": "product VIDEO",
+      "visual": "The shoe rotates in a lit studio scene, generated, scroll-stopping motion.",
+      "mirrors": "Inspiration 19 to 21s, the product-video output."
+    },
+    {
+      "time": "24.0 to 27.0s",
+      "frame": "frames/sec-25.jpg",
+      "vo": "",
+      "ost": "lifestyle SCENES",
+      "visual": "The sneaker on a sunlit sidewalk, a model mid-stride just behind it.",
+      "mirrors": "Inspiration 22 to 24s, the lifestyle beat."
+    },
+    {
+      "time": "27.0 to 30.0s",
+      "frame": "frames/sec-28.jpg",
+      "vo": "",
+      "ost": "detail on ANY product",
+      "visual": "Macro on the shoe stitching and wool texture, crisp and true.",
+      "mirrors": "Inspiration 25 to 27s, the any-product detail beat."
+    },
+    {
+      "time": "30.0 to 33.0s",
+      "frame": "frames/sec-31.jpg",
+      "vo": "",
+      "ost": "every COLORWAY",
+      "visual": "Three Allbirds colorways line up in matching studio light.",
+      "mirrors": "Inspiration 28 to 30s, the variety montage."
+    },
+    {
+      "time": "33.0 to 36.0s",
+      "frame": "frames/sec-34.jpg",
+      "vo": "",
+      "ost": "describe the VIBE",
+      "visual": "A short prompt typed in Masonry: morning run, golden light, wet pavement.",
+      "mirrors": "Inspiration 31 to 33s, the describe-it beat."
+    },
+    {
+      "time": "36.0 to 39.0s",
+      "frame": "frames/sec-37.jpg",
+      "vo": "",
+      "ost": "on-BRAND in seconds",
+      "visual": "The result reveals with the Allbirds palette and logo already intact.",
+      "mirrors": "Inspiration 34 to 36s, the generated-on-brand beat."
+    },
+    {
+      "time": "39.0 to 42.0s",
+      "frame": "frames/sec-40.jpg",
+      "vo": "",
+      "ost": "want a NEW set?",
+      "visual": "Variation thumbnails flick past, the same shoe in different moods and scenes.",
+      "mirrors": "Inspiration 37 to 39s, the variations beat."
+    },
+    {
+      "time": "42.0 to 45.0s",
+      "frame": "frames/sec-43.jpg",
+      "vo": "",
+      "ost": "no STUDIO bills",
+      "visual": "A clean grid of finished Allbirds ads assembles into place.",
+      "mirrors": "Inspiration 40 to 43s, the without-the-studio-bills payoff."
+    },
+    {
+      "time": "45.0 to 47.0s",
+      "frame": "frames/sec-45.jpg",
+      "vo": "",
+      "ost": "from ONE photo",
+      "visual": "The full set laid out together: billboard, video frame, story, banner.",
+      "mirrors": "Inspiration 44 to 45s, the full-campaign beat."
+    },
+    {
+      "time": "47.0 to 49.0s",
+      "frame": "frames/sec-47.jpg",
+      "vo": "",
+      "ost": "try it in MASONRY",
+      "visual": "The Masonry app on a phone held up against the city, mirroring the source CTA.",
+      "mirrors": "Inspiration 46 to 48s, the try-it-now CTA."
+    },
+    {
+      "time": "49.0 to 50.0s",
+      "frame": "frames/sec-49.jpg",
+      "vo": "",
+      "ost": "comment LAUNCH",
+      "visual": "End card: Allbirds wordmark with a small made-with-Masonry credit.",
+      "mirrors": "Inspiration 49s, the closing keyword CTA."
+    }
   ],
-  "notes": "Demo brand is Allbirds, a realistic stand-in for a D2C footwear or ecommerce client (swap in the actual client when producing). This is the no-voiceover case: leave Voice-over blank and let on-screen text plus the track carry it. All product, lifestyle and UI footage would be generated or assembled with Masonry; no media has been generated yet (generation is gated on separate approval). The source CTA pointed to Photoroom; the integration here is Masonry. Keep total runtime near 50s to match the reference."
+  "notes": "Demo brand is Allbirds, a realistic stand-in for a D2C footwear or ecommerce client (swap in the actual client when producing). This is the no-voiceover case: leave Voice-over blank and let on-screen text plus the track carry it. All product, lifestyle and UI footage would be generated or assembled with Masonry; no media has been generated yet (generation is gated on separate approval). The source CTA pointed to Photoroom; the integration here is Masonry. Keep total runtime near 50s to match the reference.",
+  "refsummary": "The original (photoroom) is a no-voiceover product reel: text over music shows AI product imagery everywhere, billboards, feeds, subways, then a tool, then a 'without the studio bills' payoff. Audio-only, the on-screen text carries it. Watch it for the placements-then-tool-then-payoff structure; our version makes the tool Masonry.",
+  "story": "Same audio-only placements-to-payoff structure, reframed to Masonry with Allbirds as the demo brand. Arc: HOOK, every founder wants this, the product on billboards, in the feed, everywhere at once. THE COST, shoots cost a fortune, here is the new way. THE TOOL, drop one shoe shot into Masonry and get product video, lifestyle scenes, detail on any product, every colorway, on brand in seconds. PAYOFF, no studio bills, from one photo, try it in Masonry, comment LAUNCH. Keep voice-over blank and let the text and track carry it. The viewer should believe one product shot becomes a whole campaign in Masonry.",
+  "takeaway": "One shoe shot becomes an entire campaign in Masonry, billboards, product video and lifestyle scenes, all on brand and without the studio bills."
 }
