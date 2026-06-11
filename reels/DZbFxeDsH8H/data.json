@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~46s. Inspiration: https://www.instagram.com/p/DZbFxeDsH8H/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/p/DZbFxeDsH8H/",
+  "duration_sec": 46,
+  "frame_count": 46,
+  "caption": "Comment “FABLE” for the FABLE 5 Master Guide ✨⬇️\n\n@claudeai just unleashed the most powerful AI model ever built. And the best way to push it to its absolute max lives inside @higgsfield.ai Supercomputer 🧠\n\nImagine your entire creative DNA stored once and locked forever. An AI that watches every output, catches morphing errors before you, and ships flawless campaigns on its own. A whole AI agency you direct from one chat, every tool you use already plugged in 🎬\n\nYou have 13 free days to plug it into your stack. The top 1% is already in.\n\n#claudecode #higgsfieldsupercomputer #aicreator #fable5 #higgsfield",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
