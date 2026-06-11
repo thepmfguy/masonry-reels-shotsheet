@@ -1,14 +1,122 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~46s. Inspiration: https://www.instagram.com/p/DZbFxeDsH8H/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "Quay x Masonry: a creative supercomputer for your brand",
+  "meta": "Vertical 9:16 reel, ~46s. Featured brand: Quay Australia. Inspired by Tim Koda's AI creative-agent reel (instagram.com/p/DZbFxeDsH8H).",
+  "concept": "A fast-cut hype reel that reframes Masonry as a creative supercomputer that holds a brand's entire identity and ships campaigns on its own. We open inside an AI agent reviewing a Quay campaign and catching what human review missed, build through everything it can generate and the consistency it guards, then pay it off with a surreal festival scene where the campaign is already live. Mirrors the inspiration's beat order, single-word on-screen punches, and length, with fully original copy.",
+  "audio": "Driving electronic hype track at the same fast-cut tempo as the inspiration. One confident voiceover carries the claims; the on-screen text punches a single key word each beat, snapped to the cuts. If produced audio-only, drop the VO and let the OST plus the track carry the story.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/p/DZbFxeDsH8H/",
-  "duration_sec": 46,
-  "frame_count": 46,
-  "caption": "Comment “FABLE” for the FABLE 5 Master Guide ✨⬇️\n\n@claudeai just unleashed the most powerful AI model ever built. And the best way to push it to its absolute max lives inside @higgsfield.ai Supercomputer 🧠\n\nImagine your entire creative DNA stored once and locked forever. An AI that watches every output, catches morphing errors before you, and ships flawless campaigns on its own. A whole AI agency you direct from one chat, every tool you use already plugged in 🎬\n\nYou have 13 free days to plug it into your stack. The top 1% is already in.\n\n#claudecode #higgsfieldsupercomputer #aicreator #fable5 #higgsfield",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "beats": [
+    {
+      "time": "0.0 to 2.5s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "I handed my whole campaign to one AI agent and watched it catch what three rounds of review missed.",
+      "ost": "MASONRY // SCANNING",
+      "visual": "Terminal-style Masonry chat reviewing a Quay campaign clip frame by frame, a scan readout ticking, flagged issues lighting up on the right.",
+      "mirrors": "Inspiration 0 to 2s, the AI agent reviewing a video in a terminal and detecting anomalies."
+    },
+    {
+      "time": "2.5 to 4.5s",
+      "frame": "frames/sec-04.jpg",
+      "vo": "This is the thing that changed how we make content.",
+      "ost": "revolutionized.",
+      "visual": "Quick whip into a glossy reveal card over the chat, big word stamped on screen, surreal AI-generated backdrop behind it.",
+      "mirrors": "Inspiration 3 to 4s, the revolutionized and feature reveal cards."
+    },
+    {
+      "time": "4.5 to 7.0s",
+      "frame": "frames/sec-06.jpg",
+      "vo": "It holds your entire brand at once. Every shot, every color, every line you have ever shipped.",
+      "ost": "your whole brand, remembered.",
+      "visual": "Counter rolling up to a huge number, a wall of past Quay assets loading into the agent's memory.",
+      "mirrors": "Inspiration 6 to 7s, the token counter and capacity claim."
+    },
+    {
+      "time": "7.0 to 9.5s",
+      "frame": "frames/sec-09.jpg",
+      "vo": "So everything it makes stays on brand without you babysitting it.",
+      "ost": "always on brand.",
+      "visual": "Dashboard view, brand consistency meters at full, a row of generated Quay frames all matching.",
+      "mirrors": "Inspiration 8 to 9s, the stay and inside dashboard cards."
+    },
+    {
+      "time": "9.5 to 13.0s",
+      "frame": "frames/sec-13.jpg",
+      "vo": "Masonry. A creative supercomputer for your brand.",
+      "ost": "MASONRY.",
+      "visual": "Product name slams on over the chat composer, model selector reading Masonry, tagline underneath.",
+      "mirrors": "Inspiration 10 to 13s, the supercomputer for creators reveal and the chat bar."
+    },
+    {
+      "time": "13.0 to 16.0s",
+      "frame": "frames/sec-15.jpg",
+      "vo": "Tell it what you need. Ads, product shots, avatars, full videos.",
+      "ost": "what can it make?",
+      "visual": "Grid of outputs spawning at once: a Quay ad, a clean eyewear product shot, a model avatar, a short clip.",
+      "mirrors": "Inspiration 14 to 16s, the what can it do menu and generation grid."
+    },
+    {
+      "time": "16.0 to 19.0s",
+      "frame": "frames/sec-17.jpg",
+      "vo": "It generates the whole set in seconds, on brand and ready to post.",
+      "ost": "generated.",
+      "visual": "Tiles flipping from placeholder to finished, web banners and vertical video filling in.",
+      "mirrors": "Inspiration 16 to 18s, the web and videos output beats."
+    },
+    {
+      "time": "19.0 to 22.5s",
+      "frame": "frames/sec-22.jpg",
+      "vo": "And it catches the morphing and the warps before they ever reach your feed.",
+      "ost": "no morphing.",
+      "visual": "Anomaly inspector on a generated clip, a frame marked, the fix applied and the warp gone.",
+      "mirrors": "Inspiration 19 to 22s, the morphing inconsistencies and anomaly list."
+    },
+    {
+      "time": "22.5 to 26.0s",
+      "frame": "frames/sec-25.jpg",
+      "vo": "Give it a new skill and its range just keeps growing.",
+      "ost": "new skills.",
+      "visual": "Skill cards snapping into place, a capacity bar pushing to max.",
+      "mirrors": "Inspiration 22 to 25s, the skills, capacity and max cards."
+    },
+    {
+      "time": "26.0 to 30.0s",
+      "frame": "frames/sec-29.jpg",
+      "vo": "It runs like a full creative team you direct from one chat.",
+      "ost": "autonomous.",
+      "visual": "The agent spinning up parallel jobs on its own, a checklist of campaign tasks completing.",
+      "mirrors": "Inspiration 26 to 30s, the autonomous and building categories beats."
+    },
+    {
+      "time": "30.0 to 34.0s",
+      "frame": "frames/sec-33.jpg",
+      "vo": "Every tool you already use is plugged straight in.",
+      "ost": "every tool, connected.",
+      "visual": "Connectors panel sliding up, app tiles linking into the chat.",
+      "mirrors": "Inspiration 30 to 34s, the supercomputer connectors reveal."
+    },
+    {
+      "time": "34.0 to 39.0s",
+      "frame": "frames/sec-38.jpg",
+      "vo": "Instagram, Notion, Slack, your whole stack, all connected.",
+      "ost": "Instagram. Notion. Slack.",
+      "visual": "Scrolling list of connected apps, each lighting up as it links.",
+      "mirrors": "Inspiration 35 to 39s, the connectors list of apps."
+    },
+    {
+      "time": "39.0 to 43.0s",
+      "frame": "frames/sec-42.jpg",
+      "vo": "So the campaign ships itself while you are out living it.",
+      "ost": "it ships itself.",
+      "visual": "Two creators in Quay sunglasses at a sunlit festival, surreal floating shapes around them, the campaign already live.",
+      "mirrors": "Inspiration 40 to 43s, the celebrating creators payoff."
+    },
+    {
+      "time": "43.0 to 46.0s",
+      "frame": "frames/sec-45.jpg",
+      "vo": "Masonry. Your brand's creative DNA, in one place.",
+      "ost": "QUAY x MASONRY",
+      "visual": "Festival wide shot dissolving to a clean Quay logo lockup with the Masonry mark and a comment to unlock CTA.",
+      "mirrors": "Inspiration 44 to 45s, the DNA stamp and brand sign-off."
+    }
+  ],
+  "notes": "Quay Australia is a stand-in demo brand (a believable D2C eyewear pick), not a signed client. All media is generated and assembled with Masonry, positioned as the creative supercomputer. No media has been generated yet; generation is gated on separate approval per Rule 16. Copy is original and mirrors the inspiration's structure only, not its lines."
 }
