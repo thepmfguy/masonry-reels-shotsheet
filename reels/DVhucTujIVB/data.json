@@ -1,14 +1,203 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~47s. Inspiration: https://www.instagram.com/reel/DVhucTujIVB/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "Three Prompts. One Brand Identity, in Masonry.",
+  "meta": "Vertical 9:16 reel, ~47s. Featured brand: Magic Spoon. Inspired by Tim Koda (DVhucTujIVB, an emotional-branding reel). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A capability-proof brand-system reel for Magic Spoon. The inspiration builds a full brand identity from three prompts: define the emotional DNA, translate it into a visual direction, then generate every asset with texture keywords that feel handmade. The reframe makes Masonry the engine for all three steps, generating Magic Spoon's whole playful world, packaging, sticker mascots, the lot, with soul. Every asset is generated in Masonry following the Make in Masonry step, then cut to the beat.",
+  "audio": "Warm, playful track with a handmade, tactile feel. Audio-only: no voiceover; the on-screen text carries the system. Cut every super to the beat.",
+  "refsummary": "The original (Tim Koda) argues AI brands all look the same, clean and soulless, and the ones that connect feel handmade. He builds a full brand identity (a playful 'French Croissant' brand) in three prompts: define the emotional DNA with an LLM, translate it into a full visual direction, then generate every asset with texture keywords that make it feel human, ending on packaging covered in sticker mascots. Watch it for the three-step brand-system structure; our version makes the engine Masonry.",
+  "story": "A capability-led brand-system proof. Arc: HOOK, AI brands all look the same, clean, polished, soulless. TRUTH, the ones that connect feel handmade. THE SYSTEM, three prompts, one brand identity. STEP 1, the brand's emotional DNA. STEP 2, a full visual direction. STEP 3, texture that feels human. PROOF, Masonry generates every asset, the packaging, the sticker mascots, the whole world. CLOSE, one system, on brand, with soul, Magic Spoon x Masonry. The viewer should leave believing Masonry can build a complete, soulful brand identity, not just single images.",
+  "takeaway": "Masonry can build a complete brand identity from three prompts: emotional DNA, visual direction, and handmade-feeling texture, generating every asset from packaging to mascots with soul, not soulless sameness.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DVhucTujIVB/",
-  "duration_sec": 47,
-  "frame_count": 47,
-  "caption": "Comment “FEEL” to get the full BRAND SYSTEM and every prompts I used ⬇️🔥\n\nAI brands all look the same. Clean. Polished. Soulless.\n\nThe ones that connect? They feel handmade.\n\n3 prompts. 3 steps. 1 complete brand identity :\n\n1 — Define your brand’s emotional DNA with one LLM prompt, I used @claudeai for this one.\n\n2 — Translate it into a full visual direction with my prompt 🔥\n\n3 — Generate every asset with texture keywords that make AI feel human. Use Nano Banana or Recraft for motion design !\n\nBrand structure. Visual direction. Texture keywords. That’s the system.\n\nComment FEEL to get it all 🔥\n\n#emotionalbranding #aibranding #aicreative",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "script_kind": "On-screen text only. This is an audio-only reel: no voiceover, no spoken lines. Every line below is a super, shown exactly as written and cut to the beat of the track. Read top to bottom, this is the complete message of the video, word for word. Clean sans; emphasize the brand word Masonry in the accent color.",
+  "script": [
+    {
+      "tc": "0:00",
+      "line": "AI brands all look the same"
+    },
+    {
+      "tc": "0:03",
+      "line": "clean. polished. soulless."
+    },
+    {
+      "tc": "0:06",
+      "line": "the ones that connect feel handmade"
+    },
+    {
+      "tc": "0:09",
+      "line": "3 prompts. 1 brand identity."
+    },
+    {
+      "tc": "0:13",
+      "line": "step 1: your brand's emotional DNA"
+    },
+    {
+      "tc": "0:18",
+      "line": "step 2: a full visual direction"
+    },
+    {
+      "tc": "0:24",
+      "line": "step 3: texture that feels human"
+    },
+    {
+      "tc": "0:30",
+      "line": "Masonry generates every asset"
+    },
+    {
+      "tc": "0:36",
+      "line": "packaging, stickers, the whole world"
+    },
+    {
+      "tc": "0:42",
+      "line": "one system. on brand. with soul."
+    },
+    {
+      "tc": "0:46",
+      "line": "Magic Spoon x Masonry"
+    }
+  ],
+  "beats": [
+    {
+      "time": "0.0 to 3.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "AI brands all look the same",
+      "super": "Fades up over the packaging.",
+      "visual": "A generic-looking branded box, clean but lifeless. The problem.",
+      "masonry": "Prompt 'clean minimal cereal packaging, flat and generic.' Generate the before-state.",
+      "edit": "Slow push-in on the flat box.",
+      "transition": "",
+      "sfx": "Sparse pad opens.",
+      "mirrors": "Inspiration sec 0 to 2: the sameness problem over packaging."
+    },
+    {
+      "time": "3.0 to 6.0s",
+      "frame": "frames/sec-04.jpg",
+      "vo": "",
+      "ost": "clean. polished. soulless.",
+      "super": "Three words snap in.",
+      "visual": "Three sterile brand frames, technically perfect, emotionally flat.",
+      "masonry": "Three generations that look correct but cold. Set up the contrast.",
+      "edit": "Three flat cuts.",
+      "transition": "Hard cuts on the beat.",
+      "sfx": "Tick per word.",
+      "mirrors": "Inspiration sec 3 to 5: clean, polished, soulless."
+    },
+    {
+      "time": "6.0 to 9.0s",
+      "frame": "frames/sec-08.jpg",
+      "vo": "",
+      "ost": "the ones that connect feel handmade",
+      "super": "'handmade' lands bold.",
+      "visual": "Playful sticker-mascot art appears, warm and tactile. The turn.",
+      "masonry": "Generate playful mascot stickers with 'handmade, tactile, sticker-sheet texture.' Warmth enters.",
+      "edit": "Snap to the colorful mascots.",
+      "transition": "Bright wipe into color.",
+      "sfx": "Warm chime.",
+      "mirrors": "Inspiration sec 6 to 8: handmade sticker characters appear."
+    },
+    {
+      "time": "9.0 to 13.0s",
+      "frame": "frames/sec-11.jpg",
+      "vo": "",
+      "ost": "3 prompts. 1 brand identity.",
+      "super": "Centered, holds.",
+      "visual": "A clean title card framing the three-step system.",
+      "masonry": "Title beat: set up the three-step Masonry brand system.",
+      "edit": "Hold the title; subtle scale.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Downbeat hit.",
+      "mirrors": "Inspiration sec 9 to 11: the three-prompt system framing."
+    },
+    {
+      "time": "13.0 to 18.0s",
+      "frame": "frames/sec-15.jpg",
+      "vo": "",
+      "ost": "step 1: your brand's emotional DNA",
+      "super": "'step 1' tag, line builds.",
+      "visual": "A short screen-record of the emotional-DNA prompt and its output in Masonry.",
+      "masonry": "0.6s screen-record: define Magic Spoon's emotional DNA in Masonry, the tone and feeling captured.",
+      "edit": "Screen-record, then a warm mascot frame.",
+      "transition": "UI flash to output.",
+      "sfx": "UI click; build.",
+      "mirrors": "Inspiration sec 13 to 17: defining the emotional DNA with a prompt."
+    },
+    {
+      "time": "18.0 to 24.0s",
+      "frame": "frames/sec-21.jpg",
+      "vo": "",
+      "ost": "step 2: a full visual direction",
+      "super": "'step 2' tag, line builds.",
+      "visual": "Typography, color and layout system generating, a coherent visual world.",
+      "masonry": "Generate the visual direction in Masonry: type system, palette, layout, all on brand.",
+      "edit": "Reveal the system boards.",
+      "transition": "Match-cut between boards.",
+      "sfx": "Layered build.",
+      "mirrors": "Inspiration sec 18 to 23: translating into a full visual direction."
+    },
+    {
+      "time": "24.0 to 30.0s",
+      "frame": "frames/sec-27.jpg",
+      "vo": "",
+      "ost": "step 3: texture that feels human",
+      "super": "'step 3' tag; 'human' bold.",
+      "visual": "Close-ups of grain, paper and sticker texture brought into every asset.",
+      "masonry": "Generate with texture keywords in Masonry: grain, paper, hand-cut sticker edges. Makes it feel human.",
+      "edit": "Macro texture cuts.",
+      "transition": "Quick texture cuts.",
+      "sfx": "Tactile rustle.",
+      "mirrors": "Inspiration sec 24 to 29: texture keywords that make it feel human."
+    },
+    {
+      "time": "30.0 to 36.0s",
+      "frame": "frames/sec-33.jpg",
+      "vo": "",
+      "ost": "Masonry generates every asset",
+      "super": "'Masonry' in the accent color.",
+      "visual": "A wall of generated assets: mascots, boxes, bags, social frames, one world.",
+      "masonry": "Batch generate the asset set in Masonry: mascots, packaging, social. One cohesive identity.",
+      "edit": "Fast asset montage.",
+      "transition": "Rapid cuts on the beat.",
+      "sfx": "Energy rises.",
+      "mirrors": "Inspiration sec 30 to 35: every asset generated."
+    },
+    {
+      "time": "36.0 to 42.0s",
+      "frame": "frames/sec-39.jpg",
+      "vo": "",
+      "ost": "packaging, stickers, the whole world",
+      "super": "Phrase builds over the packaging.",
+      "visual": "Magic Spoon boxes covered in sticker mascots, the full brand world realized.",
+      "masonry": "Generate hero packaging covered in the mascot stickers. The world comes together.",
+      "edit": "Hero packaging reveal.",
+      "transition": "Soft match-cut to the hero.",
+      "sfx": "Satisfying settle.",
+      "mirrors": "Inspiration sec 36 to 41: packaging covered in sticker mascots."
+    },
+    {
+      "time": "42.0 to 46.0s",
+      "frame": "frames/sec-43.jpg",
+      "vo": "",
+      "ost": "one system. on brand. with soul.",
+      "super": "Bold close line.",
+      "visual": "A confident hero of the full identity, alive and tactile.",
+      "masonry": "Hero generation of the complete Magic Spoon identity.",
+      "edit": "Hero hold.",
+      "transition": "Hold.",
+      "sfx": "Single impact.",
+      "mirrors": "Inspiration sec 42 to 45: the full identity, with soul."
+    },
+    {
+      "time": "46.0 to 47.0s",
+      "frame": "frames/sec-46.jpg",
+      "vo": "",
+      "ost": "Magic Spoon x Masonry",
+      "super": "Brand and Masonry wordmarks.",
+      "visual": "End card, clean cut.",
+      "masonry": "Close: the Magic Spoon x Masonry end card.",
+      "edit": "Clean cut to the end card.",
+      "transition": "Final hard cut; hold.",
+      "sfx": "Final impact; music resolves.",
+      "mirrors": "Inspiration sec 46: the brand sign-off."
+    }
+  ],
+  "notes": "Editor workflow: load Magic Spoon's products into the Masonry library, then generate each beat with its Make in Masonry prompt and cut per the Super / Edit / Transition / SFX direction. Demo brand is a believable stand-in; swap in the real client when producing. All visuals are generated and assembled in Masonry. No media generated yet: generation is gated on separate approval per project policy."
 }

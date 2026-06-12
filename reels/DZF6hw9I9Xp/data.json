@@ -1,14 +1,101 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~9s. Inspiration: https://www.instagram.com/reel/DZF6hw9I9Xp/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "A $50k Product Film. Masonry Generated It.",
+  "meta": "Vertical 9:16 reel, ~9s. Featured brand: Phlur. Inspired by Mello Media (DZF6hw9I9Xp). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A capability-proof cinematic product film for Phlur. The inspiration is a slick motion-design showreel: dramatic light, a floating camera, exploded parts, a translucent hero block. The reframe: Masonry generates that same cinematic product film for a fragrance brand, the bottle floating, the notes exploding, dramatic CGI-style scenes, all from one product shot. Every frame is generated in Masonry following the Make in Masonry step, then cut to the beat.",
+  "audio": "Cinematic, moody electronic track with a deep pulse and a satisfying whoosh on each product move. Audio-only: no voiceover. Cut every move to the beat.",
+  "refsummary": "The original (Mello Media) is a short, audio-only cinematic motion-design showreel: a silhouette in dramatic orange light, a camera floating over an open hand, exploded camera parts assembling, a translucent branded block, a figure falling through a spotlight void. It shows off high-end CGI product motion. Watch it for the dramatic floating-and-exploding product language; our version recreates that for a fragrance brand, generated in Masonry.",
+  "story": "A capability-led cinematic proof. Arc: HOOK, a frame that looks like a $50k product film. REVEAL, Masonry generated it. PROOF, the Phlur bottle floats, the notes explode and reassemble, dramatic cinematic scenes built from one product shot. CLOSE, no studio, no CGI team, Phlur x Masonry. The viewer should leave believing a cinematic, CGI-grade product film can come straight out of Masonry from a single bottle photo.",
+  "takeaway": "Masonry can turn one fragrance bottle shot into a cinematic, CGI-grade product film: floating hero, exploding notes, dramatic scenes, with no studio and no CGI team.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DZF6hw9I9Xp/",
-  "duration_sec": 9,
-  "frame_count": 9,
-  "caption": "Mello Media zit in een stroomversnelling! Super blij en dankbaar dat ik elke dag bezig kan zijn met datgene wat ik het aller liefste doe! Naast de volle agenda kan ik het echt niet laten om hier en daar wat voor mezelf te maken! Gewoon voor de kennis en de “leuk”. En daar is dit zoiets van. Creëren vanuit passie voor het vak en het uitbreiden van m’n skills 🧡",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "script_kind": "On-screen text only. This is an audio-only reel: no voiceover, no spoken lines. Every line below is a super, shown exactly as written and cut to the beat of the track. Read top to bottom, this is the complete message of the video, word for word. Clean sans; emphasize the brand word Masonry in the accent color.",
+  "script": [
+    {
+      "tc": "0:00",
+      "line": "this looks like a $50k product film"
+    },
+    {
+      "tc": "0:01",
+      "line": "Masonry generated it"
+    },
+    {
+      "tc": "0:03",
+      "line": "your bottle, floating, exploding, in motion"
+    },
+    {
+      "tc": "0:05",
+      "line": "cinematic scenes from one product shot"
+    },
+    {
+      "tc": "0:07",
+      "line": "no studio. no CGI team."
+    }
+  ],
+  "beats": [
+    {
+      "time": "0.0 to 1.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "this looks like a $50k product film",
+      "super": "Clean sans, fades up over the dramatic light.",
+      "visual": "Silhouette against dramatic orange light, cinematic and expensive. Hook.",
+      "masonry": "Prompt 'cinematic silhouette in dramatic warm light, premium product film opener, 9:16.' Generate the opener.",
+      "edit": "Slow push-in on the silhouette.",
+      "transition": "",
+      "sfx": "Deep cinematic pad opens.",
+      "mirrors": "Inspiration sec 0: a silhouette in dramatic orange light opens the film."
+    },
+    {
+      "time": "1.0 to 2.5s",
+      "frame": "frames/sec-01.jpg",
+      "vo": "",
+      "ost": "Masonry generated it",
+      "super": "'Masonry' in the accent color, scale-in.",
+      "visual": "The Phlur bottle floats over an open hand, weightless, lit like a hero shot.",
+      "masonry": "Upload the Phlur bottle to Masonry. Prompt 'fragrance bottle floating over an open hand, dramatic studio light.' Generate the reveal.",
+      "edit": "Hold on the float; subtle rotation.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Whoosh as the bottle settles.",
+      "mirrors": "Inspiration sec 1: a camera floats over an open hand."
+    },
+    {
+      "time": "2.5 to 4.5s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "",
+      "ost": "your bottle, floating, exploding, in motion",
+      "super": "Phrase builds across the moves.",
+      "visual": "The bottle and its notes explode into a weightless assembly, then draw back together.",
+      "masonry": "Animate the bottle: 'explode into ingredient notes, then reassemble.' Use Masonry's animate to drive the motion.",
+      "edit": "Exploded assembly, then a snap back together.",
+      "transition": "Match-cut on the reassembly.",
+      "sfx": "Airy explode, then a satisfying click on reassembly.",
+      "mirrors": "Inspiration sec 5: exploded parts assembling in mid-air."
+    },
+    {
+      "time": "4.5 to 6.5s",
+      "frame": "frames/sec-04.jpg",
+      "vo": "",
+      "ost": "cinematic scenes from one product shot",
+      "super": "Centered, holds through the hero.",
+      "visual": "Translucent, glowing hero of the Phlur bottle, every detail crisp. From a single input.",
+      "masonry": "Generate a translucent backlit hero of the bottle. Same product as the float and explode beats, new scene.",
+      "edit": "Slow hero push-in.",
+      "transition": "Soft dissolve into the hero.",
+      "sfx": "Low swell.",
+      "mirrors": "Inspiration sec 4: the translucent branded hero block."
+    },
+    {
+      "time": "6.5 to 9.0s",
+      "frame": "frames/sec-07.jpg",
+      "vo": "",
+      "ost": "no studio. no CGI team.",
+      "super": "Bold close line, then the Phlur and Masonry wordmarks.",
+      "visual": "A final dramatic scene, then a clean cut to the end card.",
+      "masonry": "Close on a dramatic generated scene, then the Phlur x Masonry end card.",
+      "edit": "Dramatic hold, clean cut to end card.",
+      "transition": "Final hard cut; hold.",
+      "sfx": "Final impact; music resolves into the outro.",
+      "mirrors": "Inspiration sec 7 to 8: the dramatic spotlight close and sign-off."
+    }
+  ],
+  "notes": "Editor workflow: load Phlur's products into the Masonry library, then generate each beat with its Make in Masonry prompt and cut per the Super / Edit / Transition / SFX direction. Demo brand is a believable stand-in; swap in the real client when producing. All visuals are generated and assembled in Masonry. No media generated yet: generation is gated on separate approval per project policy."
 }

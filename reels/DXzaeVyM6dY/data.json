@@ -1,14 +1,186 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~33s. Inspiration: https://www.instagram.com/reel/DXzaeVyM6dY/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "One Brief. A Whole Brand Film, in Masonry.",
+  "meta": "Vertical 9:16 reel, ~33s. Featured brand: Outdoor Voices. Inspired by Tim Koda (DXzaeVyM6dY, an AI solo-filmmaker reel). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A capability-proof solo-filmmaker reel for Outdoor Voices. The inspiration walks an AI storyboard workflow: stop model-hopping, drop one brief, build every frame of a film on one canvas with the same character and world locked, rotate angles without re-prompting, then render the video. The reframe makes Masonry that engine: one brief becomes a full adventure brand film, the hero athlete and the mountain world locked across every frame. Every frame is generated in Masonry following the Make in Masonry step, then cut to the beat.",
+  "audio": "Driving cinematic track that builds. Audio-only: no voiceover; the on-screen text carries the workflow. Cut every super to the beat.",
+  "refsummary": "The original (Tim Koda) sells an AI storyboard workflow: he used to model-hop between tools to land one consistent shot, then dropped a single brief into a narrative storyboard skill that built every frame of his film on one canvas, same character and world locked, with multi-angle rotation and video render on the same canvas. The b-roll is a cinematic snow-mountain athlete. Watch it for the brief-to-full-film structure; our version makes that engine Masonry.",
+  "story": "A capability-led workflow proof. Arc: HOOK, a cinematic adventure brand film. PAIN, you used to model-hop between tools for one consistent shot. THE FIX, drop one brief into Masonry and it builds every frame on one canvas, the hero athlete and the mountain world locked across the whole sequence. POWER, rotate any angle without re-prompting, render the video on the same canvas, no app-switching or regeneration loops. INSIGHT, the bottleneck was never the model, it was the storyboard. CLOSE, Outdoor Voices x Masonry. The viewer should leave believing Masonry builds a consistent full film from one brief.",
+  "takeaway": "Masonry can take one brief and build an entire brand film on a single canvas, the hero and the world locked across every frame, with multi-angle rotation and video render, no model-hopping and no regeneration loops.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DXzaeVyM6dY/",
-  "duration_sec": 33,
-  "frame_count": 33,
-  "caption": "Comment “FILM” to get my AI SOLO FILMMAKER GUIDE in your DMs 💥⬇️\n\nI used to spend nights model-hopping between Midjourney, Kling, and Sora just to land one consistent shot. The character would shift between frames, the lighting would flip, and the storyboard I had in my head never came out the same way twice.\n\nThen I dropped a single brief into @lovart.ai . The Narrative Storyboard Skill 🎬 built every frame of my film on one canvas. Hero frame, every angle, every variation, same character and same world locked across the whole sequence.\n\nFrom there, Multi-Angles ⚡ rotates the camera without re-prompting. Kling and Seedance render the cinematic video right on the same canvas. No app-switching. No regeneration loops. No model-hopping.\n\nThe bottleneck was never the model. It was always the storyboard.\n\n#lovart #lovartai #aifilmmaker",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "script_kind": "On-screen text only. This is an audio-only reel: no voiceover, no spoken lines. Every line below is a super, shown exactly as written and cut to the beat of the track. Read top to bottom, this is the complete message of the video, word for word. Clean sans; emphasize the brand word Masonry in the accent color.",
+  "script": [
+    {
+      "tc": "0:00",
+      "line": "want a brand film like this?"
+    },
+    {
+      "tc": "0:02",
+      "line": "you used to model-hop for one shot"
+    },
+    {
+      "tc": "0:05",
+      "line": "now you drop one brief in Masonry"
+    },
+    {
+      "tc": "0:08",
+      "line": "every frame, built on one canvas"
+    },
+    {
+      "tc": "0:12",
+      "line": "same hero. same world. locked."
+    },
+    {
+      "tc": "0:16",
+      "line": "rotate any angle, no re-prompting"
+    },
+    {
+      "tc": "0:20",
+      "line": "Masonry renders the video"
+    },
+    {
+      "tc": "0:24",
+      "line": "no app-switching. no regen loops."
+    },
+    {
+      "tc": "0:28",
+      "line": "the bottleneck was never the model. it was the storyboard."
+    },
+    {
+      "tc": "0:31",
+      "line": "Outdoor Voices x Masonry"
+    }
+  ],
+  "beats": [
+    {
+      "time": "0.0 to 2.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "want a brand film like this?",
+      "super": "Fades up over the cinematic wide.",
+      "visual": "Cinematic selfie-wide of the athlete on a snow peak, Outdoor Voices kit. Hook.",
+      "masonry": "Prompt 'athlete on a snowy ridge, cinematic adventure film, natural light, 9:16.' Generate the opener.",
+      "edit": "Slow push-in on the ridge wide.",
+      "transition": "",
+      "sfx": "Wind bed; track enters.",
+      "mirrors": "Inspiration sec 0: the cinematic mountain hook frame."
+    },
+    {
+      "time": "2.0 to 5.0s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "",
+      "ost": "you used to model-hop for one shot",
+      "super": "Lower-third build over the b-roll.",
+      "visual": "Quick cuts implying scattered tools and inconsistent frames, the old pain.",
+      "masonry": "Show the pain beat: mismatched frames. Contrast with the consistency that follows in Masonry.",
+      "edit": "Three jittery cuts to signal inconsistency.",
+      "transition": "Hard cuts on the beat.",
+      "sfx": "Glitchy ticks.",
+      "mirrors": "Inspiration sec 2 to 4: the model-hopping pain setup."
+    },
+    {
+      "time": "5.0 to 8.0s",
+      "frame": "frames/sec-07.jpg",
+      "vo": "",
+      "ost": "now you drop one brief in Masonry",
+      "super": "'Masonry' in the accent color.",
+      "visual": "A short screen-record of one brief dropped into Masonry, then the canvas filling.",
+      "masonry": "0.6s screen-record: paste one brief into Masonry, the storyboard canvas begins building frames.",
+      "edit": "Screen-record, then cut back to the film.",
+      "transition": "UI flash into the canvas.",
+      "sfx": "UI click; build begins.",
+      "mirrors": "Inspiration sec 6 to 8: the brief dropped into the canvas."
+    },
+    {
+      "time": "8.0 to 12.0s",
+      "frame": "frames/sec-10.jpg",
+      "vo": "",
+      "ost": "every frame, built on one canvas",
+      "super": "Phrase builds across the cuts.",
+      "visual": "A grid of film frames generating together, one cohesive sequence.",
+      "masonry": "Show the storyboard grid: many frames of the same film generated on one canvas.",
+      "edit": "Reveal the grid, then push into one frame.",
+      "transition": "Match-cut grid to frame.",
+      "sfx": "Layered build.",
+      "mirrors": "Inspiration sec 9 to 11: every frame built on the canvas."
+    },
+    {
+      "time": "12.0 to 16.0s",
+      "frame": "frames/sec-14.jpg",
+      "vo": "",
+      "ost": "same hero. same world. locked.",
+      "super": "Three words, each snaps in; 'locked' bold.",
+      "visual": "Three shots of the same athlete in the same world, lighting and character consistent.",
+      "masonry": "Generate three angles with 'keep the same hero and world.' Masonry holds character and lighting across all three.",
+      "edit": "Three matched cuts, consistency visible.",
+      "transition": "Hard cuts on the beat.",
+      "sfx": "Tick per word.",
+      "mirrors": "Inspiration sec 12 to 15: the consistent character across frames."
+    },
+    {
+      "time": "16.0 to 20.0s",
+      "frame": "frames/sec-18.jpg",
+      "vo": "",
+      "ost": "rotate any angle, no re-prompting",
+      "super": "Lower-third; 'no re-prompting' bold.",
+      "visual": "The same hero frame rotating through camera angles, no new prompt.",
+      "masonry": "Use Masonry multi-angle: rotate the camera on the locked frame without re-prompting.",
+      "edit": "Smooth angle rotations on the held subject.",
+      "transition": "Arc rotation between angles.",
+      "sfx": "Whoosh per rotation.",
+      "mirrors": "Inspiration sec 16 to 19: multi-angle rotation without re-prompting."
+    },
+    {
+      "time": "20.0 to 24.0s",
+      "frame": "frames/sec-22.jpg",
+      "vo": "",
+      "ost": "Masonry renders the video",
+      "super": "'Masonry' in the accent color.",
+      "visual": "A still resolves into moving cinematic video on the same canvas.",
+      "masonry": "Show the render: a frame turns into cinematic motion in Masonry on the same canvas.",
+      "edit": "Still to motion reveal.",
+      "transition": "Dissolve from still to video.",
+      "sfx": "Swell as motion starts.",
+      "mirrors": "Inspiration sec 20 to 23: cinematic video rendered on the canvas."
+    },
+    {
+      "time": "24.0 to 28.0s",
+      "frame": "frames/sec-26.jpg",
+      "vo": "",
+      "ost": "no app-switching. no regen loops.",
+      "super": "Two-line build, fades.",
+      "visual": "Clean single-canvas workflow versus the chaos from the opening pain beat.",
+      "masonry": "Contrast: one Masonry canvas does it all, against the scattered-tool pain at the start.",
+      "edit": "One steady wide; calm after the chaos.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Resolved bass note.",
+      "mirrors": "Inspiration sec 24 to 27: no app-switching, no regeneration loops."
+    },
+    {
+      "time": "28.0 to 31.0s",
+      "frame": "frames/sec-29.jpg",
+      "vo": "",
+      "ost": "the bottleneck was never the model. it was the storyboard.",
+      "super": "The insight lands bold.",
+      "visual": "A confident hero wide of the athlete, the full film implied.",
+      "masonry": "Hero generation of the full film look; the insight line holds.",
+      "edit": "Hero hold.",
+      "transition": "Soft hold.",
+      "sfx": "Single impact.",
+      "mirrors": "Inspiration sec 28 to 30: the bottleneck insight."
+    },
+    {
+      "time": "31.0 to 33.0s",
+      "frame": "frames/sec-32.jpg",
+      "vo": "",
+      "ost": "Outdoor Voices x Masonry",
+      "super": "Brand and Masonry wordmarks, clean.",
+      "visual": "End card, clean cut.",
+      "masonry": "Close: the Outdoor Voices x Masonry end card.",
+      "edit": "Clean cut to the end card.",
+      "transition": "Final hard cut; hold.",
+      "sfx": "Final impact; music resolves.",
+      "mirrors": "Inspiration sec 31 to 32: the brand sign-off."
+    }
+  ],
+  "notes": "Editor workflow: load Outdoor Voices's products into the Masonry library, then generate each beat with its Make in Masonry prompt and cut per the Super / Edit / Transition / SFX direction. Demo brand is a believable stand-in; swap in the real client when producing. All visuals are generated and assembled in Masonry. No media generated yet: generation is gated on separate approval per project policy."
 }

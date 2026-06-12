@@ -1,14 +1,186 @@
 {
-  "status": "draft-pending",
-  "title": "Script pending",
-  "meta": "Vertical reel, ~31s. Inspiration: https://www.instagram.com/reel/DT_glUyDIP3/. Frames extracted; awaiting the Masonry script.",
-  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
-  "audio": "",
+  "title": "A $30,000 Commercial. One Prompt, in Masonry.",
+  "meta": "Vertical 9:16 reel, ~31s. Featured brand: Tracksmith. Inspired by Tim Koda (DT_glUyDIP3, a one-prompt cinematic-commercial reel). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
+  "concept": "A capability-proof cinematic-commercial reel for Tracksmith. The inspiration claims a $30k commercial made in one prompt through a four-step workflow: structure the script with an LLM, create the project, paste and generate, export production-ready. The reframe makes Masonry the engine: a cinema-grade running commercial, pro camera work and seamless transitions, from one structured prompt. Every frame is generated in Masonry following the Make in Masonry step, then cut to the beat.",
+  "audio": "Cinematic, building commercial track with a strong rhythmic drive. Audio-only: no voiceover; the on-screen text carries the workflow. Cut every super to the beat.",
+  "refsummary": "The original (Tim Koda) claims a $30k Apple-style commercial made in one prompt: traditional commercials need $30k to $50k budgets, crews and weeks, but a four-step workflow replaces that, structure the ad with an LLM into a six-scene commercial, create the project, paste the structured prompt and generate a cinema-quality spot, then export production-ready in about ten minutes. The b-roll is a cinematic city runner and a wearable. Watch it for the one-prompt-to-commercial structure; our version makes the engine Masonry.",
+  "story": "A capability-led commercial proof. Arc: HOOK, a $30,000-looking commercial. REVEAL, made in one prompt. CONTRAST, no crew, no $30k to $50k budget, no weeks of planning. THE WORKFLOW, structure the script, drop it into Masonry, generate cinema quality with pro camera work and seamless cuts, export production-ready in minutes. CLOSE, this is what brands actually pay for, Tracksmith x Masonry. The viewer should leave believing a cinema-grade brand commercial can come from one structured prompt in Masonry.",
+  "takeaway": "Masonry can generate a cinema-grade brand commercial, pro camera work and seamless transitions, from one structured prompt, replacing a $30k to $50k crew shoot with about ten minutes of work.",
   "storyboard": "frames/storyboard.jpg",
-  "inspiration_url": "https://www.instagram.com/reel/DT_glUyDIP3/",
-  "duration_sec": 31,
-  "frame_count": 31,
-  "caption": "Comment ‘AD’ to get my MASTER PROMPT and access to @makeugc.ai ⬇️🔥\nI made a $30K Apple commercial in one prompt thanks to @makeugc.ai .\nTraditional commercials require $30K-$50K budgets, production crews, weeks of planning. MakeUGC changed that.\nThe 4-step workflow:\n1️⃣ Structure with ChatGPT\nInput your ad concept with the cinematic prompt, outputs perfect 6-scene commercial structure.\n2️⃣ Create project in MakeUGC\nSelect Sora 2 feature, adjust ratio and length for your campaign needs.\n3️⃣ Paste and generate\nPaste the ChatGPT structured prompt, Sora 2 creates cinema-quality commercial with professional camera work and seamless transitions.\n4️⃣ Export production-ready\nDownload your $30K-quality ad. Ready for clients or campaign launch.\nOne prompt. Cinema output. 10 minutes total.\nThis is what separates basic AI content from work brands actually pay for.\n#makeugc #cinematicads #aicommercials",
-  "beats": [],
-  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+  "script_kind": "On-screen text only. This is an audio-only reel: no voiceover, no spoken lines. Every line below is a super, shown exactly as written and cut to the beat of the track. Read top to bottom, this is the complete message of the video, word for word. Clean sans; emphasize the brand word Masonry in the accent color.",
+  "script": [
+    {
+      "tc": "0:00",
+      "line": "a $30,000 commercial"
+    },
+    {
+      "tc": "0:02",
+      "line": "made in one prompt"
+    },
+    {
+      "tc": "0:05",
+      "line": "no crew. no $50k budget."
+    },
+    {
+      "tc": "0:08",
+      "line": "step 1: structure the script"
+    },
+    {
+      "tc": "0:12",
+      "line": "step 2: drop it into Masonry"
+    },
+    {
+      "tc": "0:16",
+      "line": "step 3: generate, cinema quality"
+    },
+    {
+      "tc": "0:21",
+      "line": "pro camera work. seamless cuts."
+    },
+    {
+      "tc": "0:25",
+      "line": "export, production-ready, in minutes"
+    },
+    {
+      "tc": "0:28",
+      "line": "this is what brands actually pay for"
+    },
+    {
+      "tc": "0:30",
+      "line": "Tracksmith x Masonry"
+    }
+  ],
+  "beats": [
+    {
+      "time": "0.0 to 2.0s",
+      "frame": "frames/sec-00.jpg",
+      "vo": "",
+      "ost": "a $30,000 commercial",
+      "super": "Fades up over the cinematic runner.",
+      "visual": "Cinematic city-running hero shot, Tracksmith kit. Looks like an expensive spot.",
+      "masonry": "Prompt 'cinematic city running commercial, premium athletic brand, golden light, 9:16.' Generate the opener.",
+      "edit": "Slow push-in on the runner.",
+      "transition": "",
+      "sfx": "Cinematic swell opens.",
+      "mirrors": "Inspiration sec 0: the expensive-commercial hook."
+    },
+    {
+      "time": "2.0 to 5.0s",
+      "frame": "frames/sec-02.jpg",
+      "vo": "",
+      "ost": "made in one prompt",
+      "super": "'one prompt' lands bold.",
+      "visual": "The same spot continues, but a prompt field hints it was generated.",
+      "masonry": "Cut to a 0.4s screen-record of one structured prompt, then back to the commercial.",
+      "edit": "Commercial, quick prompt flash, back to commercial.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Tick on the cut.",
+      "mirrors": "Inspiration sec 1 to 4: the one-prompt claim."
+    },
+    {
+      "time": "5.0 to 8.0s",
+      "frame": "frames/sec-05.jpg",
+      "vo": "",
+      "ost": "no crew. no $50k budget.",
+      "super": "Two-line build, fades.",
+      "visual": "Quick contrast of an empty set versus the finished cinematic frame.",
+      "masonry": "Contrast beat: no crew or set, just the Masonry generation.",
+      "edit": "Empty-set cut to finished frame.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Low drone for the cost line.",
+      "mirrors": "Inspiration sec 5 to 7: the cost contrast."
+    },
+    {
+      "time": "8.0 to 12.0s",
+      "frame": "frames/sec-09.jpg",
+      "vo": "",
+      "ost": "step 1: structure the script",
+      "super": "'step 1' tag, line builds.",
+      "visual": "A short screen-record structuring the ad into clean scenes.",
+      "masonry": "0.6s screen-record: structure the ad concept into a clean multi-scene script, ready for Masonry.",
+      "edit": "Screen-record, then back to b-roll.",
+      "transition": "UI flash.",
+      "sfx": "UI click.",
+      "mirrors": "Inspiration sec 8 to 11: structuring the script."
+    },
+    {
+      "time": "12.0 to 16.0s",
+      "frame": "frames/sec-13.jpg",
+      "vo": "",
+      "ost": "step 2: drop it into Masonry",
+      "super": "'Masonry' in the accent color.",
+      "visual": "The structured prompt pasted into Masonry; the project set up.",
+      "masonry": "Screen-record: create the project in Masonry, set ratio and length, paste the structured prompt.",
+      "edit": "Project setup, then a generated frame.",
+      "transition": "UI flash to output.",
+      "sfx": "UI click; build.",
+      "mirrors": "Inspiration sec 12 to 15: create the project and paste."
+    },
+    {
+      "time": "16.0 to 21.0s",
+      "frame": "frames/sec-18.jpg",
+      "vo": "",
+      "ost": "step 3: generate, cinema quality",
+      "super": "'cinema quality' bold.",
+      "visual": "Cinema-grade scenes render: tracking shots, the wearable, the stride.",
+      "masonry": "Generate the commercial in Masonry: cinematic scenes with pro camera moves.",
+      "edit": "Three cinematic cuts, smooth moves.",
+      "transition": "Seamless transitions between scenes.",
+      "sfx": "Energy rises.",
+      "mirrors": "Inspiration sec 16 to 20: generating cinema-quality scenes."
+    },
+    {
+      "time": "21.0 to 25.0s",
+      "frame": "frames/sec-22.jpg",
+      "vo": "",
+      "ost": "pro camera work. seamless cuts.",
+      "super": "Two-line build.",
+      "visual": "Sweeping camera moves and seamless transitions across the spot.",
+      "masonry": "Show Masonry's camera work: sweeping moves and seamless cut transitions.",
+      "edit": "Continuous sweeping motion.",
+      "transition": "Seamless match-cuts.",
+      "sfx": "Whoosh per transition.",
+      "mirrors": "Inspiration sec 21 to 24: pro camera work and transitions."
+    },
+    {
+      "time": "25.0 to 28.0s",
+      "frame": "frames/sec-26.jpg",
+      "vo": "",
+      "ost": "export, production-ready, in minutes",
+      "super": "'in minutes' bold.",
+      "visual": "The finished spot exported, ready for the campaign.",
+      "masonry": "Show the export: a production-ready commercial out of Masonry in minutes.",
+      "edit": "Export beat, clean.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Satisfying confirm.",
+      "mirrors": "Inspiration sec 25 to 27: export production-ready."
+    },
+    {
+      "time": "28.0 to 30.0s",
+      "frame": "frames/sec-28.jpg",
+      "vo": "",
+      "ost": "this is what brands actually pay for",
+      "super": "Bold close line.",
+      "visual": "A confident hero of the finished commercial.",
+      "masonry": "Hero generation of the finished Tracksmith spot.",
+      "edit": "Hero hold.",
+      "transition": "Hold.",
+      "sfx": "Single impact.",
+      "mirrors": "Inspiration sec 28 to 29: the value close."
+    },
+    {
+      "time": "30.0 to 31.0s",
+      "frame": "frames/sec-30.jpg",
+      "vo": "",
+      "ost": "Tracksmith x Masonry",
+      "super": "Brand and Masonry wordmarks.",
+      "visual": "End card, clean cut.",
+      "masonry": "Close: the Tracksmith x Masonry end card.",
+      "edit": "Clean cut to the end card.",
+      "transition": "Final hard cut; hold.",
+      "sfx": "Final impact; music resolves.",
+      "mirrors": "Inspiration sec 30: the brand sign-off."
+    }
+  ],
+  "notes": "Editor workflow: load Tracksmith's products into the Masonry library, then generate each beat with its Make in Masonry prompt and cut per the Super / Edit / Transition / SFX direction. Demo brand is a believable stand-in; swap in the real client when producing. All visuals are generated and assembled in Masonry. No media generated yet: generation is gated on separate approval per project policy."
 }
