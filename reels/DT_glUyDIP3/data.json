@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~31s. Inspiration: https://www.instagram.com/reel/DT_glUyDIP3/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DT_glUyDIP3/",
+  "duration_sec": 31,
+  "frame_count": 31,
+  "caption": "Comment ‘AD’ to get my MASTER PROMPT and access to @makeugc.ai ⬇️🔥\nI made a $30K Apple commercial in one prompt thanks to @makeugc.ai .\nTraditional commercials require $30K-$50K budgets, production crews, weeks of planning. MakeUGC changed that.\nThe 4-step workflow:\n1️⃣ Structure with ChatGPT\nInput your ad concept with the cinematic prompt, outputs perfect 6-scene commercial structure.\n2️⃣ Create project in MakeUGC\nSelect Sora 2 feature, adjust ratio and length for your campaign needs.\n3️⃣ Paste and generate\nPaste the ChatGPT structured prompt, Sora 2 creates cinema-quality commercial with professional camera work and seamless transitions.\n4️⃣ Export production-ready\nDownload your $30K-quality ad. Ready for clients or campaign launch.\nOne prompt. Cinema output. 10 minutes total.\nThis is what separates basic AI content from work brands actually pay for.\n#makeugc #cinematicads #aicommercials",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
