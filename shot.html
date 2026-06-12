@@ -32,6 +32,14 @@ h1[contenteditable]{font-size:26px;margin:0 0 8px;letter-spacing:-.2px;outline:n
 .brief .t:focus{background:#fff7e9;box-shadow:0 0 0 2px #f0d9a8}
 .brief .watch{font-size:13px;color:var(--mut);margin-top:4px}
 .brief .watch a{color:var(--accent)}
+.script{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:12px;padding:14px 18px;margin:0 0 26px}
+.script .kind{color:var(--mut);font-size:13px;margin:0 0 12px;outline:none;border-radius:5px;padding:2px 5px}
+.script .kind:focus{background:#fff7e9;box-shadow:0 0 0 2px #f0d9a8}
+.sline{display:flex;gap:14px;padding:5px 0;border-top:1px solid var(--line)}
+.sline:first-of-type{border-top:none}
+.sline .stc{flex:0 0 52px;color:var(--accent);font-weight:700;font-size:13px;font-family:"SF Mono",ui-monospace,Menlo,monospace;padding-top:2px;user-select:none}
+.sline .sw{flex:1;outline:none;border-radius:5px;padding:2px 5px;margin:-2px -5px;font-size:16px}
+.sline .sw:focus{background:#fff7e9;box-shadow:0 0 0 2px #f0d9a8}
 h2{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent2);margin:32px 0 12px;border-bottom:1px solid var(--line);padding-bottom:7px}
 .storyboard{width:100%;border:1px solid var(--line);border-radius:10px;display:block}
 .sbnote{color:var(--mut);font-size:13px;margin:10px 2px 0}
@@ -104,6 +112,24 @@ function briefField(key, label, val, extra){
   return `<h3>${esc(label)}</h3><div class="t" contenteditable="true" spellcheck="false" data-k="${key}">${esc(val||"")}</div>${extra||""}`;
 }
 
+// The full word-for-word script: the exact copy, top to bottom, with timecodes.
+// Stored as m.script = [{tc, line}, ...]; m.script_kind describes delivery (VO vs on-screen).
+function scriptSection(m){
+  const lines = Array.isArray(m.script) ? m.script : [];
+  if(!lines.length && !getToken()) return "";
+  const rows = lines.map((s,i)=>`
+    <div class="sline">
+      <span class="stc" contenteditable="true" spellcheck="false" data-si="${i}" data-sk="tc">${esc(s.tc)}</span>
+      <span class="sw" contenteditable="true" spellcheck="false" data-si="${i}" data-sk="line">${esc(s.line)}</span>
+    </div>`).join("");
+  return `
+    <h2>Full Script (word for word)</h2>
+    <div class="script">
+      <div class="kind" contenteditable="true" spellcheck="false" data-k="script_kind">${esc(m.script_kind||"")}</div>
+      ${rows || "<p style='color:var(--mut)'>No script lines yet.</p>"}
+    </div>`;
+}
+
 function render(){
   const m = MODEL;
   let beats = m.beats.map((b,i)=>`
@@ -140,6 +166,7 @@ function render(){
     <div class="concept" contenteditable="true" spellcheck="false" data-k="concept">${esc(m.concept)}</div>
     <h2>Audio / Sound</h2>
     <div class="concept audiobox" contenteditable="true" spellcheck="false" data-k="audio">${esc(m.audio||"")}</div>
+    ${scriptSection(m)}
     <h2>Frame Reference Sheet (inspiration, second by second)</h2>
     ${INSP ? `<div><a class="viglink" href="${esc(INSP)}" target="_blank" rel="noopener">&#9654; Watch the original reel <span class="u">${esc(INSP)}</span></a></div>` : ``}
     <img class="storyboard" src="${esc(BASE + m.storyboard)}" alt="storyboard of the inspiration reel">
@@ -158,6 +185,7 @@ document.addEventListener("input", e=>{
   const txt = t.innerText.replace(/\n+$/,"");
   if(t.dataset.k){ MODEL[t.dataset.k] = txt; }
   else if(t.dataset.bi!=null){ MODEL.beats[+t.dataset.bi][t.dataset.bk] = txt; }
+  else if(t.dataset.si!=null){ (MODEL.script || (MODEL.script=[]))[+t.dataset.si][t.dataset.sk] = txt; }
   DIRTY = true; setStatus("Unsaved changes", "edited");
 });
 
