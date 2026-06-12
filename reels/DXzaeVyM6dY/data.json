@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~33s. Inspiration: https://www.instagram.com/reel/DXzaeVyM6dY/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DXzaeVyM6dY/",
+  "duration_sec": 33,
+  "frame_count": 33,
+  "caption": "Comment “FILM” to get my AI SOLO FILMMAKER GUIDE in your DMs 💥⬇️\n\nI used to spend nights model-hopping between Midjourney, Kling, and Sora just to land one consistent shot. The character would shift between frames, the lighting would flip, and the storyboard I had in my head never came out the same way twice.\n\nThen I dropped a single brief into @lovart.ai . The Narrative Storyboard Skill 🎬 built every frame of my film on one canvas. Hero frame, every angle, every variation, same character and same world locked across the whole sequence.\n\nFrom there, Multi-Angles ⚡ rotates the camera without re-prompting. Kling and Seedance render the cinematic video right on the same canvas. No app-switching. No regeneration loops. No model-hopping.\n\nThe bottleneck was never the model. It was always the storyboard.\n\n#lovart #lovartai #aifilmmaker",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
