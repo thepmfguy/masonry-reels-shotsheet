@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~36s. Inspiration: https://www.instagram.com/reel/DTZJRBxCAA5/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DTZJRBxCAA5/",
+  "duration_sec": 36,
+  "frame_count": 36,
+  "caption": "Comment “BAG” to get my CREATIVE PIPELINE + my Nano Banana Product Consistency Prompt🔥⬇️\n\nMost creators say no to impossible product photography or quote $15K production costs. I deliver in 10 minutes without any hesitation. \nStep 1: @claudeai Project\nUpload client brief, extract complete visual intent, color palette, lighting, composition, mood, brand DNA, instant documentation.\nStep 2: Generate & Iterate\nCreate base concept, iterate variations, inpaint specific details, refine textures, control every element systematically.\nStep 3: Final Polish\nUpscale to 4K, refine micro-textures, lighting details, surface imperfections, this step makes clients forget it’s AI.\nResult: 50 impossible shots, photoshoot-level realism, no production team, no physics required.\n3 steps. Client signed immediately. And so you can.\n#aiproductphotography #productphotography #aicreator",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
