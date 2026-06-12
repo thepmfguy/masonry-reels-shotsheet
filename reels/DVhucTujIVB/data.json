@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~47s. Inspiration: https://www.instagram.com/reel/DVhucTujIVB/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DVhucTujIVB/",
+  "duration_sec": 47,
+  "frame_count": 47,
+  "caption": "Comment “FEEL” to get the full BRAND SYSTEM and every prompts I used ⬇️🔥\n\nAI brands all look the same. Clean. Polished. Soulless.\n\nThe ones that connect? They feel handmade.\n\n3 prompts. 3 steps. 1 complete brand identity :\n\n1 — Define your brand’s emotional DNA with one LLM prompt, I used @claudeai for this one.\n\n2 — Translate it into a full visual direction with my prompt 🔥\n\n3 — Generate every asset with texture keywords that make AI feel human. Use Nano Banana or Recraft for motion design !\n\nBrand structure. Visual direction. Texture keywords. That’s the system.\n\nComment FEEL to get it all 🔥\n\n#emotionalbranding #aibranding #aicreative",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
