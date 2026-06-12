@@ -1,11 +1,11 @@
 {
   "title": "Shots Everyone Calls Impossible. Ten Minutes in Masonry.",
   "meta": "Vertical 9:16 reel, ~36s. Featured brand: Polene. Inspired by Tim Koda (DTZJRBxCAA5). Voiceover-led: a confident solo-creator VO carries the reel; on-screen karaoke supers echo the key words. Full editor brief: VO, supers, visual, Masonry generation, edit, transitions, SFX.",
-  "concept": "A voiceover-led pipeline reel for Polene that mirrors the inspiration beat for beat. The hook is a run of shots everyone calls impossible: a giant Polene bag sitting on an Alpine peak with tiny skiers, the same model cloned across one huge tree, an underwater scene. Then the pipeline that made them, all in Masonry: the product and client brief go in and become locked brand DNA, a turntable grid proves the bag never drifts between generations, concepts generate and iterate, the cheat-code beat draws a mask on a landscape and Masonry paints the bag into it, then 4K polish with macro leather textures and reflections. Payoff: the giant-scale montage again, now understood as ten minutes of directing in Masonry.",
+  "concept": "A voiceover-led pipeline reel for Polene that mirrors the inspiration beat for beat. The hook is a run of shots everyone calls impossible: a giant Polene bag sitting on an Alpine peak with tiny skiers, the same model cloned across one huge tree, an underwater scene. Then the pipeline that made them, all in Masonry: the product and client brief go in and become locked brand DNA, a turntable grid proves the bag never drifts between generations, concepts generate and iterate, the cheat-code beat describes a scene in one line and Masonry places the bag inside it, then 4K polish with macro leather textures and reflections. Payoff: the giant-scale montage again, now understood as ten minutes of directing in Masonry.",
   "audio": "Voiceover reel. A confident, slightly cocky solo-creator VO carries the whole story; record it dry and close. On-screen supers are karaoke-style: single key words from the VO popping word by word on the beat. Driving, premium electronic track underneath; whoosh on each giant-scale reveal, soft UI clicks on the workflow beats.",
   "refsummary": "The original (Tim Koda) opens on a photoreal model in a white blazer in the Alps, then runs impossible shots of a giant red Jacquemus bag: sitting on a mountain peak with skiers, the model cloned dozens of times across one tree, an underwater scene. Then the pipeline: a JSON product-consistency prompt, a turntable grid of the bag at every 15 degree angle, a project where the client brief becomes visual intent and mood concepts, on-brand outputs (wheat field, dark wood still life), a draw-a-mask-on-the-mountain inpaint beat where the bag appears in the masked spot, a 4K upscale UI, macro leather and reflection close-ups, a giant-bag payoff montage, the word 'directing.', and a comment-BAG CTA. The single floating words on screen are karaoke captions of the voiceover. Watch it once for the giant-scale visual language and the cocky VO pacing; our version rebuilds that pipeline with Masonry as the engine.",
-  "story": "A money-and-proof arc, voiceover-led. HOOK, shots like these get quoted at fifteen thousand dollars: a giant Polene bag on a mountain, a tree full of the same model, underwater scenes. CLAIM, delivered in ten minutes, in Masonry. STEP 1, the product and the client brief go into Masonry and become locked brand DNA: palette, lighting, mood, and the product itself, proven by a turntable grid where the bag is identical at every angle. STEP 2, generate and iterate concepts, every output already on brand because the DNA travels with it. CHEAT CODE, draw on any scene and Masonry paints the bag into it, that is how the impossible placements happen. STEP 3, polish to 4K, micro textures and reflections that make clients forget it is AI. PAYOFF, the giant-scale montage again, then the point: this is not photography, it is directing. CTA, comment BAG. The viewer should believe Masonry produces impossible, photoshoot-grade product campaigns from one bag and one brief.",
-  "takeaway": "Masonry turns one product photo and one client brief into a campaign of impossible, photoshoot-grade shots: locked product consistency at every angle, scenes it paints the product into on command, 4K texture-true polish, in minutes instead of a 15k production.",
+  "story": "A money-and-proof arc, voiceover-led. HOOK, shots like these get quoted at fifteen thousand dollars: a giant Polene bag on a mountain, a tree full of the same model, underwater scenes. CLAIM, delivered in ten minutes, in Masonry. STEP 1, the product and the client brief go into Masonry and become locked brand DNA: palette, lighting, mood, and the product itself, proven by a turntable grid where the bag is identical at every angle. STEP 2, generate and iterate concepts, every output already on brand because the DNA travels with it. CHEAT CODE, describe any scene in one line and Masonry places the bag inside it, that is how the impossible placements happen. STEP 3, polish to 4K, micro textures and reflections that make clients forget it is AI. PAYOFF, the giant-scale montage again, then the point: this is not photography, it is directing. CTA, comment BAG. The viewer should believe Masonry produces impossible, photoshoot-grade product campaigns from one bag and one brief.",
+  "takeaway": "Masonry turns one product photo and one client brief into a campaign of impossible, photoshoot-grade shots: locked product consistency at every angle, scenes it places the product into from a one-line description, 4K texture-true polish, in minutes instead of a 15k production.",
   "storyboard": "frames/storyboard.jpg",
   "script_kind": "Voiceover script. This reel is VO-led: the lines below are spoken, word for word, by a confident solo-creator voice. The on-screen supers are karaoke captions, single key words from each line popping on the beat (the Super field per beat shows which words). Read top to bottom, this is the complete spoken script of the video.",
   "script": [
@@ -35,7 +35,7 @@
     },
     {
       "tc": "0:18",
-      "line": "Now the cheat code: draw on any scene, and Masonry paints the bag into it. That is how you get the placements physics would never allow."
+      "line": "Now the cheat code: describe any scene in one line, and Masonry places the bag inside it. That is how you get the placements physics would never allow."
     },
     {
       "tc": "0:22",
@@ -136,15 +136,15 @@
     {
       "time": "18.0 to 22.0s",
       "frame": "frames/sec-19.jpg",
-      "vo": "Now the cheat code: draw on any scene, and Masonry paints the bag into it. That is how you get the placements physics would never allow.",
-      "ost": "draw it in",
-      "super": "Karaoke: 'draw' pops as the mask is drawn, 'in' as the bag lands.",
-      "visual": "Screen-record: an aerial of a bare alpine ridge, a green mask circle drawn straight onto the snow, then the frame regenerates: the giant Polene bag now sits exactly where the mask was, skiers carving around it.",
-      "masonry": "Record Masonry inpaint for real: load the empty ridge plate, draw the mask, prompt 'place the giant Polene bag here, matched light and shadow,' show the before and after.",
-      "edit": "Draw, beat of nothing, then the reveal. Let the appear-moment hit on the downbeat.",
+      "vo": "Now the cheat code: describe any scene in one line, and Masonry places the bag inside it. That is how you get the placements physics would never allow.",
+      "ost": "describe it. it appears.",
+      "super": "Karaoke: 'describe' pops as the line is typed, 'appears' as the bag lands.",
+      "visual": "Screen-record: an aerial of a bare alpine ridge, a one-line scene description typed into Masonry ('the giant Polene bag on this ridge, skiers carving around it'), then the frame regenerates: the bag now sits on the ridge, matched light and shadow.",
+      "masonry": "Record Masonry for real: load the empty ridge plate as the scene reference, type the one-line placement prompt with the locked Polene bag, show the before and after.",
+      "edit": "Type, beat of nothing, then the reveal. Let the appear-moment hit on the downbeat.",
       "transition": "Held frame into a whip down the mountain.",
-      "sfx": "Pencil scribble on the draw; big whoosh and sub-drop on the reveal.",
-      "mirrors": "Inspiration sec 19 to 21: the green mask drawn on the mountain plate and the bag appearing on the peak."
+      "sfx": "Keyboard ticks on the typing; big whoosh and sub-drop on the reveal.",
+      "mirrors": "Inspiration sec 19 to 21: its mask-drawn-on-the-mountain beat; ours adapts it to Masonry's describe-the-scene placement, same before-and-after reveal."
     },
     {
       "time": "22.0 to 25.0s",
@@ -199,5 +199,5 @@
       "mirrors": "Inspiration sec 31 to 33: the model in front of the giant bag, the 'directing.' card, the '\"BAG\"' CTA card."
     }
   ],
-  "notes": "Editor workflow: record the VO first and cut every super and scene change to its stresses; the karaoke supers are single words from the VO line (see each beat's Super field). Load the Polene bag into the Masonry library and generate each beat with its Make in Masonry prompt; the two screen-record beats (step one intake, the draw-to-inpaint cheat code) should be captured from Masonry for real. Polene is a stand-in demo brand; swap in the real client when producing. No media generated yet: generation is gated on separate approval per project policy."
+  "notes": "Editor workflow: record the VO first and cut every super and scene change to its stresses; the karaoke supers are single words from the VO line (see each beat's Super field). Load the Polene bag into the Masonry library and generate each beat with its Make in Masonry prompt; the two screen-record beats (step one intake, the describe-the-scene cheat code) should be captured from Masonry for real. Polene is a stand-in demo brand; swap in the real client when producing. No media generated yet: generation is gated on separate approval per project policy."
 }
