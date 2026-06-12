@@ -1,186 +1,203 @@
 {
-  "title": "Impossible Product Shots. Made in Masonry.",
-  "meta": "Vertical 9:16 reel, ~36s. Featured brand: Polene. Inspired by Tim Koda (DTZJRBxCAA5, an AI product-photography reel). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
-  "concept": "A capability-proof product-photography reel for Polene. The inspiration sells a three-step pipeline that turns one product into fifty impossible, photoshoot-grade shots: extract the brief into brand DNA, generate and iterate with inpainting and texture control, then polish to 4K so clients forget it is AI. The reframe makes Masonry that pipeline for a leather-goods brand: the Polene bag placed in impossible scenes, every texture controlled, photoshoot realism. Every frame is generated in Masonry following the Make in Masonry step, then cut to the beat.",
-  "audio": "Polished, confident track with a premium pulse. Audio-only: no voiceover; the on-screen text carries the pipeline. Cut every super to the beat.",
-  "refsummary": "The original (Tim Koda) sells an AI product-photography pipeline: others quote $15k and weeks for impossible shots, he delivers in ten minutes with three steps, extract the client brief into complete brand DNA, generate and iterate with inpainting and systematic texture control, then polish to 4K with micro-textures so clients forget it is AI, ending on fifty photoshoot-grade shots of a red leather handbag in surreal scenes. Watch it for the three-step product-photo pipeline; our version makes the engine Masonry.",
-  "story": "A capability-led product-photography proof. Arc: HOOK, impossible product shots of the bag in surreal scenes. CONTRAST, others quote $15k and weeks. THE FIX, Masonry delivers in ten minutes. STEP 1, the brief becomes complete brand DNA. STEP 2, generate, iterate and inpaint, controlling every texture and detail. STEP 3, polish to 4K, realism that makes clients forget it is AI. RESULT, fifty impossible shots, no studio. CLOSE, Polene x Masonry. The viewer should leave believing Masonry can produce photoshoot-grade, impossible product imagery at scale.",
-  "takeaway": "Masonry can turn one handbag into fifty impossible, photoshoot-grade product shots: brief to brand DNA, generate-iterate-inpaint with full texture control, then 4K polish, realism that makes clients forget it is AI, with no studio.",
+  "title": "Shots Everyone Calls Impossible. Ten Minutes in Masonry.",
+  "meta": "Vertical 9:16 reel, ~36s. Featured brand: Polene. Inspired by Tim Koda (DTZJRBxCAA5). Voiceover-led: a confident solo-creator VO carries the reel; on-screen karaoke supers echo the key words. Full editor brief: VO, supers, visual, Masonry generation, edit, transitions, SFX.",
+  "concept": "A voiceover-led pipeline reel for Polene that mirrors the inspiration beat for beat. The hook is a run of shots everyone calls impossible: a giant Polene bag sitting on an Alpine peak with tiny skiers, the same model cloned across one huge tree, an underwater scene. Then the pipeline that made them, all in Masonry: the product and client brief go in and become locked brand DNA, a turntable grid proves the bag never drifts between generations, concepts generate and iterate, the cheat-code beat draws a mask on a landscape and Masonry paints the bag into it, then 4K polish with macro leather textures and reflections. Payoff: the giant-scale montage again, now understood as ten minutes of directing in Masonry.",
+  "audio": "Voiceover reel. A confident, slightly cocky solo-creator VO carries the whole story; record it dry and close. On-screen supers are karaoke-style: single key words from the VO popping word by word on the beat. Driving, premium electronic track underneath; whoosh on each giant-scale reveal, soft UI clicks on the workflow beats.",
+  "refsummary": "The original (Tim Koda) opens on a photoreal model in a white blazer in the Alps, then runs impossible shots of a giant red Jacquemus bag: sitting on a mountain peak with skiers, the model cloned dozens of times across one tree, an underwater scene. Then the pipeline: a JSON product-consistency prompt, a turntable grid of the bag at every 15 degree angle, a project where the client brief becomes visual intent and mood concepts, on-brand outputs (wheat field, dark wood still life), a draw-a-mask-on-the-mountain inpaint beat where the bag appears in the masked spot, a 4K upscale UI, macro leather and reflection close-ups, a giant-bag payoff montage, the word 'directing.', and a comment-BAG CTA. The single floating words on screen are karaoke captions of the voiceover. Watch it once for the giant-scale visual language and the cocky VO pacing; our version rebuilds that pipeline with Masonry as the engine.",
+  "story": "A money-and-proof arc, voiceover-led. HOOK, shots like these get quoted at fifteen thousand dollars: a giant Polene bag on a mountain, a tree full of the same model, underwater scenes. CLAIM, delivered in ten minutes, in Masonry. STEP 1, the product and the client brief go into Masonry and become locked brand DNA: palette, lighting, mood, and the product itself, proven by a turntable grid where the bag is identical at every angle. STEP 2, generate and iterate concepts, every output already on brand because the DNA travels with it. CHEAT CODE, draw on any scene and Masonry paints the bag into it, that is how the impossible placements happen. STEP 3, polish to 4K, micro textures and reflections that make clients forget it is AI. PAYOFF, the giant-scale montage again, then the point: this is not photography, it is directing. CTA, comment BAG. The viewer should believe Masonry produces impossible, photoshoot-grade product campaigns from one bag and one brief.",
+  "takeaway": "Masonry turns one product photo and one client brief into a campaign of impossible, photoshoot-grade shots: locked product consistency at every angle, scenes it paints the product into on command, 4K texture-true polish, in minutes instead of a 15k production.",
   "storyboard": "frames/storyboard.jpg",
-  "script_kind": "On-screen text only. This is an audio-only reel: no voiceover, no spoken lines. Every line below is a super, shown exactly as written and cut to the beat of the track. Read top to bottom, this is the complete message of the video, word for word. Clean sans; emphasize the brand word Masonry in the accent color.",
+  "script_kind": "Voiceover script. This reel is VO-led: the lines below are spoken, word for word, by a confident solo-creator voice. The on-screen supers are karaoke captions, single key words from each line popping on the beat (the Super field per beat shows which words). Read top to bottom, this is the complete spoken script of the video.",
   "script": [
     {
       "tc": "0:00",
-      "line": "impossible product shots"
+      "line": "Shots like these get quoted at fifteen thousand dollars."
     },
     {
-      "tc": "0:03",
-      "line": "others quote $15k. and weeks."
+      "tc": "0:02",
+      "line": "I deliver them in ten minutes. In Masonry."
     },
     {
-      "tc": "0:07",
-      "line": "Masonry delivers in 10 minutes"
+      "tc": "0:05",
+      "line": "Step one: drop the product and the client brief into Masonry. It extracts the visual DNA: palette, lighting, mood, composition."
+    },
+    {
+      "tc": "0:09",
+      "line": "And it locks the product. Same bag. Every angle. Zero drift."
     },
     {
       "tc": "0:11",
-      "line": "step 1: your brief becomes brand DNA"
+      "line": "Step two: generate. Masonry pitches the concepts, you pick one, and iterate in plain words."
     },
     {
-      "tc": "0:16",
-      "line": "step 2: generate, iterate, inpaint"
+      "tc": "0:15",
+      "line": "Every output lands on brand, because the DNA travels with every prompt."
     },
     {
-      "tc": "0:21",
-      "line": "control every texture and detail"
+      "tc": "0:18",
+      "line": "Now the cheat code: draw on any scene, and Masonry paints the bag into it. That is how you get the placements physics would never allow."
+    },
+    {
+      "tc": "0:22",
+      "line": "Step three: polish. Upscale to 4K."
     },
     {
       "tc": "0:25",
-      "line": "step 3: polish to 4K"
+      "line": "Micro textures. True reflections. The grain that makes clients forget it is AI."
     },
     {
-      "tc": "0:29",
-      "line": "realism that makes clients forget it's AI"
+      "tc": "0:28",
+      "line": "Fifty impossible shots. No studio. No crew. No physics."
     },
     {
       "tc": "0:32",
-      "line": "50 impossible shots. no studio."
-    },
-    {
-      "tc": "0:35",
-      "line": "Polene x Masonry"
+      "line": "This is not photography anymore. It is directing. Comment BAG and I will send you the full Masonry pipeline."
     }
   ],
   "beats": [
     {
-      "time": "0.0 to 3.0s",
+      "time": "0.0 to 2.0s",
       "frame": "frames/sec-00.jpg",
-      "vo": "",
-      "ost": "impossible product shots",
-      "super": "Fades up over the surreal hero.",
-      "visual": "The Polene bag placed in a surreal, impossible scene, on a snowy peak. Hook.",
-      "masonry": "Upload the Polene bag to Masonry. Prompt 'red leather handbag on a snowy mountain ridge, surreal editorial, 9:16.' Generate the opener.",
-      "edit": "Slow push-in on the surreal hero.",
-      "transition": "",
-      "sfx": "Premium pad opens.",
-      "mirrors": "Inspiration sec 0 to 1: impossible shots of the bag in surreal scenes."
+      "vo": "Shots like these get quoted at fifteen thousand dollars.",
+      "ost": "$15,000 shots",
+      "super": "Karaoke: '$15,000' pops on the price word, white, bold.",
+      "visual": "Photoreal model in a cream blazer, snowy Alps behind, dead-eye contact with camera. One beat later, the first impossible frame: a giant Polene bag sitting on the peak behind her.",
+      "masonry": "Upload the Polene Numero bag and a model reference to the Masonry library. Generate the opener: 'photoreal model portrait, cream blazer, snowy alpine backdrop, editorial, 9:16.'",
+      "edit": "Lock-off portrait, one slow blink of a push-in.",
+      "transition": "Hard cut on the first VO beat.",
+      "sfx": "Track enters low; cold wind bed.",
+      "mirrors": "Inspiration sec 0 to 1: the photoreal model face with karaoke word 'THOUGHT' before the reveal."
     },
     {
-      "time": "3.0 to 7.0s",
-      "frame": "frames/sec-04.jpg",
-      "vo": "",
-      "ost": "others quote $15k. and weeks.",
-      "super": "Two-line build, fades.",
-      "visual": "A quick contrast of an empty studio versus the finished impossible frame.",
-      "masonry": "Contrast beat: no studio or production team, just the Masonry generation.",
-      "edit": "Empty-studio cut to finished frame.",
-      "transition": "Hard cut on the beat.",
-      "sfx": "Low drone for the cost line.",
-      "mirrors": "Inspiration sec 2 to 6: the cost-and-time contrast."
+      "time": "2.0 to 5.0s",
+      "frame": "frames/sec-03.jpg",
+      "vo": "I deliver them in ten minutes. In Masonry.",
+      "ost": "in 10 minutes",
+      "super": "Karaoke: 'IMPOSSIBLE' giant over the bag-on-peak frame, then 'in 10 minutes' over the tree.",
+      "visual": "Impossible montage, three cuts: the giant Polene bag perched on an Alpine summit with tiny skiers below, the same model sitting twenty times across one huge oak tree each with the bag, an underwater scene with the bag drifting past.",
+      "masonry": "Three giant-scale generations: 'giant leather handbag on a snowy mountain summit, tiny skiers for scale,' 'the same woman repeated across a giant oak tree, each holding the same bag,' 'handbag suspended underwater, light rays.' Masonry holds the same bag in all three.",
+      "edit": "Three hard cuts, one per scene, each landing on a VO stress.",
+      "transition": "Hard cuts on the beat.",
+      "sfx": "Whoosh on each giant reveal.",
+      "mirrors": "Inspiration sec 2 to 4: giant Jacquemus bag on the peak, the model cloned through the tree, the underwater frame."
     },
     {
-      "time": "7.0 to 11.0s",
+      "time": "5.0 to 9.0s",
+      "frame": "frames/sec-11.jpg",
+      "vo": "Step one: drop the product and the client brief into Masonry. It extracts the visual DNA: palette, lighting, mood, composition.",
+      "ost": "STEP 1: the brand DNA",
+      "super": "'STEP 1' card slams in white and red, then karaoke words 'brief' and 'DNA' pop.",
+      "visual": "Screen-record beat: the Polene product shot and a one-page client brief dropped into Masonry; a visual-intent panel builds itself: palette chips, lighting notes, mood words, composition rules.",
+      "masonry": "Screen-record Masonry for real: upload the bag, paste the brief, show Masonry's extracted brand profile (palette, lighting, mood, composition) appearing as a document.",
+      "edit": "UI screen-record with a slow drift, cut to the filled-out intent panel.",
+      "transition": "UI flash into the panel.",
+      "sfx": "Soft UI clicks; keyboard tick.",
+      "mirrors": "Inspiration sec 11 to 16: the project brief becoming a strategic visual intent session with mood options and a chosen concept."
+    },
+    {
+      "time": "9.0 to 11.0s",
       "frame": "frames/sec-09.jpg",
-      "vo": "",
-      "ost": "Masonry delivers in 10 minutes",
-      "super": "'Masonry' in the accent color.",
-      "visual": "A fast montage hinting at the speed of generation.",
-      "masonry": "Show speed: several bag scenes generating quickly in Masonry.",
-      "edit": "Fast montage of scenes.",
-      "transition": "Rapid cuts on the beat.",
-      "sfx": "Energy enters.",
-      "mirrors": "Inspiration sec 7 to 10: deliver in ten minutes."
+      "vo": "And it locks the product. Same bag. Every angle. Zero drift.",
+      "ost": "every angle. zero drift.",
+      "super": "Karaoke: 'every angle' then 'zero drift' pop over the grid.",
+      "visual": "A turntable contact sheet: the identical Polene bag generated at 0, 15, 30, up to 235 degrees, perfectly consistent in every cell.",
+      "masonry": "Generate the consistency grid in Masonry: the same locked bag rendered at 15 degree rotation steps, laid out as a labeled turntable sheet.",
+      "edit": "Snap to the grid, slow vertical crawl across the angles.",
+      "transition": "Hard cut on the beat.",
+      "sfx": "Tick per row as the crawl passes.",
+      "mirrors": "Inspiration sec 9: the turntable grid of the red bag at every 15 degree angle."
     },
     {
-      "time": "11.0 to 16.0s",
-      "frame": "frames/sec-13.jpg",
-      "vo": "",
-      "ost": "step 1: your brief becomes brand DNA",
-      "super": "'step 1' tag, line builds.",
-      "visual": "A short screen-record extracting palette, lighting and mood from a brief.",
-      "masonry": "0.6s screen-record: drop the brief into Masonry, it extracts palette, lighting, composition, brand DNA.",
-      "edit": "Screen-record, then a bag frame.",
-      "transition": "UI flash to output.",
-      "sfx": "UI click; build.",
-      "mirrors": "Inspiration sec 11 to 15: brief extracted into brand DNA."
+      "time": "11.0 to 15.0s",
+      "frame": "frames/sec-10.jpg",
+      "vo": "Step two: generate. Masonry pitches the concepts, you pick one, and iterate in plain words.",
+      "ost": "STEP 2: generate and iterate",
+      "super": "'STEP 2' card slams over the hero frame; karaoke 'generate' and 'iterate' pop.",
+      "visual": "The model sits on the giant bag's handle on the summit (step card), then two quick concept frames: the bag in a dark still life on burnt wood, the bag held out in a wheat field.",
+      "masonry": "Generate three concept directions from the locked DNA: 'alpine surreal,' 'dark romantic still life on burnt wood,' 'golden wheat field editorial.' Iterate the winner with plain-language notes.",
+      "edit": "Step card hold, then two fast concept cuts.",
+      "transition": "Hard cuts on the beat.",
+      "sfx": "Downbeat hit on the step card.",
+      "mirrors": "Inspiration sec 10 and 13 to 14: the STEP TWO card on the giant bag, then the hands-holding-bag and burnt-wood intent frames."
     },
     {
-      "time": "16.0 to 21.0s",
-      "frame": "frames/sec-18.jpg",
-      "vo": "",
-      "ost": "step 2: generate, iterate, inpaint",
-      "super": "'step 2' tag, words snap in.",
-      "visual": "Base concept, then variations, then an inpaint refining a detail on the bag.",
-      "masonry": "Generate a base concept, iterate variations, inpaint specific details. Control every element in Masonry.",
-      "edit": "Concept, variations, inpaint cuts.",
-      "transition": "Quick cuts on the beat.",
-      "sfx": "Tick per step.",
-      "mirrors": "Inspiration sec 16 to 20: generate, iterate, inpaint."
+      "time": "15.0 to 18.0s",
+      "frame": "frames/sec-17.jpg",
+      "vo": "Every output lands on brand, because the DNA travels with every prompt.",
+      "ost": "on brand, every frame",
+      "super": "Karaoke: 'on brand' pops centered, holds through the cut.",
+      "visual": "Two finished outputs: the model holding the bag up in a golden wheat field, then a tight beauty frame of the bag in the alpine light. Same palette, same mood, unmistakably one campaign.",
+      "masonry": "Generate the campaign set from the chosen concept; every frame inherits the locked palette, lighting and mood from the step-one DNA.",
+      "edit": "Two clean cuts, letting each output breathe.",
+      "transition": "Soft cut.",
+      "sfx": "Track opens up, warm.",
+      "mirrors": "Inspiration sec 17: the wheat-field output frame with karaoke word 'with.'"
     },
     {
-      "time": "21.0 to 25.0s",
-      "frame": "frames/sec-22.jpg",
-      "vo": "",
-      "ost": "control every texture and detail",
-      "super": "'every' bold.",
-      "visual": "Macro cuts of leather grain, stitching and hardware, all controlled.",
-      "masonry": "Refine textures in Masonry: leather grain, stitching, hardware. Systematic control.",
-      "edit": "Macro texture cuts with zoom-punch.",
-      "transition": "Accelerating cuts.",
-      "sfx": "Crisp tick per macro.",
-      "mirrors": "Inspiration sec 21 to 24: refine textures and details."
+      "time": "18.0 to 22.0s",
+      "frame": "frames/sec-19.jpg",
+      "vo": "Now the cheat code: draw on any scene, and Masonry paints the bag into it. That is how you get the placements physics would never allow.",
+      "ost": "draw it in",
+      "super": "Karaoke: 'draw' pops as the mask is drawn, 'in' as the bag lands.",
+      "visual": "Screen-record: an aerial of a bare alpine ridge, a green mask circle drawn straight onto the snow, then the frame regenerates: the giant Polene bag now sits exactly where the mask was, skiers carving around it.",
+      "masonry": "Record Masonry inpaint for real: load the empty ridge plate, draw the mask, prompt 'place the giant Polene bag here, matched light and shadow,' show the before and after.",
+      "edit": "Draw, beat of nothing, then the reveal. Let the appear-moment hit on the downbeat.",
+      "transition": "Held frame into a whip down the mountain.",
+      "sfx": "Pencil scribble on the draw; big whoosh and sub-drop on the reveal.",
+      "mirrors": "Inspiration sec 19 to 21: the green mask drawn on the mountain plate and the bag appearing on the peak."
     },
     {
-      "time": "25.0 to 29.0s",
+      "time": "22.0 to 25.0s",
+      "frame": "frames/sec-23.jpg",
+      "vo": "Step three: polish. Upscale to 4K.",
+      "ost": "STEP 3: polish to 4K",
+      "super": "'STEP 3' card slams; karaoke '4K' pops oversized.",
+      "visual": "Overhead of the model lying across the giant bag in the snow (step card), then a beat of the upscale panel: sliders, 2x scale, the frame visibly sharpening.",
+      "masonry": "Run Masonry upscale on the hero frames: 4K output, detail and lighting refinement passes.",
+      "edit": "Step card, then the sharpen reveal wipes across the frame.",
+      "transition": "Resolve wipe with the sharpen.",
+      "sfx": "Clean shimmer on the sharpen.",
+      "mirrors": "Inspiration sec 23 to 24: the STEP THREE card and the upscale UI with 'to 4K.'"
+    },
+    {
+      "time": "25.0 to 28.0s",
       "frame": "frames/sec-26.jpg",
-      "vo": "",
-      "ost": "step 3: polish to 4K",
-      "super": "'step 3' tag; '4K' bold.",
-      "visual": "The hero shot sharpening to crisp 4K, micro-textures resolved.",
-      "masonry": "Upscale to 4K in Masonry: micro-textures and lighting detail resolve.",
-      "edit": "Sharpen-to-4K reveal.",
-      "transition": "Crisp resolve.",
-      "sfx": "Clean shimmer.",
-      "mirrors": "Inspiration sec 25 to 28: polish to 4K."
+      "vo": "Micro textures. True reflections. The grain that makes clients forget it is AI.",
+      "ost": "micro textures. true reflections.",
+      "super": "Karaoke: 'micro' on the first macro, 'textures' on the leather, 'reflections' on the warm-light frame.",
+      "visual": "Three macros: a fingertip pinching the rolled leather handle, the full-grain leather flap with the embossed Polene mark, warm low light raking across the stitching.",
+      "masonry": "Generate the macro trio from the locked product: 'fingertip on rolled leather handle,' 'full-grain leather macro with embossed logo,' 'warm raking light across stitching.'",
+      "edit": "Three macro cuts, each a touch longer than the last.",
+      "transition": "Hard cuts on the beat.",
+      "sfx": "Intimate, close foley: leather creak.",
+      "mirrors": "Inspiration sec 25 to 27: the hand-on-handle macro, the leather texture macro, the warm reflections frame."
     },
     {
-      "time": "29.0 to 32.0s",
+      "time": "28.0 to 32.0s",
       "frame": "frames/sec-30.jpg",
-      "vo": "",
-      "ost": "realism that makes clients forget it's AI",
-      "super": "Bold line, lands.",
-      "visual": "A photoshoot-grade hero of the bag, indistinguishable from a real shoot.",
-      "masonry": "Hero generation: photoshoot-grade realism, the result that makes clients forget it is AI.",
-      "edit": "Hero hold.",
-      "transition": "Hold.",
-      "sfx": "Single impact.",
-      "mirrors": "Inspiration sec 29 to 31: realism that hides the AI."
+      "vo": "Fifty impossible shots. No studio. No crew. No physics.",
+      "ost": "no studio. no crew. no physics.",
+      "super": "Karaoke: each 'no' phrase pops on its own cut.",
+      "visual": "Payoff montage at giant scale: a figure sitting on the bag-handle arch against the range, the bag lying across a ridgeline shot from the air, a skier hiking past the bag towering over the summit.",
+      "masonry": "Three payoff generations at giant scale, same locked bag: 'figure on the handle arch,' 'aerial of the bag across a ridgeline,' 'skier dwarfed by the bag on the summit.'",
+      "edit": "Three cuts, scale growing each time.",
+      "transition": "Whoosh cuts.",
+      "sfx": "Biggest hits of the track; air and wind.",
+      "mirrors": "Inspiration sec 28 to 30: the handle-arch figure, the aerial duffel on the ridge, the giant bag with the skier."
     },
     {
-      "time": "32.0 to 35.0s",
+      "time": "32.0 to 36.0s",
       "frame": "frames/sec-33.jpg",
-      "vo": "",
-      "ost": "50 impossible shots. no studio.",
-      "super": "Close line; 'no studio' bold.",
-      "visual": "A wall of fifty generated bag shots, every scene impossible, all on brand.",
-      "masonry": "Show the output wall: fifty on-brand bag shots generated in Masonry.",
-      "edit": "Reveal the grid of shots.",
-      "transition": "Grid reveal on the beat.",
-      "sfx": "Satisfying settle.",
-      "mirrors": "Inspiration sec 32 to 34: fifty impossible shots."
-    },
-    {
-      "time": "35.0 to 36.0s",
-      "frame": "frames/sec-35.jpg",
-      "vo": "",
-      "ost": "Polene x Masonry",
-      "super": "Brand and Masonry wordmarks.",
-      "visual": "End card, clean cut.",
-      "masonry": "Close: the Polene x Masonry end card.",
-      "edit": "Clean cut to the end card.",
-      "transition": "Final hard cut; hold.",
-      "sfx": "Final impact; music resolves.",
-      "mirrors": "Inspiration sec 35: the brand sign-off."
+      "vo": "This is not photography anymore. It is directing. Comment BAG and I will send you the full Masonry pipeline.",
+      "ost": "comment \"BAG\"",
+      "super": "'directing.' alone on the plain blue card, then '\"BAG\"' oversized, then the Polene x Masonry wordmarks.",
+      "visual": "The model stands small in front of the giant bag and smiles, cut to a flat blue card: 'directing.', then '\"BAG\"', then the end card.",
+      "masonry": "Close: the model-with-giant-bag hero, then flat typographic cards, then the Polene x Masonry end card.",
+      "edit": "Hero, card, card, end card: four clean cuts, slowing down.",
+      "transition": "Final hard cuts; hold the end card.",
+      "sfx": "Track resolves; last word lands dry.",
+      "mirrors": "Inspiration sec 31 to 33: the model in front of the giant bag, the 'directing.' card, the '\"BAG\"' CTA card."
     }
   ],
-  "notes": "Editor workflow: load Polene's products into the Masonry library, then generate each beat with its Make in Masonry prompt and cut per the Super / Edit / Transition / SFX direction. Demo brand is a believable stand-in; swap in the real client when producing. All visuals are generated and assembled in Masonry. No media generated yet: generation is gated on separate approval per project policy."
+  "notes": "Editor workflow: record the VO first and cut every super and scene change to its stresses; the karaoke supers are single words from the VO line (see each beat's Super field). Load the Polene bag into the Masonry library and generate each beat with its Make in Masonry prompt; the two screen-record beats (step one intake, the draw-to-inpaint cheat code) should be captured from Masonry for real. Polene is a stand-in demo brand; swap in the real client when producing. No media generated yet: generation is gated on separate approval per project policy."
 }
