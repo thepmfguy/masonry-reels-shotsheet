@@ -1,7 +1,7 @@
 {
-  "title": "Your Creativity. Masonry Generates the Rest.",
+  "title": "This Campaign Doesn't Exist. Masonry Generated It.",
   "meta": "Vertical 9:16 reel, ~23s. Featured brand: Girlfriend Collective. Inspired by mobileeditingclub (DSyLAzmjbm5). Full editor brief: visual, Masonry generation, supers, edit, transitions, SFX.",
-  "concept": "A build-it-in-Masonry proof-and-reframe reel for Girlfriend Collective. Every frame is generated in Masonry following the 'Make in Masonry' step, then cut per the Edit / Transition / SFX direction. Opener looks like a shoot, then the pivot: this is Masonry, sharp detail, real texture, ready for every campaign colorway. Then the barrier falls: it is not about budget, it is about imagining, directing, and generating what your brand already has. That is your creativity. That is how smart brands scale in Masonry.",
+  "concept": "A capability-led reel for Girlfriend Collective that proves Masonry supports full editorial campaign creation, not just single images. Reframed from a generic is-it-AI reel into a demonstration of what Masonry actually does: take one product shot and generate an entire on-brand campaign. The same model and set stay consistent across every shot, the recycled-fabric texture is real, the set is Recolored into every campaign colorway, and the look is placed in any scene the campaign needs, all from the imagine, direct, generate workflow. Every frame is generated in Masonry following the Make in Masonry step under each beat, then cut per the Edit / Transition / SFX direction.",
   "audio": "Bright, aspirational electronic track with a light pulse. Audio-only: no voiceover. Cut every super to the beat; satisfying swoosh on the colorway swap.",
   "storyboard": "frames/storyboard.jpg",
   "beats": [
@@ -9,8 +9,8 @@
       "time": "0.0 to 1.0s",
       "frame": "frames/sec-00.jpg",
       "vo": "",
-      "ost": "this",
-      "super": "Single word, clean sans, fade up.",
+      "ost": "this campaign doesn't exist",
+      "super": "Clean sans, fades up over the editorial.",
       "visual": "Model in Girlfriend Collective's ribbed set, outdoors, natural light. Curiosity hook.",
       "masonry": "Upload Girlfriend Collective's ribbed set product shot to the Masonry product library. Prompt 'sustainable activewear editorial, model outdoors, natural light, 9:16.' Generate the opener.",
       "edit": "Slow push-in on the outdoor editorial.",
@@ -22,7 +22,7 @@
       "time": "1.0 to 2.0s",
       "frame": "frames/sec-01.jpg",
       "vo": "",
-      "ost": "this is Masonry",
+      "ost": "Masonry generated it",
       "super": "Full reveal, 'Masonry' emphasized in the accent color, scale-in.",
       "visual": "Same model, same frame. Full reveal text fades in.",
       "masonry": "Same generation, add 'this is Masonry.' Optional 0.3s Generate-button screen-record.",
@@ -35,7 +35,7 @@
       "time": "2.0 to 5.0s",
       "frame": "frames/sec-02.jpg",
       "vo": "",
-      "ost": "it's no longer plastic and robotic",
+      "ost": "one product. every shot. always on brand.",
       "super": "Phrase across 3 cuts, lower-third fade.",
       "visual": "Model in a flowing pink set, confident organic movement. Nothing looks artificial.",
       "masonry": "Prompt 'flowing pink set, organic movement, soft daylight.' Generate 3; Masonry keeps the model and fabric consistent.",
@@ -48,7 +48,7 @@
       "time": "5.0 to 8.0s",
       "frame": "frames/sec-05.jpg",
       "vo": "",
-      "ost": "sharp detail. real texture. crystal clear.",
+      "ost": "real fabric. real texture. tack sharp.",
       "super": "Each word snaps in on its macro cut.",
       "visual": "Three proof cuts: close-up eye, ribbed-fabric macro, full outfit tack-sharp against nature.",
       "masonry": "Three proof generations: 'macro eye,' 'ribbed-fabric texture macro,' 'full outfit tack-sharp in nature.' Batch for a matching trio.",
@@ -61,7 +61,7 @@
       "time": "8.0 to 10.0s",
       "frame": "frames/sec-08.jpg",
       "vo": "",
-      "ost": "for every campaign colorway",
+      "ost": "every colorway, generated",
       "super": "Centered, fade. Hold steady through the color swap.",
       "visual": "Same product shown in two Masonry-generated colorways. Same model, same product, different palette.",
       "masonry": "On-brand-scale beat: in Masonry duplicate the shot and Recolor the set to two campaign colorways. Same model, same product, two palettes, generated.",
@@ -74,7 +74,7 @@
       "time": "10.0 to 14.0s",
       "frame": "frames/sec-10.jpg",
       "vo": "",
-      "ost": "it's no longer about who has the marketing budget",
+      "ost": "placed in any scene your campaign needs",
       "super": "Words build over the wide, lower-third.",
       "visual": "Four cuts in natural, expansive settings, phrase building word by word.",
       "masonry": "Prompt 'expansive natural setting, model walking, editorial wide.' Generate one scene and cut the four budget-line beats over it.",
@@ -87,7 +87,7 @@
       "time": "14.0 to 17.0s",
       "frame": "frames/sec-14.jpg",
       "vo": "",
-      "ost": "it's about imagining. directing. and generating.",
+      "ost": "you imagine. you direct. it generates.",
       "super": "Three words, each snaps in on its action cut.",
       "visual": "Three purposeful cuts: directed close-up, a pose adjustment, then a Masonry generation appearing.",
       "masonry": "Three actions: a directed close-up generation, a pose tweak via Masonry's Restyle, then a 0.5s screen-record of a Masonry generation rendering in.",
@@ -100,8 +100,8 @@
       "time": "17.0 to 20.0s",
       "frame": "frames/sec-17.jpg",
       "vo": "",
-      "ost": "what already exists. it's your creativity.",
-      "super": "Two-line build, fade; 'it's your creativity' lands bold.",
+      "ost": "from the product you already sell",
+      "super": "Two-line build; the closing line lands bold.",
       "visual": "Existing product dropped into Masonry: it recognizes the recycled-fabric texture, the palette, the model. Input, output, iteration.",
       "masonry": "Drop Girlfriend Collective's actual recycled-fabric product into Masonry and show it pick up the texture and palette, then the on-brand output. Input, output, iterate.",
       "edit": "Product drop, output reveal, iteration: input / output / iterate cuts.",
@@ -113,8 +113,8 @@
       "time": "20.0 to 23.0s",
       "frame": "frames/sec-20.jpg",
       "vo": "",
-      "ost": "that's how smart brands scale in 2026.",
-      "super": "'that's' then the bold close line, then the Masonry wordmark.",
+      "ost": "this is how brands create in Masonry",
+      "super": "Bold close line, then the Masonry wordmark end card.",
       "visual": "Three closing cuts: 'that's' single word, wide hero of the full look, then the Masonry wordmark end card.",
       "masonry": "Close: 'that's,' a wide hero generation of the full Girlfriend Collective look, then the Masonry wordmark end card.",
       "edit": "Wide hero of the full look, clean cut to the end card.",
@@ -125,45 +125,45 @@
   ],
   "notes": "Editor workflow: (1) Load Girlfriend Collective's recycled-fabric sets into the Masonry product library and set the earthy brand palette. (2) Generate each beat with its 'Make in Masonry' prompt; use Recolor for the colorway beat and Restyle to keep the model consistent. (3) Edit per beat following the Super style, Edit / Motion, Transition and SFX direction; cut every super to the bright track, audio-only with no voiceover. Girlfriend Collective is a stand-in demo brand: swap in the real client. No media generated yet, generation is gated on separate approval per project policy.",
   "refsummary": "The original (mobileeditingclub) is a fast, audio-only hype reel about AI-generated fashion. Word-by-word kinetic text builds over editorial model footage: 'this is AI ... it's no longer plastic and robotic ... sharp detail, real texture, crystal clear ... it's about imagining, directing, generating ... it's your creativity ... that's how smart brands scale in 2026.' No voiceover; every word is cut to the beat. Watch it once before you start so you match its pace and text rhythm. Our job is to keep that exact energy and structure but swap the message from generic 'AI' to Masonry.",
-  "story": "Same beats and energy as the original, reframed from 'AI' to Masonry, with Girlfriend Collective as the demo brand. Arc: HOOK, an editorial shot that looks like a real photoshoot. REVEAL, 'this is Masonry', it was generated, not filmed. PROOF, sharp detail, real texture, and the same product in every campaign colorway, all generated. REFRAME, it is no longer about who has the marketing budget; it is about imagining, directing and generating what your brand already has. PAYOFF, 'that's how smart brands scale.' Each cut should feel like another piece of evidence that these polished visuals all came out of Masonry from one real product.",
-  "takeaway": "A brand can generate an entire campaign's worth of on-brand, photoreal product visuals in Masonry, from its own products, with no photoshoot. The polished footage you just watched is the proof.",
-  "script_kind": "On-screen text only. This is an audio-only reel: no voiceover, no spoken lines. Every line below is a super (on-screen text), shown exactly as written and cut to the beat of the track. Read top to bottom, this is the complete message of the video, word for word. Clean sans, lowercase as written; emphasize the brand word Masonry in the accent color.",
+  "story": "A capability-led reframe: instead of asking is it AI, this version proves what Masonry supports. Arc: HOOK, a polished Girlfriend Collective editorial that looks like an expensive shoot, with the line this campaign does not exist. REVEAL, Masonry generated it from one product shot. PROOF, the same model and set stay consistent across every shot, the recycled-fabric texture is real, the set is recolored into every campaign colorway, and the look is placed in any scene the campaign needs, all from the imagine, direct, generate workflow. CLOSE, this is how brands create in Masonry, from the product they already sell. The viewer should leave understanding that Masonry supports full editorial campaign creation, generated from one product.",
+  "takeaway": "Masonry can take one product shot and generate an entire on-brand editorial campaign: consistent model and set, real fabric texture, every colorway, placed in any scene, all from the product a brand already sells.",
+  "script_kind": "On-screen text only. This is an audio-only reel: no voiceover, no spoken lines. Every line below is a super (on-screen text), shown exactly as written and cut to the beat of the track. Read top to bottom, this is the complete message of the video, word for word. Clean sans; emphasize the brand word Masonry in the accent color.",
   "script": [
     {
       "tc": "0:00",
-      "line": "this"
+      "line": "this campaign doesn't exist"
     },
     {
       "tc": "0:01",
-      "line": "this is Masonry"
+      "line": "Masonry generated it"
     },
     {
       "tc": "0:02",
-      "line": "it's no longer plastic and robotic"
+      "line": "one product. every shot. always on brand."
     },
     {
       "tc": "0:05",
-      "line": "sharp detail. real texture. crystal clear."
+      "line": "real fabric. real texture. tack sharp."
     },
     {
       "tc": "0:08",
-      "line": "for every campaign colorway"
+      "line": "every colorway, generated"
     },
     {
       "tc": "0:10",
-      "line": "it's no longer about who has the marketing budget"
+      "line": "placed in any scene your campaign needs"
     },
     {
       "tc": "0:14",
-      "line": "it's about imagining. directing. and generating."
+      "line": "you imagine. you direct. it generates."
     },
     {
       "tc": "0:17",
-      "line": "what already exists. it's your creativity."
+      "line": "from the product you already sell"
     },
     {
       "tc": "0:20",
-      "line": "that's how smart brands scale in 2026."
+      "line": "this is how brands create in Masonry"
     }
   ]
 }
