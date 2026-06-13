@@ -1,0 +1,14 @@
+{
+  "status": "draft-pending",
+  "title": "Script pending",
+  "meta": "Vertical reel, ~21s. Inspiration: https://www.instagram.com/reel/DZIiMehAP9F/. Frames extracted; awaiting the Masonry script.",
+  "concept": "Claude will analyze the inspiration reel and write the original Masonry script here. The frames below are the second-by-second reference.",
+  "audio": "",
+  "storyboard": "frames/storyboard.jpg",
+  "inspiration_url": "https://www.instagram.com/reel/DZIiMehAP9F/",
+  "duration_sec": 21,
+  "frame_count": 21,
+  "caption": "Brands burn hours briefing teams, waiting on revisions, and still go live with the same 2–3 creatives. Adroom changes the math. More creative, same budget, zero extra headcount. 📈\n\n✅ Generate high-quality ads from a single prompt\n✅ Turn your product images into a full ad in minutes\n✅ Create UGC-style videos without a single shoot\n✅ Produce long-form video ads for every platform\n✅ Test unlimited creative variations without extra cost\n\nAdroom by Pixis is the only AI creative tool your business needs. See it in action for your brand. Book a demo now🚀",
+  "beats": [],
+  "notes": "Auto-scaffolded by automation/process-reel.js. Run the creative step (automation/CREATIVE-STEP.md) to write the beats, then flip status to draft."
+}
